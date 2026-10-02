@@ -1,0 +1,51 @@
+from pathlib import Path
+import hashlib
+import json
+import shutil
+
+root = Path(__file__).resolve().parents[2]
+out = root / 'docs/evidence/current-mainline'
+rows = []
+
+def keep(source, target):
+    src = root / source
+    dst = out / target
+    if not src.is_file():
+        raise FileNotFoundError(src)
+    dst.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copy2(src, dst)
+    rows.append({'source': source, 'retained': target,
+                 'bytes': src.stat().st_size,
+                 'sha256': hashlib.sha256(dst.read_bytes()).hexdigest().upper()})
+
+for p in (root / 'artifacts/hide-self-hud').iterdir():
+    if p.is_file():
+        keep(p.relative_to(root).as_posix(), 'hud/' + p.name)
+
+visual = root / 'artifacts/b-puppet-mainline/final-clean'
+for p in visual.iterdir():
+    if p.is_file() and not p.name.startswith('cut-motion-') and p.suffix in ('.png', '.json', '.mp4', '.log', '.err'):
+        keep(p.relative_to(root).as_posix(), 'visual/' + p.name)
+for p in (visual / 'review').iterdir():
+    if p.is_file():
+        keep(p.relative_to(root).as_posix(), 'visual/review/' + p.name)
+
+for name in ('core.log', 'integration.log', 'core-source-audit.json', 'qa-only-diff.json',
+             'final-source-audit.json', 'final-checks.log', 'build-mask-clean.log',
+             'analyze.py', 'encode_motion.py'):
+    keep('artifacts/b-puppet-mainline/' + name, 'integration/' + name)
+keep('artifacts/b-puppet-mainline/frozen-mask-clean/manifest.json', 'integration/visual-source-manifest.json')
+for folder in ('world-final', 'legacy-compatibility'):
+    for name in ('engine.log', 'engine.err'):
+        keep('artifacts/b-puppet-mainline/' + folder + '/' + name, 'integration/' + folder + '/' + name)
+
+for source, target in (
+    ('artifacts/net-cross-border-new-20261002-172915-624-18230-37084', 'network'),
+    ('artifacts/smoke-4-v06-B-20261002-173502-597', 'four-player')):
+    for p in (root / source).iterdir():
+        if p.is_file() and p.suffix in ('.json', '.jsonl', '.log', '.err', '.png'):
+            keep(p.relative_to(root).as_posix(), target + '/' + p.name)
+
+keep('artifacts/repo-backup-cleanup/inventory.json', 'backup/original-inventory.json')
+(out / 'manifest.json').write_text(json.dumps({'description': 'Exact copies selected before authorized deletion of historical artifacts. Original paths may no longer exist.', 'files': rows}, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+print(json.dumps({'retained_files': len(rows), 'bytes': sum(p['bytes'] for p in rows), 'MiB': round(sum(p['bytes'] for p in rows)/1024**2, 2)}, indent=2))

@@ -1,0 +1,71 @@
+param([Parameter(Mandatory=$true)][string]$ExpectedCommit)
+$ErrorActionPreference = 'Stop'
+$project = 'D:\Project\Game\Godot\project_hairball'
+Set-Location -LiteralPath $project
+$artifacts = Join-Path $project 'artifacts'
+$proof = Join-Path $project 'docs/evidence/current-mainline/backup'
+$allowedPrefix = [IO.Path]::GetFullPath($artifacts).TrimEnd('\') + '\'
+
+function Assert-Target([System.IO.FileSystemInfo]$item) {
+    $absolute = [IO.Path]::GetFullPath($item.FullName)
+    if (-not $absolute.StartsWith($allowedPrefix,[StringComparison]::OrdinalIgnoreCase)) { throw "Outside artifacts: $absolute" }
+    if (($item.Attributes -band [IO.FileAttributes]::ReparsePoint) -ne 0) { throw "Linked path is not a cleanup target: $absolute" }
+    return $absolute
+}
+
+if ((Get-Item -LiteralPath $artifacts).Attributes -band [IO.FileAttributes]::ReparsePoint) { throw 'Artifacts root is a link' }
+if ((git rev-parse HEAD) -ne $ExpectedCommit) { throw 'Current commit changed' }
+if (@(git status --porcelain --untracked-files=no).Count -ne 0) { throw 'Tracked files changed after backup' }
+$env:GIT_TERMINAL_PROMPT = '0'
+$remote = @(git ls-remote origin refs/heads/main)
+if ($LASTEXITCODE -ne 0 -or $remote.Count -ne 1 -or ($remote[0] -split '\s+')[0] -ne $ExpectedCommit) { throw 'Remote backup not verified' }
+$verified = Get-Content -LiteralPath (Join-Path $proof 'restore-validation.json') -Raw | ConvertFrom-Json
+if (-not $verified.passed -or -not $verified.renderedStartup -or -not $verified.screenshotVisuallyInspected) { throw 'Fresh-clone restore gate is missing' }
+git merge-base --is-ancestor $verified.commit $ExpectedCommit
+if ($LASTEXITCODE -ne 0) { throw 'Verified source commit is not an ancestor' }
+$active = @(Get-CimInstance Win32_Process -Filter "Name LIKE 'Godot%'" | Where-Object { $_.CommandLine -and $_.CommandLine.IndexOf($project,[StringComparison]::OrdinalIgnoreCase) -ge 0 })
+if ($active.Count -gt 0) { throw 'Project Godot process still active; cleanup withheld' }
+
+$targets = @(Get-ChildItem -LiteralPath $artifacts -Force | Where-Object { $_.Name -notin @('.gdignore','repo-backup-cleanup') })
+$rows = [Collections.Generic.List[object]]::new()
+foreach ($target in $targets) {
+    $targetPath = Assert-Target $target
+    [long]$bytes = 0
+    [long]$fileCount = 0
+    if ($target.PSIsContainer) {
+        $stack = [Collections.Generic.Stack[string]]::new()
+        $stack.Push($targetPath)
+        while ($stack.Count -gt 0) {
+            foreach ($entry in (Get-ChildItem -LiteralPath $stack.Pop() -Force)) {
+                $entryPath = Assert-Target $entry
+                if ($entry.PSIsContainer) { $stack.Push($entryPath) }
+                else { $bytes += $entry.Length; $fileCount++ }
+            }
+        }
+    } else { $bytes = $target.Length; $fileCount = 1 }
+    $rows.Add([pscustomobject]@{path=$targetPath;bytes=$bytes;files=$fileCount;directory=$target.PSIsContainer})
+}
+$plan = [pscustomobject]@{createdUtc=(Get-Date).ToUniversalTime().ToString('o');remoteCommit=$ExpectedCommit;root=$artifacts;protected=@('.gdignore','repo-backup-cleanup');reparsePoints=0;targets=$rows;bytes=($rows | Measure-Object bytes -Sum).Sum;files=($rows | Measure-Object files -Sum).Sum}
+$plan | ConvertTo-Json -Depth 7 | Set-Content -LiteralPath (Join-Path $proof 'cleanup-plan.json')
+Write-Output ("Validated {0} targets, {1} files, {2:N3} GiB inside artifacts" -f $rows.Count,$plan.files,($plan.bytes/1GB))
+$beforeFree = [IO.DriveInfo]::new('D:\').AvailableFreeSpace
+$clock = [Diagnostics.Stopwatch]::StartNew()
+$done = [Collections.Generic.List[object]]::new()
+$failures = [Collections.Generic.List[object]]::new()
+foreach ($row in $rows) {
+    try {
+        $item = Get-Item -LiteralPath $row.path -Force
+        $absolute = Assert-Target $item
+        if ($row.directory) { Remove-Item -LiteralPath $absolute -Recurse -Force }
+        else { Remove-Item -LiteralPath $absolute -Force }
+        if (Test-Path -LiteralPath $absolute) { throw 'Target remains after Remove-Item' }
+        $done.Add($row)
+    } catch {
+        $failures.Add([pscustomobject]@{path=$row.path;error=$_.Exception.Message})
+    }
+    if (($done.Count + $failures.Count) % 200 -eq 0) { Write-Output ("Processed {0}/{1} targets" -f ($done.Count+$failures.Count),$rows.Count) }
+}
+$result = [pscustomobject]@{finishedUtc=(Get-Date).ToUniversalTime().ToString('o');remoteCommit=$ExpectedCommit;seconds=$clock.Elapsed.TotalSeconds;deletedTargets=$done.Count;deletedFiles=($done | Measure-Object files -Sum).Sum;deletedBytes=($done | Measure-Object bytes -Sum).Sum;freeBytesBefore=$beforeFree;freeBytesAfter=[IO.DriveInfo]::new('D:\').AvailableFreeSpace;failures=$failures;remaining=@(Get-ChildItem -LiteralPath $artifacts -Force | Select-Object Name,Mode)}
+$result | ConvertTo-Json -Depth 6 | Set-Content -LiteralPath (Join-Path $proof 'cleanup-result.json')
+$result | ConvertTo-Json -Depth 6
+if ($failures.Count -gt 0) { throw 'Cleanup left failed targets; inspect cleanup-result.json' }

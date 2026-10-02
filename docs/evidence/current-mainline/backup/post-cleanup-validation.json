@@ -1,0 +1,24 @@
+{
+  "finishedUtc": "2026-10-02T23:47:49.9325487Z",
+  "trackedFilesChanged": [],
+  "dllSha256": "45D354D569870D6DEFE05D2C0D95B966A50539FDDFAC4FA8D9E722869A46BF80",
+  "exitCode": 0,
+  "stderrBytes": 0,
+  "wallSeconds": 24.2449414,
+  "commandArguments": [
+    "--path",
+    "D:\\Project\\Game\\Godot\\project_hairball",
+    "--audio-driver",
+    "Dummy",
+    "--",
+    "--v06-variant-b",
+    "--solo",
+    "--language",
+    "zh",
+    "--capture",
+    "D:\\Project\\Game\\Godot\\project_hairball\\docs\\evidence\\current-mainline\\backup\\post-cleanup-mainline.png",
+    "--quit-after-seconds",
+    "8"
+  ],
+  "screenshotVisuallyInspected": true
+}

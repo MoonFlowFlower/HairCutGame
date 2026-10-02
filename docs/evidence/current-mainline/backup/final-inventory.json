@@ -1,0 +1,67 @@
+{
+  "timing": "After historical cleanup and git gc, before final record commit; retained temporary clone included.",
+  "files": 2453,
+  "bytes": 838838976,
+  "GiB": 0.7812,
+  "groups": {
+    "(root files)": {
+      "files": 26,
+      "bytes": 344063
+    },
+    ".git": {
+      "files": 34,
+      "bytes": 144486905
+    },
+    ".godot": {
+      "files": 437,
+      "bytes": 151392635
+    },
+    "artifacts": {
+      "files": 3,
+      "bytes": 8420
+    },
+    "artifacts/repo-backup-cleanup": {
+      "files": 1139,
+      "bytes": 377710544
+    },
+    "assets": {
+      "files": 68,
+      "bytes": 92202494
+    },
+    "attachments": {
+      "files": 1,
+      "bytes": 14790
+    },
+    "docs": {
+      "files": 286,
+      "bytes": 68368631
+    },
+    "scenes": {
+      "files": 4,
+      "bytes": 664
+    },
+    "scripts": {
+      "files": 67,
+      "bytes": 153027
+    },
+    "shaders": {
+      "files": 28,
+      "bytes": 46743
+    },
+    "src": {
+      "files": 295,
+      "bytes": 1169333
+    },
+    "tests": {
+      "files": 58,
+      "bytes": 2815128
+    },
+    "third_party": {
+      "files": 7,
+      "bytes": 125599
+    }
+  },
+  "skippedLinks": [],
+  "retainedEvidenceHashMismatches": [],
+  "gameSourceChanges": []
+}

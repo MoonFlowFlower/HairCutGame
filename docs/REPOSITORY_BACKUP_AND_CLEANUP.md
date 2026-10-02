@@ -15,10 +15,14 @@ Git 忽略 `.godot`、`bin/obj`、`artifacts`、本地环境/凭据文件和临�
 1. 已完成只读盘点：项目 116,509 个文件、53,891,854,502 字节（50.191 GiB）；没有发现 reparse point。详见 `evidence/current-mainline/backup/original-inventory.json`。
 2. 当前主线与精简证据已推送 `main`：`5ad03a6b52798d9f00b5ddca30887e597ba09a87`，远程回读一致。784 个文件约 152.72 MiB，最大文件 37.59 MiB，无需 Git LFS；没有把构建缓存、凭据和历史产物提交到 Git。
 3. 已从 GitHub 全新克隆该提交：784 个跟踪文件逐字节一致，101 个保留证据文件的 SHA256 全部匹配。`scripts/build.ps1` 编译/导入成功（0 错误、2 个既有可空警告），`scripts/test.ps1` 为 248/248。真实 Forward+ B 单人启动、首人称截图和正常退出通过，stderr 为空。截图 `evidence/current-mainline/backup/restored-mainline.png`。此项证明备份可恢复启动，不替代新的全玩法/联机或性能验收。
-4. 仅清理本项目 `artifacts/` 中旧包、导出副本、重复源码快照、逐帧截图、实验下载/解压文件和临时工具。清理前验证每个绝对路径位于项目内且没有链接跳转，保留当前运行缓存和实际资源。
-5. 清理后再次检查当前入口与文件完整性，提交并推送实际清理结果。
+4. 已清理本项目 `artifacts/` 中旧包、导出副本、重复源码快照、逐帧截图、实验下载/解压文件和临时工具。清理前逐项验证绝对路径位于项目内且没有链接跳转；当前运行缓存和实际资源保留。删除 3,293 个顶层目标、115,360 个文件、53,595,679,900 字节（**49.915 GiB / 53.596 GB**），没有失败目标。完整清单 `evidence/current-mainline/backup/cleanup-plan.json`，执行结果 `cleanup-result.json`。
+5. 清理后当前跟踪文件零变化，运行 DLL 仍是 `45D354D569870D6DEFE05D2C0D95B966A50539FDDFAC4FA8D9E722869A46BF80`。真实 Forward+ B 再次渲染启动、实拍检查和正常退出通过，退出码 0、stderr 为空；证据 `post-cleanup-validation.json`、`post-cleanup-mainline.png`。Git 元数据执行常规 `git gc` 压缩；不删除 Git 历史。
 
-当前状态：**远程备份和恢复检查完成，历史产物清理待执行**。后续实际结果会在同一文档更新，不将计划记为已完成。 `.gitattributes` 保留文件字节，避免 Windows 换行转换破坏原始证据哈希；`docs/evidence/.gdignore` 避免验收图片被作为游戏资源导入。
+当前状态：**远程备份、恢复检查和历史产物清理完成；本轮临时恢复副本仍保留**。自动审批审查两次拒绝了删除 `artifacts/repo-backup-cleanup` 的操作（包括核实无链接后的显式绝对路径），只返回 `blocked by policy`，没有更具体原因；没有改用其他途径绕过。该目录有 1,139 个文件、377,710,544 字节（360.2 MiB），是本轮创建的临时克隆与检查工具，不计入原有历史空间回收。详见 `temporary-restore-cleanup.json`。
+
+清理后的目录盘点为 **0.7812 GiB**（838,838,976 字节，最终记录提交前），其中包含 `.git`、当前 Godot 缓存和上述临时恢复副本；清理前为 50.191 GiB。详见 `final-inventory.json`。后续提交少量清理记录会使大小略有变化。当前源码/资源检查零变化，101 个原始验收文件再次复核全部通过。
+
+`.gitattributes` 保留文件字节，避免 Windows 换行转换破坏原始证据哈希；`docs/evidence/.gdignore` 避免验收图片被作为游戏资源导入。已有模板/旧源码的尾部空白未做无关格式化；首次提交的 whitespace 检查原输出保留为 `staged-whitespace.txt`。
 
 ## 保留与恢复
 

@@ -1,4 +1,4 @@
-当前 B 已接入 Puppet 体积毛发、剪发回弹、布偶人物/手和环境材质，并隐藏右上角自己的镜像 HUD。协议 25。当前交付为可构建源码；旧试玩包和实验快照已列入用户授权的磁盘清理，不应当作最新版。[美术接入记录](docs/B_PUPPET_MAINLINE.md) · [精简实拍与验收证据](docs/evidence/current-mainline/README.md) · [Git 备份与清理记录](docs/REPOSITORY_BACKUP_AND_CLEANUP.md)。
+当前 B 已接入 Puppet 体积毛发、剪发回弹、布偶人物/手和环境材质，并隐藏右上角自己的镜像 HUD。协议 25。当前可构建源码已备份到 [GitHub](https://github.com/MoonFlowFlower/HairCutGame)；旧试玩包和重复实验产物已按用户要求清理，共 49.915 GiB。[美术接入记录](docs/B_PUPPET_MAINLINE.md) · [精简实拍与验收证据](docs/evidence/current-mainline/README.md) · [Git 备份与清理记录](docs/REPOSITORY_BACKUP_AND_CLEANUP.md)。
 
 # Project Hairball — B 开发主线
 

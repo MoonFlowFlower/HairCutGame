@@ -1,6 +1,10 @@
-## 2026-10-02 — 当前版本 Git 备份与历史产物清理（进行中）
+## 2026-10-02 — 当前版本已备份 GitHub，历史产物清理 49.915 GiB
 
-Owner要求将当前版本备份到 `https://github.com/MoonFlowFlower/HairCutGame` 后清理历史版本以节省磁盘。已盘点约50.191 GiB，保留当前源码/运行资源/许可和约17.16 MiB的精简主线证据；先完成远程备份和全新克隆构建、渲染启动，再删除本项目artifacts中的旧包/快照/截图序列/实验下载与工具。当前尚未删除；完整步骤与实际结果记录于 `docs/REPOSITORY_BACKUP_AND_CLEANUP.md`。本次用户请求取代旧文档对本地ZIP/所有中间候选的保留要求，原历史路径不再保证可访问。
+Owner要求将当前版本备份到 `https://github.com/MoonFlowFlower/HairCutGame` 后清理历史版本以节省磁盘。已建立main，初始当前版本提交`5ad03a6b52798d9f00b5ddca30887e597ba09a87`，恢复证据提交`35806cc77791e33938472c26c4c7392dfb155d54`；推送与远程回读一致。GitHub新克隆的784个文件逐字节一致，重新构建/导入成功（0错/2既有警告），Core248/248、真实Forward+ B启动/实拍/正常退出通过。
+
+备份成立后，删除本项目artifacts中的3,293个旧产物根、115,360个文件、53,595,679,900字节（49.915 GiB），零失败。保留当前源码、全部运行资源/许可、当前运行缓存和约17.16 MiB的精简历史验收原始文件；清理后源码与DLL保持，真实B再次启动、截图确认、退出码0、stderr为空。未改玩法/美术实现，未重跑全套联机或GPU验收。完整记录`docs/REPOSITORY_BACKUP_AND_CLEANUP.md`，证据`docs/evidence/current-mainline`。
+
+自动审批审查阻止了删除本轮新建的恢复测试副本，只返回“blocked by policy”；`artifacts/repo-backup-cleanup`约360.2 MiB仍保留，不计入历史清理失败或已释放空间。本次用户请求取代旧文档对本地ZIP/所有中间候选的保留要求，原历史路径不再保证可访问；未上传的旧实验不能靠本次Git备份恢复。
 
 ## 2026-10-02 — 隐藏右上角自己的镜像 HUD
 
