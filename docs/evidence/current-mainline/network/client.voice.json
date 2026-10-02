@@ -1,0 +1,15 @@
+{
+  "sentPackets": 518,
+  "opusPackets": 518,
+  "featurePackets": 0,
+  "voiceSentBytes": 37296,
+  "voiceRelayBytes": 0,
+  "voiceRelayPackets": 0,
+  "voiceReceiveBytes": 0,
+  "voiceRejected": 0,
+  "bitrate": 16000,
+  "mixRate": 48000,
+  "seconds": 205.363,
+  "upstreamKbps": 1.4528809960898508,
+  "streams": []
+}

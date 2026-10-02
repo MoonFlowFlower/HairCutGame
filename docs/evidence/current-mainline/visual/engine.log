@@ -1,0 +1,35 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+Vulkan 1.4.351 - Forward+ - Using Device #0: NVIDIA - NVIDIA GeForce RTX 5070 Ti Laptop GPU
+
+B_PUPPET_ART accepted volume fur / fabric / cut response
+EXPERIMENT_VARIANT B
+EXPERIMENT_LOG D:\Project\Game\Godot\project_hairball\artifacts\v06-B-20261002-223805-985.jsonl
+NET_EVENT {"kind":"session_network","utc":"2026-10-02T22:38:06.8021364Z","monotonicSeconds":2.977,"mode":"solo","epoch":0,"detail":{"protocol":25,"transport":"ENet","chunkPayload":900,"window":32}}
+SESSION_STARTED mode=solo port=7777
+HAIRBALL_BOOT_OK Godot=4.7.2-stable (official)
+B_ART_PASS real B Main scene and Session
+B_ART_PASS accepted eight samples active on authoritative shared head
+NET_EVENT {"kind":"voice_metrics","utc":"2026-10-02T22:38:17.9585314Z","monotonicSeconds":14.134,"mode":"solo","epoch":0,"detail":{"sentPackets":0,"opusPackets":0,"featurePackets":0,"voiceSentBytes":0,"voiceRelayBytes":0,"voiceRelayPackets":0,"voiceReceiveBytes":0,"voiceRejected":0,"bitrate":24000,"mixRate":48000,"seconds":11.146,"upstreamKbps":0,"streams":[]}}
+B_ART_PASS render leaves authoritative density unchanged: normal
+B_ART_PASS render leaves authoritative density unchanged: normal-close
+B_ART_PASS native LMB -> Session tool input -> shared density removed
+NET_EVENT {"kind":"voice_metrics","utc":"2026-10-02T22:38:22.9613049Z","monotonicSeconds":19.137,"mode":"solo","epoch":0,"detail":{"sentPackets":0,"opusPackets":0,"featurePackets":0,"voiceSentBytes":0,"voiceRelayBytes":0,"voiceRelayPackets":0,"voiceReceiveBytes":0,"voiceRejected":0,"bitrate":24000,"mixRate":48000,"seconds":16.149,"upstreamKbps":0,"streams":[]}}
+B_ART_PASS committed haircut has visible bounded bounce
+B_ART_PASS bounce stays inside 7.2 cm bound
+NET_EVENT {"kind":"voice_metrics","utc":"2026-10-02T22:38:59.2373467Z","monotonicSeconds":55.413,"mode":"solo","epoch":0,"detail":{"sentPackets":0,"opusPackets":0,"featurePackets":0,"voiceSentBytes":0,"voiceRelayBytes":0,"voiceRelayPackets":0,"voiceReceiveBytes":0,"voiceRejected":0,"bitrate":24000,"mixRate":48000,"seconds":52.425,"upstreamKbps":0,"streams":[]}}
+B_ART_PASS render leaves authoritative density unchanged: native-cut
+B_ART_PASS render leaves authoritative density unchanged: trimmed
+NET_EVENT {"kind":"voice_metrics","utc":"2026-10-02T22:39:04.2404093Z","monotonicSeconds":60.416,"mode":"solo","epoch":0,"detail":{"sentPackets":0,"opusPackets":0,"featurePackets":0,"voiceSentBytes":0,"voiceRelayBytes":0,"voiceRelayPackets":0,"voiceReceiveBytes":0,"voiceRejected":0,"bitrate":24000,"mixRate":48000,"seconds":57.428,"upstreamKbps":0,"streams":[]}}
+B_ART_PASS render leaves authoritative density unchanged: carved
+B_ART_PASS production growth tool adds visible authoritative material
+B_ART_PASS render leaves authoritative density unchanged: grown
+NET_EVENT {"kind":"voice_metrics","utc":"2026-10-02T22:39:09.2474406Z","monotonicSeconds":65.423,"mode":"solo","epoch":0,"detail":{"sentPackets":0,"opusPackets":0,"featurePackets":0,"voiceSentBytes":0,"voiceRelayBytes":0,"voiceRelayPackets":0,"voiceReceiveBytes":0,"voiceRejected":0,"bitrate":24000,"mixRate":48000,"seconds":62.435,"upstreamKbps":0,"streams":[]}}
+B_ART_PASS render leaves authoritative density unchanged: wet
+B_ART_PASS render leaves authoritative density unchanged: frozen
+NET_EVENT {"kind":"voice_metrics","utc":"2026-10-02T22:39:14.2569336Z","monotonicSeconds":70.432,"mode":"solo","epoch":0,"detail":{"sentPackets":0,"opusPackets":0,"featurePackets":0,"voiceSentBytes":0,"voiceRelayBytes":0,"voiceRelayPackets":0,"voiceReceiveBytes":0,"voiceRejected":0,"bitrate":24000,"mixRate":48000,"seconds":67.444,"upstreamKbps":0,"streams":[]}}
+B_ART_PASS render leaves authoritative density unchanged: charred
+B_ART_PASS shaving to empty leaves no ghost hair
+B_ART_PASS empty head can rebuild without empty arrays
+B_ART_PASS render leaves authoritative density unchanged: customer-standing
+B_ART_PASS production customer body controls retained
+B_ART_MAINLINE_OK D:\Project\Game\Godot\project_hairball\artifacts\b-puppet-mainline\final-clean

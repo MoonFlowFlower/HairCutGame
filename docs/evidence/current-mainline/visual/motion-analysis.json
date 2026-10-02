@@ -1,0 +1,12 @@
+{
+  "source": "real first-person viewport; timestamped VFR; readback overhead remains",
+  "pngCompressionOutsideMotionWindow": true,
+  "frames": 72,
+  "renderObservations": 360,
+  "capturedWallSeconds": 3.304000000000002,
+  "videoTimestampMaxErrorSeconds": 3.3306690738754696e-15,
+  "peakGuideMeters": 0.056118518,
+  "lastGuideMeters": 1.06443895e-05,
+  "continuouslyUnderPointFiveMmFrom": 1.7540000000000013,
+  "claimLimit": "Guide telemetry is not per-strand tip/contact measurement. Initial cut frame is measured separately in checks.json."
+}

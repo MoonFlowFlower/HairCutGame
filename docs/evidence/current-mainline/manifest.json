@@ -1,0 +1,611 @@
+{
+  "description": "Exact copies selected before authorized deletion of historical artifacts. Original paths may no longer exist.",
+  "files": [
+    {
+      "source": "artifacts/hide-self-hud/build.log",
+      "retained": "hud/build.log",
+      "bytes": 910,
+      "sha256": "4BC3D0DCA30188A4F9D03B8963862CAC59F817EB7D4D2F3C7ADD86531E4A7A64"
+    },
+    {
+      "source": "artifacts/hide-self-hud/engine.err",
+      "retained": "hud/engine.err",
+      "bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "source": "artifacts/hide-self-hud/engine.log",
+      "retained": "hud/engine.log",
+      "bytes": 1922,
+      "sha256": "BC8A90D305D6D547AD94F431DC62A2A49B75A1F79A92F023D1523276050920C4"
+    },
+    {
+      "source": "artifacts/hide-self-hud/mainline-hud.png",
+      "retained": "hud/mainline-hud.png",
+      "bytes": 860985,
+      "sha256": "1BF4251275C05365D24E3006510547C66EEF34A584D64D8939E4CC60C70CE8C5"
+    },
+    {
+      "source": "artifacts/b-puppet-mainline/final-clean/candidate.json",
+      "retained": "visual/candidate.json",
+      "bytes": 169,
+      "sha256": "857FE4FEB88341CB159E33FC87DB1F8A751CBF89CD155497259E713442B07B8C"
+    },
+    {
+      "source": "artifacts/b-puppet-mainline/final-clean/carved-core-mask.png",
+      "retained": "visual/carved-core-mask.png",
+      "bytes": 22122,
+      "sha256": "35446D2F8D209236C2FAFD1E1DD35AA54DF27ECD2900A77177BC01981EF41600"
+    },
+    {
+      "source": "artifacts/b-puppet-mainline/final-clean/carved-fur-mask.png",
+      "retained": "visual/carved-fur-mask.png",
+      "bytes": 59873,
+      "sha256": "8D61A479B699B057C918ECDEC60F5E3902169CD887C49227893E7AB17BBE1F57"
+    },
+    {
+      "source": "artifacts/b-puppet-mainline/final-clean/carved.png",
+      "retained": "visual/carved.png",
+      "bytes": 1016056,
+      "sha256": "620688E85AC316241A23B69FE8CE5F475CA997ECF1974C791AD49760E8E47739"
+    },
+    {
+      "source": "artifacts/b-puppet-mainline/final-clean/charred-core-mask.png",
+      "retained": "visual/charred-core-mask.png",
+      "bytes": 22041,
+      "sha256": "3175EBCD651AC29EE4BEE18FC2880575486610CA80C41BCE1EB07B406103CA08"
+    },
+    {
+      "source": "artifacts/b-puppet-mainline/final-clean/charred-fur-mask.png",
+      "retained": "visual/charred-fur-mask.png",
+      "bytes": 59816,
+      "sha256": "897C4E6A8A1AA19718648C48DCAA28F66A5299EE40CBD7503F54E8B63CDE99E3"
+    },
+    {
+      "source": "artifacts/b-puppet-mainline/final-clean/charred.png",
+      "retained": "visual/charred.png",
+      "bytes": 979303,
+      "sha256": "95AECEBD9A74E4EBC150CF9A63377EC8FE6BC79554439A6A9D4B8428D7D0B80F"
+    },
+    {
+      "source": "artifacts/b-puppet-mainline/final-clean/checks.json",
+      "retained": "visual/checks.json",
+      "bytes": 1291,
+      "sha256": "747CBC0CC11554514FB414907E0C560B60238F7D79CD6533F0ECAEDAF5C98220"
+    },
+    {
+      "source": "artifacts/b-puppet-mainline/final-clean/customer-standing-core-mask.png",
+      "retained": "visual/customer-standing-core-mask.png",
+      "bytes": 14426,
+      "sha256": "2232479C08B44DF78C24B1EAA7A8B3607699EAAB39D58CEF6131B30B57CB7743"
+    },
+    {
+      "source": "artifacts/b-puppet-mainline/final-clean/customer-standing-fur-mask.png",
+      "retained": "visual/customer-standing-fur-mask.png",
+      "bytes": 27925,
+      "sha256": "32B6CAE2C719628805B64519025FB805518CFBE979431FABADBDE834CA18CA7E"
+    },
+    {
+      "source": "artifacts/b-puppet-mainline/final-clean/customer-standing.png",
+      "retained": "visual/customer-standing.png",
+      "bytes": 847695,
+      "sha256": "75A18E59066EE4285A02836612F32CF587E59AD202145B4F66AFEFACA683352E"
+    },
+    {
+      "source": "artifacts/b-puppet-mainline/final-clean/cut-response.mp4",
+      "retained": "visual/cut-response.mp4",
+      "bytes": 412132,
+      "sha256": "6BB0F6994B55F0049C5435817878A62D040924E86351FA7AECA1D8F45D52D123"
+    },
+    {
+      "source": "artifacts/b-puppet-mainline/final-clean/engine.err",
+      "retained": "visual/engine.err",
+      "bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "source": "artifacts/b-puppet-mainline/final-clean/engine.log",
+      "retained": "visual/engine.log",
+      "bytes": 4119,
+      "sha256": "9B6123EEFA56DD394D4B058E680295FA738EEF855ED6BE36A8A7589F62E4F788"
+    },
+    {
+      "source": "artifacts/b-puppet-mainline/final-clean/frozen-core-mask.png",
+      "retained": "visual/frozen-core-mask.png",
+      "bytes": 22157,
+      "sha256": "D7E533E94518A786FBF6874D6EB6D2521D61FD26389E8C918006FEE893B2C027"
+    },
+    {
+      "source": "artifacts/b-puppet-mainline/final-clean/frozen-fur-mask.png",
+      "retained": "visual/frozen-fur-mask.png",
+      "bytes": 60292,
+      "sha256": "593D5271F11FD4C6A79C4CBF66935828FFA56D31FEF0D76B95853913C07EE3CB"
+    },
+    {
+      "source": "artifacts/b-puppet-mainline/final-clean/frozen.png",
+      "retained": "visual/frozen.png",
+      "bytes": 951573,
+      "sha256": "6BF97320A106E28AC39ECE5F2CC9FB758C971F33185F53ABD5FDC456194B61D9"
+    },
+    {
+      "source": "artifacts/b-puppet-mainline/final-clean/grown-core-mask.png",
+      "retained": "visual/grown-core-mask.png",
+      "bytes": 22090,
+      "sha256": "E050B95BC436109C1299870E8F3CCE338DC77D5789460C059D74CE05F739207E"
+    },
+    {
+      "source": "artifacts/b-puppet-mainline/final-clean/grown-fur-mask.png",
+      "retained": "visual/grown-fur-mask.png",
+      "bytes": 59944,
+      "sha256": "CB57EFD4C0ED9489962A8B8D0E9E3BD66C50C923A93EC799AA6B720FBBD672AF"
+    },
+    {
+      "source": "artifacts/b-puppet-mainline/final-clean/grown.png",
+      "retained": "visual/grown.png",
+      "bytes": 1004854,
+      "sha256": "44B638C4A70FC061FE366FC35052C47B8DE0BD15793907F99E333A989C39339C"
+    },
+    {
+      "source": "artifacts/b-puppet-mainline/final-clean/measurements.json",
+      "retained": "visual/measurements.json",
+      "bytes": 67403,
+      "sha256": "D6F3AD3DEA25079E770FEE2E6D808F69811F3BBA674BFBD79595BA6D0701AF9C"
+    },
+    {
+      "source": "artifacts/b-puppet-mainline/final-clean/motion-analysis.json",
+      "retained": "visual/motion-analysis.json",
+      "bytes": 558,
+      "sha256": "3F096025A818987073F5933B77AE44585F8B2CEC80B93F5303D2C77338A5B6ED"
+    },
+    {
+      "source": "artifacts/b-puppet-mainline/final-clean/motion.json",
+      "retained": "visual/motion.json",
+      "bytes": 17833,
+      "sha256": "35F387EDE51AF60A19725AA2169C8E4CB3D114C66879009E388F1679330314BA"
+    },
+    {
+      "source": "artifacts/b-puppet-mainline/final-clean/native-cut-core-mask.png",
+      "retained": "visual/native-cut-core-mask.png",
+      "bytes": 22344,
+      "sha256": "C742AA7DD9B0ACF942A61CF1DF5593F6EB92910A04BF2D3FF11FE578C4BB392A"
+    },
+    {
+      "source": "artifacts/b-puppet-mainline/final-clean/native-cut-fur-mask.png",
+      "retained": "visual/native-cut-fur-mask.png",
+      "bytes": 60883,
+      "sha256": "D468FA62EE2AE4EF7765F9C9E7531D1A0B6027689768FC918CBB7A837414DF3F"
+    },
+    {
+      "source": "artifacts/b-puppet-mainline/final-clean/native-cut.png",
+      "retained": "visual/native-cut.png",
+      "bytes": 1016754,
+      "sha256": "869E120969904C117C670B4D741F46DB0F8F4D062527D19A5F19D81441714BFE"
+    },
+    {
+      "source": "artifacts/b-puppet-mainline/final-clean/normal-close-core-mask.png",
+      "retained": "visual/normal-close-core-mask.png",
+      "bytes": 22064,
+      "sha256": "D44AC76E0F2537134563577C6BC3DFBC441920A9651F8CDFC8691801A6F24CBA"
+    },
+    {
+      "source": "artifacts/b-puppet-mainline/final-clean/normal-close-fur-mask.png",
+      "retained": "visual/normal-close-fur-mask.png",
+      "bytes": 61188,
+      "sha256": "4C1B40F9833E679D5947188CC8E9DAE0F5633A84C2EA23CF2652F3492F61E24D"
+    },
+    {
+      "source": "artifacts/b-puppet-mainline/final-clean/normal-close.png",
+      "retained": "visual/normal-close.png",
+      "bytes": 1021166,
+      "sha256": "502CC119DE9CD1F0985311701D49D51FA5AEA48C3B2FCAB3EE67C3BDC5FEE594"
+    },
+    {
+      "source": "artifacts/b-puppet-mainline/final-clean/normal-core-mask.png",
+      "retained": "visual/normal-core-mask.png",
+      "bytes": 14421,
+      "sha256": "3CADDE9B3F20D3AC1F3AE1A6674B71B9AD0FA0EDA91AC91AD1EBDE4A4373136F"
+    },
+    {
+      "source": "artifacts/b-puppet-mainline/final-clean/normal-fur-mask.png",
+      "retained": "visual/normal-fur-mask.png",
+      "bytes": 27824,
+      "sha256": "8ECF3783769E49DA0EFC5A94A7A9E4BB9AAD6FCE68AA86D065B3EE210CBEE863"
+    },
+    {
+      "source": "artifacts/b-puppet-mainline/final-clean/normal.png",
+      "retained": "visual/normal.png",
+      "bytes": 863850,
+      "sha256": "FFF25F38DDF345F5BFE399EFAB47E713E61A46E51E48D6A9213A5F40DF745A70"
+    },
+    {
+      "source": "artifacts/b-puppet-mainline/final-clean/processes-before.json",
+      "retained": "visual/processes-before.json",
+      "bytes": 336,
+      "sha256": "C6507DDB3FD8B96C0EFAC8023043E8E1F036295DF66606457940ACFE845582B5"
+    },
+    {
+      "source": "artifacts/b-puppet-mainline/final-clean/trimmed-core-mask.png",
+      "retained": "visual/trimmed-core-mask.png",
+      "bytes": 19121,
+      "sha256": "F2CA5D45F6BA370DCC38A7B723C3AF7A56624301A90E58B0C22DB2ECB34B21D2"
+    },
+    {
+      "source": "artifacts/b-puppet-mainline/final-clean/trimmed-fur-mask.png",
+      "retained": "visual/trimmed-fur-mask.png",
+      "bytes": 50826,
+      "sha256": "4B5EB2DEEDE51CA6718CCB45F6F72E0AACA8404DE8012590361A95FFCFF23A97"
+    },
+    {
+      "source": "artifacts/b-puppet-mainline/final-clean/trimmed.png",
+      "retained": "visual/trimmed.png",
+      "bytes": 987283,
+      "sha256": "0B0DD7C4B40F499A9FF4230F12480F01896BED4CA902A6B2C1FC4C5D0E3149DE"
+    },
+    {
+      "source": "artifacts/b-puppet-mainline/final-clean/warm-cuts.json",
+      "retained": "visual/warm-cuts.json",
+      "bytes": 190,
+      "sha256": "1E05782D91F0185F3229B7427A9FFC558062B1B963A93BFC0F4603D4F4C087D7"
+    },
+    {
+      "source": "artifacts/b-puppet-mainline/final-clean/wet-core-mask.png",
+      "retained": "visual/wet-core-mask.png",
+      "bytes": 22076,
+      "sha256": "78DED638B8D091007AF43250F8A5891A5094926A5D6D44592187D21766EA11DB"
+    },
+    {
+      "source": "artifacts/b-puppet-mainline/final-clean/wet-fur-mask.png",
+      "retained": "visual/wet-fur-mask.png",
+      "bytes": 59880,
+      "sha256": "F5E66F890C1A4CEE3CD93D208E3D2686DFBF4197165B9EA537B0B4F5ED06B2BD"
+    },
+    {
+      "source": "artifacts/b-puppet-mainline/final-clean/wet.png",
+      "retained": "visual/wet.png",
+      "bytes": 998894,
+      "sha256": "EAACF1C7033FA6BF9116C82EFB34B3C15016A79C3277CDE1B9A2F58F17DB881D"
+    },
+    {
+      "source": "artifacts/b-puppet-mainline/final-clean/review/before-after-close.png",
+      "retained": "visual/review/before-after-close.png",
+      "bytes": 1310215,
+      "sha256": "274E221F3F8AD67F72D2320FBC67FFCA74CC34D9CAAE0733E6ECB94A7672AE46"
+    },
+    {
+      "source": "artifacts/b-puppet-mainline/final-clean/review/silhouette.json",
+      "retained": "visual/review/silhouette.json",
+      "bytes": 4796,
+      "sha256": "DD0B1D54B85270C4F3437ACED73730411389D0F73DDE6FFE1CA6474D04085EA2"
+    },
+    {
+      "source": "artifacts/b-puppet-mainline/final-clean/review/three-states.png",
+      "retained": "visual/review/three-states.png",
+      "bytes": 2344210,
+      "sha256": "9C89E1EC7884BB7F58E8B742E5C52C953CFD744571A1FD5E3B01A602D1750089"
+    },
+    {
+      "source": "artifacts/b-puppet-mainline/core.log",
+      "retained": "integration/core.log",
+      "bytes": 18466,
+      "sha256": "86D2CE73D9725006795DE6E9C7BB80010BE20AA75682EF42383B71A4C3AEA36C"
+    },
+    {
+      "source": "artifacts/b-puppet-mainline/integration.log",
+      "retained": "integration/integration.log",
+      "bytes": 3044,
+      "sha256": "410F031AC5582203165297273A3AEB98A2FFDA5E7DC891C5303EFFBD255DBDC6"
+    },
+    {
+      "source": "artifacts/b-puppet-mainline/core-source-audit.json",
+      "retained": "integration/core-source-audit.json",
+      "bytes": 38,
+      "sha256": "C089BA431A4642F50826C8ED0117C1A7ADA6C67A25D6256015EE9B4E09C7966D"
+    },
+    {
+      "source": "artifacts/b-puppet-mainline/qa-only-diff.json",
+      "retained": "integration/qa-only-diff.json",
+      "bytes": 307,
+      "sha256": "CEA3C8F7740D4D67B0DE5DAF073DA295DA7F02ECED2BBBD85932E2B31A209E98"
+    },
+    {
+      "source": "artifacts/b-puppet-mainline/final-source-audit.json",
+      "retained": "integration/final-source-audit.json",
+      "bytes": 121,
+      "sha256": "68CB35859C44BBED1E21302D002E3A2FD0C6B2058B31542B99CD335A356DA9F4"
+    },
+    {
+      "source": "artifacts/b-puppet-mainline/final-checks.log",
+      "retained": "integration/final-checks.log",
+      "bytes": 42229,
+      "sha256": "C1565B0CED95D542504B952C2D6FC80A9D9EBA3BFE1DC41F185EBFA065B7E114"
+    },
+    {
+      "source": "artifacts/b-puppet-mainline/build-mask-clean.log",
+      "retained": "integration/build-mask-clean.log",
+      "bytes": 910,
+      "sha256": "7433470A1FA9D7AAC204846C76947C7BAB7734C252818981ADA0A00836C1B1A5"
+    },
+    {
+      "source": "artifacts/b-puppet-mainline/analyze.py",
+      "retained": "integration/analyze.py",
+      "bytes": 3000,
+      "sha256": "EBD7F348B7000D947432B916173AAD926C63B8F20BA8611DD296BD59AAF994A8"
+    },
+    {
+      "source": "artifacts/b-puppet-mainline/encode_motion.py",
+      "retained": "integration/encode_motion.py",
+      "bytes": 2304,
+      "sha256": "58AA3D9FE519F2C05D47B2A7723A0D34DA3C2DA180613338650D8FB9D2578F68"
+    },
+    {
+      "source": "artifacts/b-puppet-mainline/frozen-mask-clean/manifest.json",
+      "retained": "integration/visual-source-manifest.json",
+      "bytes": 36356,
+      "sha256": "2F384C6482A09FAD085BBB2F4E083B1B7081A97CDFF9AB7E356EA1C2A676AD4E"
+    },
+    {
+      "source": "artifacts/b-puppet-mainline/world-final/engine.log",
+      "retained": "integration/world-final/engine.log",
+      "bytes": 1919,
+      "sha256": "098ABA0263913F08BADE824D7E7B498CB667E93304BC9D025A1300BA2FD76BA4"
+    },
+    {
+      "source": "artifacts/b-puppet-mainline/world-final/engine.err",
+      "retained": "integration/world-final/engine.err",
+      "bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "source": "artifacts/b-puppet-mainline/legacy-compatibility/engine.log",
+      "retained": "integration/legacy-compatibility/engine.log",
+      "bytes": 659,
+      "sha256": "08F51DC7CC179771232E90F0D41A4389DB69ABE678081F69471A9E56974E9664"
+    },
+    {
+      "source": "artifacts/b-puppet-mainline/legacy-compatibility/engine.err",
+      "retained": "integration/legacy-compatibility/engine.err",
+      "bytes": 133,
+      "sha256": "23F60E542FF9A09A2B8F942AC0D8006DEC22BBF92F6FDCFA1562F5D46B28F1FE"
+    },
+    {
+      "source": "artifacts/net-cross-border-new-20261002-172915-624-18230-37084/client.err",
+      "retained": "network/client.err",
+      "bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "source": "artifacts/net-cross-border-new-20261002-172915-624-18230-37084/client.json",
+      "retained": "network/client.json",
+      "bytes": 1403,
+      "sha256": "DAF78A91D7FDE389754C69068DDBD78D51ED7DB972CD63E956E85C728202913E"
+    },
+    {
+      "source": "artifacts/net-cross-border-new-20261002-172915-624-18230-37084/client.log",
+      "retained": "network/client.log",
+      "bytes": 20462,
+      "sha256": "07997C87132B89A2AB76A9A1A780557EF1ED7F36A5D3AC5AC8060067E1B6B4E6"
+    },
+    {
+      "source": "artifacts/net-cross-border-new-20261002-172915-624-18230-37084/client.net.json",
+      "retained": "network/client.net.json",
+      "bytes": 687,
+      "sha256": "859805575D30B7151A1EEE5535270908678C7B8883579AC75B912B3C8DBC06BC"
+    },
+    {
+      "source": "artifacts/net-cross-border-new-20261002-172915-624-18230-37084/client.png",
+      "retained": "network/client.png",
+      "bytes": 685481,
+      "sha256": "F8470D4FE3CA7C0ABB75740C56C8B056072599E29A25B04EECBCFFD8C993F6E4"
+    },
+    {
+      "source": "artifacts/net-cross-border-new-20261002-172915-624-18230-37084/client.voice.json",
+      "retained": "network/client.voice.json",
+      "bytes": 325,
+      "sha256": "59C90EAEAB176B1AD7F28F8810B3F0AC1C021E78CC9FFA494B8A272FADE2EEFD"
+    },
+    {
+      "source": "artifacts/net-cross-border-new-20261002-172915-624-18230-37084/host.err",
+      "retained": "network/host.err",
+      "bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "source": "artifacts/net-cross-border-new-20261002-172915-624-18230-37084/host.events.jsonl",
+      "retained": "network/host.events.jsonl",
+      "bytes": 257622,
+      "sha256": "33D8B5EB59524158B1E58E5E5BCB85830BDA2BBF8B7DF04DEB044252120E133F"
+    },
+    {
+      "source": "artifacts/net-cross-border-new-20261002-172915-624-18230-37084/host.json",
+      "retained": "network/host.json",
+      "bytes": 1402,
+      "sha256": "9B4C205AE4C0677375DA3C8D2C54666A40A21AD3383F4A37DE8D3C926E0E8694"
+    },
+    {
+      "source": "artifacts/net-cross-border-new-20261002-172915-624-18230-37084/host.log",
+      "retained": "network/host.log",
+      "bytes": 33422,
+      "sha256": "6BF1139E0FF9CA94B1ADCFA2333B93091593A1945A967F78BCAB1EA5E30D5045"
+    },
+    {
+      "source": "artifacts/net-cross-border-new-20261002-172915-624-18230-37084/host.net.json",
+      "retained": "network/host.net.json",
+      "bytes": 602,
+      "sha256": "2EAC52DC1B526784124ABEE3652F0E740D9EC14ACF0F82F3AD57EC68B32047FA"
+    },
+    {
+      "source": "artifacts/net-cross-border-new-20261002-172915-624-18230-37084/host.voice.json",
+      "retained": "network/host.voice.json",
+      "bytes": 1055,
+      "sha256": "6B32D6A3259DCEC877EAE60966AA6B52DFD5D983891DE0064F7F83015E502F4E"
+    },
+    {
+      "source": "artifacts/net-cross-border-new-20261002-172915-624-18230-37084/process-exits.json",
+      "retained": "network/process-exits.json",
+      "bytes": 103,
+      "sha256": "7ABCFA9E281E43FD3483D30DC753A6B8F4BBA4644FA8B5315C51B585DAF8F332"
+    },
+    {
+      "source": "artifacts/net-cross-border-new-20261002-172915-624-18230-37084/proxy.err",
+      "retained": "network/proxy.err",
+      "bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "source": "artifacts/net-cross-border-new-20261002-172915-624-18230-37084/proxy.json",
+      "retained": "network/proxy.json",
+      "bytes": 586,
+      "sha256": "3B0AB994ACDE4FB8203FF852B1377AC13066DECF4BAEA6714F974EDF65453CB9"
+    },
+    {
+      "source": "artifacts/net-cross-border-new-20261002-172915-624-18230-37084/proxy.log",
+      "retained": "network/proxy.log",
+      "bytes": 13,
+      "sha256": "888C1DECB392AEFEBB4FB1A36BB653390690572274CF60A7F830DFC4AE7BD7E8"
+    },
+    {
+      "source": "artifacts/net-cross-border-new-20261002-172915-624-18230-37084/summary.json",
+      "retained": "network/summary.json",
+      "bytes": 1571,
+      "sha256": "646BE42D097D1E8E621E6400993EE6F47224CC00B1E4A794004E7E9E678439D7"
+    },
+    {
+      "source": "artifacts/smoke-4-v06-B-20261002-173502-597/peer-0.err",
+      "retained": "four-player/peer-0.err",
+      "bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "source": "artifacts/smoke-4-v06-B-20261002-173502-597/peer-0.events.jsonl",
+      "retained": "four-player/peer-0.events.jsonl",
+      "bytes": 98575,
+      "sha256": "102EBAABB9D7335B1E7B57CC4075544DCDFD0272A87CED485610909278335BB1"
+    },
+    {
+      "source": "artifacts/smoke-4-v06-B-20261002-173502-597/peer-0.json",
+      "retained": "four-player/peer-0.json",
+      "bytes": 1404,
+      "sha256": "F7C8C34E25EB84E351196EBA9AAF5D0944D9D9A0F7AEC57E82C68AE962936D63"
+    },
+    {
+      "source": "artifacts/smoke-4-v06-B-20261002-173502-597/peer-0.log",
+      "retained": "four-player/peer-0.log",
+      "bytes": 9213,
+      "sha256": "03963D7C41AB962EBE6D21D499D62450C09DA30636F32458E101DF28C50F4531"
+    },
+    {
+      "source": "artifacts/smoke-4-v06-B-20261002-173502-597/peer-0.net.json",
+      "retained": "four-player/peer-0.net.json",
+      "bytes": 572,
+      "sha256": "673A2A5E84F03A1AB1ED76E916C2CE1C9479C671C7BE7108F1B65F3F1E4EFEDE"
+    },
+    {
+      "source": "artifacts/smoke-4-v06-B-20261002-173502-597/peer-0.voice.json",
+      "retained": "four-player/peer-0.voice.json",
+      "bytes": 325,
+      "sha256": "C75E40546D7DA4C45624540233C758F2B9BCEFF7C4F4AD6356A5F059542CD349"
+    },
+    {
+      "source": "artifacts/smoke-4-v06-B-20261002-173502-597/peer-1.err",
+      "retained": "four-player/peer-1.err",
+      "bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "source": "artifacts/smoke-4-v06-B-20261002-173502-597/peer-1.json",
+      "retained": "four-player/peer-1.json",
+      "bytes": 1404,
+      "sha256": "62CD72AE46A67E69ED50CCCADEB562986DFC7F146ED1387ABBAED1A9C0A1A99E"
+    },
+    {
+      "source": "artifacts/smoke-4-v06-B-20261002-173502-597/peer-1.log",
+      "retained": "four-player/peer-1.log",
+      "bytes": 10556,
+      "sha256": "EB24A6B31C429E0D9DF0D4031F0F18F1484F3F762F0ED3D64CC2C0261C3753AA"
+    },
+    {
+      "source": "artifacts/smoke-4-v06-B-20261002-173502-597/peer-1.net.json",
+      "retained": "four-player/peer-1.net.json",
+      "bytes": 702,
+      "sha256": "333FC4C50728834A26BF2802090BE7295DC61417A9039F2781E044D551DB567C"
+    },
+    {
+      "source": "artifacts/smoke-4-v06-B-20261002-173502-597/peer-1.voice.json",
+      "retained": "four-player/peer-1.voice.json",
+      "bytes": 1032,
+      "sha256": "67D187C08396ED62F168E919FD84BBBA0D428CDC26BBDF32BC1DC9EAEA339D52"
+    },
+    {
+      "source": "artifacts/smoke-4-v06-B-20261002-173502-597/peer-2.err",
+      "retained": "four-player/peer-2.err",
+      "bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "source": "artifacts/smoke-4-v06-B-20261002-173502-597/peer-2.json",
+      "retained": "four-player/peer-2.json",
+      "bytes": 1403,
+      "sha256": "6E5DA11BEF1CFDB8FB432C8DEFF26515B6770DC2BC45FBB4848BD4D69F521B07"
+    },
+    {
+      "source": "artifacts/smoke-4-v06-B-20261002-173502-597/peer-2.log",
+      "retained": "four-player/peer-2.log",
+      "bytes": 11483,
+      "sha256": "0615B44D83FFBA19CCC73A613213B27F7B9A9F690B3D059F74CE0726D48588EE"
+    },
+    {
+      "source": "artifacts/smoke-4-v06-B-20261002-173502-597/peer-2.net.json",
+      "retained": "four-player/peer-2.net.json",
+      "bytes": 699,
+      "sha256": "57B254C69527D29889D6689A604A6FC12F6CE37F6AC1110A6B78963B843947A7"
+    },
+    {
+      "source": "artifacts/smoke-4-v06-B-20261002-173502-597/peer-2.voice.json",
+      "retained": "four-player/peer-2.voice.json",
+      "bytes": 1043,
+      "sha256": "73B22E7DF71ACA65B8A864EFF83628B51928E36C291BBAF77E49E6B84F7137C1"
+    },
+    {
+      "source": "artifacts/smoke-4-v06-B-20261002-173502-597/peer-3.err",
+      "retained": "four-player/peer-3.err",
+      "bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "source": "artifacts/smoke-4-v06-B-20261002-173502-597/peer-3.json",
+      "retained": "four-player/peer-3.json",
+      "bytes": 1403,
+      "sha256": "5484BE7275B46E3092080673474CD2224D0EF0CFD0C00AA96BD477E4ECE4F444"
+    },
+    {
+      "source": "artifacts/smoke-4-v06-B-20261002-173502-597/peer-3.log",
+      "retained": "four-player/peer-3.log",
+      "bytes": 10597,
+      "sha256": "3EC6FE1AA9C7B1265B27332D7CA003E6BE566CDA6E44B9C6D6CB55938B53EE05"
+    },
+    {
+      "source": "artifacts/smoke-4-v06-B-20261002-173502-597/peer-3.net.json",
+      "retained": "four-player/peer-3.net.json",
+      "bytes": 687,
+      "sha256": "683DD704C4E913F85CB8851A18AAEF52758FF3A272C6E693A89A0A242A96A385"
+    },
+    {
+      "source": "artifacts/smoke-4-v06-B-20261002-173502-597/peer-3.voice.json",
+      "retained": "four-player/peer-3.voice.json",
+      "bytes": 1044,
+      "sha256": "C86D27496585C2609BEF625F4582C860BE840B577A7ED1C8BAB10B6A54756E21"
+    },
+    {
+      "source": "artifacts/smoke-4-v06-B-20261002-173502-597/shared-Build.png",
+      "retained": "four-player/shared-Build.png",
+      "bytes": 916808,
+      "sha256": "0B64CA2FD97133D3DB792E4DBCDCBFCBFD4EAF6FFE7554A53F0292F996C9CF1E"
+    },
+    {
+      "source": "artifacts/repo-backup-cleanup/inventory.json",
+      "retained": "backup/original-inventory.json",
+      "bytes": 360107,
+      "sha256": "74175C61FBE95E10273EA2A26EAA23FD3E300EECB91195B06AE35734A0D7232C"
+    }
+  ]
+}

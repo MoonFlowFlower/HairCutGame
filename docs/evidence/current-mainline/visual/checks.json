@@ -1,0 +1,28 @@
+{
+  "pass": true,
+  "facts": [
+    "real B Main scene and Session",
+    "accepted eight samples active on authoritative shared head",
+    "render leaves authoritative density unchanged: normal",
+    "render leaves authoritative density unchanged: normal-close",
+    "native LMB -\u003E Session tool input -\u003E shared density removed",
+    "committed haircut has visible bounded bounce",
+    "bounce stays inside 7.2 cm bound",
+    "render leaves authoritative density unchanged: native-cut",
+    "render leaves authoritative density unchanged: trimmed",
+    "render leaves authoritative density unchanged: carved",
+    "production growth tool adds visible authoritative material",
+    "render leaves authoritative density unchanged: grown",
+    "render leaves authoritative density unchanged: wet",
+    "render leaves authoritative density unchanged: frozen",
+    "render leaves authoritative density unchanged: charred",
+    "shaving to empty leaves no ghost hair",
+    "empty head can rebuild without empty arrays",
+    "render leaves authoritative density unchanged: customer-standing",
+    "production customer body controls retained"
+  ],
+  "firstDrawMs": 173.4654,
+  "peak": 0.072000004,
+  "renderer": "forward_plus",
+  "scene": "res://scenes/Main.tscn"
+}

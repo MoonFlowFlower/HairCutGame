@@ -1,0 +1,34 @@
+[
+  {
+    "asset": "caban",
+    "kind": "Displacement",
+    "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/caban/caban_disp_1k.jpg",
+    "file": "caban_disp_1k.jpg",
+    "md5": "e8d9bcf313aff0c275e74f5d9715812d",
+    "sha256": "09b91bc4b62dbdaac8af871bf9d272f52314f6a697e7f9d2a72997e96368a681"
+  },
+  {
+    "asset": "caban",
+    "kind": "nor_gl",
+    "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/caban/caban_nor_gl_1k.jpg",
+    "file": "caban_nor_gl_1k.jpg",
+    "md5": "d49000ceacc82e0a9626b304924bf482",
+    "sha256": "27cd0f98d833648c43d2c85db2e23a151b1ec2b74feaf56964a16b6c0c892f84"
+  },
+  {
+    "asset": "wool_boucle",
+    "kind": "Displacement",
+    "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/wool_boucle/wool_boucle_disp_1k.jpg",
+    "file": "wool_boucle_disp_1k.jpg",
+    "md5": "6b8a996acfa96c5f3b223455ddedd6bd",
+    "sha256": "d3c4a5dc4869cb63a57a38839879c992666531d32d2b3a5676a2b13f292c0239"
+  },
+  {
+    "asset": "wool_boucle",
+    "kind": "nor_gl",
+    "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/wool_boucle/wool_boucle_nor_gl_1k.jpg",
+    "file": "wool_boucle_nor_gl_1k.jpg",
+    "md5": "6a413f9a1aa70ab3bb4fede917cf8a64",
+    "sha256": "2cc13a2be4d0bb942a59a86d613665c0d24ff201560daa4d841cee597af0c752"
+  }
+]

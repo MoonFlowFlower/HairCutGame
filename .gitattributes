@@ -1,0 +1,3 @@
+# Keep source snapshots and verification records byte-identical across Windows checkouts.
+# In particular, JSON/log evidence hashes must not be changed by core.autocrlf.
+* -text

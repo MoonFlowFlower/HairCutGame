@@ -1,0 +1,51 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+EXPERIMENT_VARIANT Off
+NET_EVENT {"kind":"session_network","utc":"2026-10-02T22:13:58.9620763Z","monotonicSeconds":1.078,"mode":"solo","epoch":0,"detail":{"protocol":25,"transport":"ENet","chunkPayload":900,"window":32}}
+SESSION_STARTED mode=solo port=7777
+HAIRBALL_BOOT_OK Godot=4.7.2-stable (official)
+PHASE round=1 phase=Arrival peers=1
+ENGINE_PASS four players share exactly one customer
+ENGINE_PASS spawn 32-patch customer and shared barber representation
+ENGINE_PASS real authoritative aim/query/effect: clipper
+ENGINE_PASS real authoritative aim/query/effect: growth
+ENGINE_PASS real authoritative aim/query/effect: vacuum
+ENGINE_PASS real authoritative aim/query/effect: blower
+ENGINE_PASS real authoritative aim/query/effect: glue
+ENGINE_PASS real authoritative aim/query/effect: nitrogen
+ENGINE_PASS real authoritative aim/query/effect: nail
+ENGINE_PASS real authoritative aim/query/effect: sniper
+ENGINE_PASS real authoritative aim/query/effect: flame
+ENGINE_PASS real authoritative aim/query/effect: trimmer
+ENGINE_PASS real authoritative aim/query/effect: water
+ENGINE_PASS vacuum detaches physical wig
+ENGINE_PASS catastrophic KO entered
+ENGINE_PASS telegraphed reaction moves actual queried head
+ENGINE_PASS automatic reseat after KO
+ENGINE_PASS same construction prop identities survive validation 0
+ENGINE_PASS goal ghost + rendered validation Helipad
+ENGINE_PASS same construction prop identities survive validation 1
+ENGINE_PASS goal ghost + rendered validation Bird Nest
+ENGINE_PASS same construction prop identities survive validation 2
+ENGINE_PASS goal ghost + rendered validation Rocket Silo
+ENGINE_PASS same construction prop identities survive validation 3
+ENGINE_PASS goal ghost + rendered validation Cat Tree
+ENGINE_PASS same construction prop identities survive validation 4
+ENGINE_PASS goal ghost + rendered validation Birthday Cake
+ENGINE_PASS same construction prop identities survive validation 5
+ENGINE_PASS goal ghost + rendered validation Hair Bridge
+ENGINE_PASS same construction prop identities survive validation 6
+ENGINE_PASS goal ghost + rendered validation Underwear Line
+ENGINE_PASS same construction prop identities survive validation 7
+ENGINE_PASS goal ghost + rendered validation Toilet Hair
+ENGINE_PASS shared timeout disables deliberate edits
+ENGINE_PASS chair/customer collider blocks physical movement path
+ENGINE_PASS offhand board visibly raises in the real scene
+ENGINE_PASS reference renders cannot alter authoritative hair, tools or props
+ENGINE_PASS front side and top use three actual render viewports
+ENGINE_PASS reference board lowers without changing primary slot
+ENGINE_PASS one physical practice doll rendered beside the immutable board
+ENGINE_PASS practice doll blocks player movement when placed
+ENGINE_PASS carried practice doll does not trap its carrier
+ENGINE_PASS practice doll lands on actual shop display pedestal collision
+ENGINE_INTEGRATION_OK

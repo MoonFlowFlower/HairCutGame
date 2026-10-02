@@ -1,0 +1,217 @@
+B_ART_VERIFIED D:\Project\Game\Godot\project_hairball\artifacts\b-puppet-mainline\final-verified
+world-final PASSED
+legacy-compatibility PASSED
+Smoke evidence: D:\Project\Game\Godot\project_hairball\artifacts\smoke-4-v06-B-20261002-173502-597
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+Vulkan 1.4.351 - Forward+ - Using Device #0: NVIDIA - NVIDIA GeForce RTX 5070 Ti Laptop GPU
+
+B_PUPPET_ART accepted volume fur / fabric / cut response
+EXPERIMENT_VARIANT B
+EXPERIMENT_LOG D:\Project\Game\Godot\project_hairball\artifacts\smoke-4-v06-B-20261002-173502-597\peer-0.events.jsonl
+B_ART_NETWORK_PREPARED ms=7072.5
+NET_EVENT {"kind":"session_network","utc":"2026-10-02T22:35:13.2734496Z","monotonicSeconds":10.541,"mode":"host","epoch":0,"detail":{"protocol":25,"transport":"ENet","chunkPayload":900,"window":32}}
+SESSION_STARTED mode=host port=18232
+HAIRBALL_BOOT_OK Godot=4.7.2-stable (official)
+V06_LIVE_FACT leave:Seated
+NET_EVENT {"kind":"voice_metrics","utc":"2026-10-02T22:35:13.6637296Z","monotonicSeconds":10.931,"mode":"host","epoch":0,"detail":{"sentPackets":0,"opusPackets":0,"featurePackets":0,"voiceSentBytes":0,"voiceRelayBytes":0,"voiceRelayPackets":0,"voiceReceiveBytes":0,"voiceRejected":0,"bitrate":24000,"mixRate":48000,"seconds":0.37799999999999834,"upstreamKbps":0,"streams":[]}}
+PEER_JOINED 2 slot=1
+NET_EVENT {"kind":"peer_bound","utc":"2026-10-02T22:35:13.7994761Z","monotonicSeconds":11.067,"mode":"host","epoch":0,"detail":{"room":"e4276c150a514e5f837d1f677a63fef0","actor":2,"peer":2124857131,"epoch":1,"attempt":4}}
+PEER_JOINED 3 slot=2
+NET_EVENT {"kind":"peer_bound","utc":"2026-10-02T22:35:14.8733453Z","monotonicSeconds":12.141,"mode":"host","epoch":0,"detail":{"room":"e4276c150a514e5f837d1f677a63fef0","actor":3,"peer":95162338,"epoch":1,"attempt":5}}
+PEER_JOINED 4 slot=3
+NET_EVENT {"kind":"peer_bound","utc":"2026-10-02T22:35:15.8673547Z","monotonicSeconds":13.135,"mode":"host","epoch":0,"detail":{"room":"e4276c150a514e5f837d1f677a63fef0","actor":4,"peer":1969105820,"epoch":1,"attempt":5}}
+NET_EVENT {"kind":"pause_begin","utc":"2026-10-02T22:35:20.8645224Z","monotonicSeconds":18.132,"mode":"host","epoch":0,"detail":{"reason":"transport_or_state_stalled","paused":true,"deadline":48.132000000000005,"gameTime":0.61666673}}
+NET_EVENT {"kind":"peer_wait","utc":"2026-10-02T22:35:20.8724313Z","monotonicSeconds":18.14,"mode":"host","epoch":0,"detail":{"actor":2,"reason":"transport_or_state_stalled","deadline":48.132000000000005}}
+NET_EVENT {"kind":"transport_close_requested","utc":"2026-10-02T22:35:20.8765656Z","monotonicSeconds":18.144,"mode":"host","epoch":0,"detail":{"peer":2124857131,"reason":"transport_or_state_stalled"}}
+NET_EVENT {"kind":"peer_wait","utc":"2026-10-02T22:35:20.8815375Z","monotonicSeconds":18.149,"mode":"host","epoch":0,"detail":{"actor":3,"reason":"transport_or_state_stalled","deadline":48.132000000000005}}
+NET_EVENT {"kind":"transport_close_requested","utc":"2026-10-02T22:35:20.8841769Z","monotonicSeconds":18.151,"mode":"host","epoch":0,"detail":{"peer":95162338,"reason":"transport_or_state_stalled"}}
+NET_EVENT {"kind":"peer_wait","utc":"2026-10-02T22:35:20.8863195Z","monotonicSeconds":18.154,"mode":"host","epoch":0,"detail":{"actor":4,"reason":"transport_or_state_stalled","deadline":48.132000000000005}}
+NET_EVENT {"kind":"transport_close_requested","utc":"2026-10-02T22:35:20.8891754Z","monotonicSeconds":18.156,"mode":"host","epoch":0,"detail":{"peer":1969105820,"reason":"transport_or_state_stalled"}}
+NET_EVENT {"kind":"voice_metrics","utc":"2026-10-02T22:35:20.8981775Z","monotonicSeconds":18.165,"mode":"host","epoch":0,"detail":{"sentPackets":0,"opusPackets":0,"featurePackets":0,"voiceSentBytes":0,"voiceRelayBytes":0,"voiceRelayPackets":0,"voiceReceiveBytes":0,"voiceRejected":0,"bitrate":24000,"mixRate":48000,"seconds":7.611999999999998,"upstreamKbps":0,"streams":[]}}
+NET_EVENT {"kind":"resume_accepted","utc":"2026-10-02T22:35:20.9784919Z","monotonicSeconds":18.246,"mode":"host","epoch":0,"detail":{"actor":4}}
+NET_EVENT {"kind":"peer_bound","utc":"2026-10-02T22:35:20.9815264Z","monotonicSeconds":18.249,"mode":"host","epoch":0,"detail":{"room":"e4276c150a514e5f837d1f677a63fef0","actor":4,"peer":1622117367,"epoch":2,"attempt":7}}
+NET_EVENT {"kind":"resume_accepted","utc":"2026-10-02T22:35:20.9915862Z","monotonicSeconds":18.259,"mode":"host","epoch":0,"detail":{"actor":2}}
+NET_EVENT {"kind":"peer_bound","utc":"2026-10-02T22:35:20.9955649Z","monotonicSeconds":18.263,"mode":"host","epoch":0,"detail":{"room":"e4276c150a514e5f837d1f677a63fef0","actor":2,"peer":1690922372,"epoch":2,"attempt":6}}
+NET_EVENT {"kind":"resume_accepted","utc":"2026-10-02T22:35:21.0062211Z","monotonicSeconds":18.274,"mode":"host","epoch":0,"detail":{"actor":3}}
+NET_EVENT {"kind":"peer_bound","utc":"2026-10-02T22:35:21.0104593Z","monotonicSeconds":18.278,"mode":"host","epoch":0,"detail":{"room":"e4276c150a514e5f837d1f677a63fef0","actor":3,"peer":1409571362,"epoch":2,"attempt":7}}
+NET_EVENT {"kind":"pause_end","utc":"2026-10-02T22:35:22.2083632Z","monotonicSeconds":19.476,"mode":"host","epoch":0,"detail":{"gameTime":0.61666673}}
+PHASE round=1 phase=Arrival peers=4
+PHASE round=1 phase=Choice peers=4
+PHASE round=1 phase=Preview peers=4
+NET_EVENT {"kind":"voice_metrics","utc":"2026-10-02T22:35:25.9024402Z","monotonicSeconds":23.17,"mode":"host","epoch":0,"detail":{"sentPackets":0,"opusPackets":0,"featurePackets":0,"voiceSentBytes":0,"voiceRelayBytes":0,"voiceRelayPackets":0,"voiceReceiveBytes":0,"voiceRejected":0,"bitrate":24000,"mixRate":48000,"seconds":12.617,"upstreamKbps":0,"streams":[]}}
+PHASE round=1 phase=Build peers=4
+V06_LIVE_FACT attention:Notice
+CAPTURE_SAVED D:\Project\Game\Godot\project_hairball\artifacts\smoke-4-v06-B-20261002-173502-597\shared-Build.png
+V06_LIVE_FACT attention:Commit
+NET_EVENT {"kind":"voice_metrics","utc":"2026-10-02T22:35:30.9159490Z","monotonicSeconds":28.183,"mode":"host","epoch":0,"detail":{"sentPackets":0,"opusPackets":0,"featurePackets":0,"voiceSentBytes":0,"voiceRelayBytes":0,"voiceRelayPackets":0,"voiceReceiveBytes":0,"voiceRejected":0,"bitrate":24000,"mixRate":48000,"seconds":17.63,"upstreamKbps":0,"streams":[]}}
+V06_LIVE_FACT attention:React
+NET_EVENT {"kind":"voice_metrics","utc":"2026-10-02T22:35:35.9208534Z","monotonicSeconds":33.188,"mode":"host","epoch":0,"detail":{"sentPackets":13,"opusPackets":13,"featurePackets":0,"voiceSentBytes":936,"voiceRelayBytes":2808,"voiceRelayPackets":39,"voiceReceiveBytes":0,"voiceRejected":0,"bitrate":24000,"mixRate":48000,"seconds":22.635,"upstreamKbps":0.9924453280318091,"streams":[]}}
+V06_LIVE_FACT brace
+NET_EVENT {"kind":"voice_metrics","utc":"2026-10-02T22:35:40.9326080Z","monotonicSeconds":38.2,"mode":"host","epoch":0,"detail":{"sentPackets":13,"opusPackets":13,"featurePackets":0,"voiceSentBytes":936,"voiceRelayBytes":2808,"voiceRelayPackets":39,"voiceReceiveBytes":0,"voiceRejected":0,"bitrate":24000,"mixRate":48000,"seconds":27.647000000000002,"upstreamKbps":0.8125293883604008,"streams":[]}}
+V06_LIVE_FACT leave:Rising
+V06_LIVE_FACT leave:ToMirror
+NET_EVENT {"kind":"voice_metrics","utc":"2026-10-02T22:35:45.9422235Z","monotonicSeconds":43.21,"mode":"host","epoch":0,"detail":{"sentPackets":13,"opusPackets":13,"featurePackets":0,"voiceSentBytes":936,"voiceRelayBytes":2808,"voiceRelayPackets":39,"voiceReceiveBytes":0,"voiceRejected":0,"bitrate":24000,"mixRate":48000,"seconds":32.657,"upstreamKbps":0.6878770248338795,"streams":[]}}
+V06_LIVE_FACT leave:Mirror
+NET_EVENT {"kind":"voice_metrics","utc":"2026-10-02T22:35:50.9509939Z","monotonicSeconds":48.218,"mode":"host","epoch":0,"detail":{"sentPackets":13,"opusPackets":13,"featurePackets":0,"voiceSentBytes":936,"voiceRelayBytes":2808,"voiceRelayPackets":39,"voiceReceiveBytes":0,"voiceRejected":0,"bitrate":24000,"mixRate":48000,"seconds":37.665000000000006,"upstreamKbps":0.5964157706093188,"streams":[]}}
+V06_LIVE_FACT leave:ToDoor
+NET_EVENT {"kind":"voice_metrics","utc":"2026-10-02T22:35:55.9564119Z","monotonicSeconds":53.224,"mode":"host","epoch":0,"detail":{"sentPackets":22,"opusPackets":22,"featurePackets":0,"voiceSentBytes":1584,"voiceRelayBytes":4752,"voiceRelayPackets":66,"voiceReceiveBytes":0,"voiceRejected":0,"bitrate":24000,"mixRate":48000,"seconds":42.67099999999999,"upstreamKbps":0.8909095170021797,"streams":[]}}
+V06_LIVE_FACT leave:Done
+PHASE round=1 phase=Results peers=4
+REPLAY_SENT bytes=37172 phase=Results
+PHASE round=1 phase=Highlight peers=4
+SMOKE_METRICS grew=2 moved=4 peersSending=3 locked=True replayFrames=35 heads=22
+SMOKE_OK authority / input / hair / resolution / replay
+PHASE round=1 phase=Complete peers=4
+HOST_FINAL_HASH E50E2CA2C657DE96
+HOST_FINAL_HASH E50E2CA2C657DE96
+HOST_FINAL_HASH E50E2CA2C657DE96
+HOST_FINAL_HASH D7396D307FBB1D6E
+HOST_FINAL_HASH 6D522F835BDA0A9D
+HOST_FINAL_HASH 6D522F835BDA0A9D
+SMOKE_ALL_CLIENTS_ACKNOWLEDGED 3
+HOST_FINAL_HASH 7713FB02F1330F66
+NET_EVENT {"kind":"voice_metrics","utc":"2026-10-02T22:36:00.9664897Z","monotonicSeconds":58.234,"mode":"host","epoch":0,"detail":{"sentPackets":22,"opusPackets":22,"featurePackets":0,"voiceSentBytes":1584,"voiceRelayBytes":4752,"voiceRelayPackets":66,"voiceReceiveBytes":0,"voiceRejected":0,"bitrate":24000,"mixRate":48000,"seconds":47.681,"upstreamKbps":0.7972987143726012,"streams":[]}}
+HOST_FINAL_HASH 7713FB02F1330F66
+HOST_FINAL_HASH 7713FB02F1330F66
+HOST_FINAL_HASH 7713FB02F1330F66
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+B_PUPPET_ART accepted volume fur / fabric / cut response
+EXPERIMENT_VARIANT B
+NET_EVENT {"kind":"session_network","utc":"2026-10-02T22:35:06.1278915Z","monotonicSeconds":1.3,"mode":"join","epoch":0,"detail":{"protocol":25,"transport":"ENet","chunkPayload":900,"window":32}}
+NET_EVENT {"kind":"connection_state","utc":"2026-10-02T22:35:06.1604163Z","monotonicSeconds":1.332,"mode":"join","epoch":0,"detail":{"state":"Synchronizing","reason":"initial_join"}}
+SESSION_STARTED mode=join port=18232
+HAIRBALL_BOOT_OK Godot=4.7.2-stable (official)
+NET_EVENT {"kind":"reconnect_attempt","utc":"2026-10-02T22:35:07.1553007Z","monotonicSeconds":2.327,"mode":"join","epoch":0,"detail":{"attempt":2,"backoffStep":1,"error":"Ok"}}
+NET_EVENT {"kind":"reconnect_attempt","utc":"2026-10-02T22:35:08.2933456Z","monotonicSeconds":3.465,"mode":"join","epoch":0,"detail":{"attempt":3,"backoffStep":2,"error":"Ok"}}
+NET_EVENT {"kind":"voice_metrics","utc":"2026-10-02T22:35:09.8327349Z","monotonicSeconds":5.004,"mode":"join","epoch":0,"detail":{"sentPackets":0,"opusPackets":0,"featurePackets":0,"voiceSentBytes":0,"voiceRelayBytes":0,"voiceRelayPackets":0,"voiceReceiveBytes":0,"voiceRejected":0,"bitrate":24000,"mixRate":48000,"seconds":3.6599999999999993,"upstreamKbps":0,"streams":[]}}
+NET_EVENT {"kind":"reconnect_attempt","utc":"2026-10-02T22:35:10.4115418Z","monotonicSeconds":5.583,"mode":"join","epoch":0,"detail":{"attempt":4,"backoffStep":3,"error":"Ok"}}
+NET_EVENT {"kind":"reconnect_attempt","utc":"2026-10-02T22:35:14.5791350Z","monotonicSeconds":9.751,"mode":"join","epoch":0,"detail":{"attempt":5,"backoffStep":4,"error":"Ok"}}
+NET_EVENT {"kind":"voice_metrics","utc":"2026-10-02T22:35:14.8343500Z","monotonicSeconds":10.006,"mode":"join","epoch":0,"detail":{"sentPackets":0,"opusPackets":0,"featurePackets":0,"voiceSentBytes":0,"voiceRelayBytes":0,"voiceRelayPackets":0,"voiceReceiveBytes":0,"voiceRejected":0,"bitrate":24000,"mixRate":48000,"seconds":8.662,"upstreamKbps":0,"streams":[]}}
+NET_EVENT {"kind":"peer_bound","utc":"2026-10-02T22:35:15.8702187Z","monotonicSeconds":11.042,"mode":"join","epoch":1,"detail":{"room":"e4276c150a514e5f837d1f677a63fef0","actor":4,"peer":1969105820,"epoch":1}}
+CLIENT_CONNECTED 4
+NET_EVENT {"kind":"connection_state","utc":"2026-10-02T22:35:18.8780079Z","monotonicSeconds":14.05,"mode":"join","epoch":1,"detail":{"state":"Reconnecting","reason":"no_progress"}}
+NET_EVENT {"kind":"reconnect_attempt","utc":"2026-10-02T22:35:18.8985919Z","monotonicSeconds":14.07,"mode":"join","epoch":0,"detail":{"attempt":6,"backoffStep":1,"error":"Ok"}}
+NET_EVENT {"kind":"voice_metrics","utc":"2026-10-02T22:35:19.8367703Z","monotonicSeconds":15.008,"mode":"join","epoch":0,"detail":{"sentPackets":0,"opusPackets":0,"featurePackets":0,"voiceSentBytes":0,"voiceRelayBytes":0,"voiceRelayPackets":0,"voiceReceiveBytes":0,"voiceRejected":0,"bitrate":24000,"mixRate":48000,"seconds":13.664,"upstreamKbps":0,"streams":[]}}
+NET_EVENT {"kind":"reconnect_attempt","utc":"2026-10-02T22:35:19.9680478Z","monotonicSeconds":15.14,"mode":"join","epoch":0,"detail":{"attempt":7,"backoffStep":2,"error":"Ok"}}
+NET_EVENT {"kind":"peer_bound","utc":"2026-10-02T22:35:20.9824614Z","monotonicSeconds":16.154,"mode":"join","epoch":2,"detail":{"room":"e4276c150a514e5f837d1f677a63fef0","actor":4,"peer":1622117367,"epoch":2}}
+NET_EVENT {"kind":"connection_state","utc":"2026-10-02T22:35:20.9872509Z","monotonicSeconds":16.159,"mode":"join","epoch":2,"detail":{"state":"Synchronizing","reason":"welcome"}}
+CLIENT_CONNECTED 4
+V06_LIVE_FACT leave:Seated
+NET_EVENT {"kind":"connection_state","utc":"2026-10-02T22:35:22.0837046Z","monotonicSeconds":17.255,"mode":"join","epoch":2,"detail":{"state":"Normal","reason":"snapshot_applied"}}
+NET_EVENT {"kind":"connection_state","utc":"2026-10-02T22:35:22.1622268Z","monotonicSeconds":17.334,"mode":"join","epoch":2,"detail":{"state":"Waiting","reason":"team_wait"}}
+NET_EVENT {"kind":"connection_state","utc":"2026-10-02T22:35:22.4556810Z","monotonicSeconds":17.627,"mode":"join","epoch":2,"detail":{"state":"Normal","reason":"team_continue"}}
+PHASE round=1 phase=Arrival peers=4
+PHASE round=1 phase=Choice peers=4
+NET_EVENT {"kind":"voice_metrics","utc":"2026-10-02T22:35:24.8453520Z","monotonicSeconds":20.017,"mode":"join","epoch":2,"detail":{"sentPackets":0,"opusPackets":0,"featurePackets":0,"voiceSentBytes":0,"voiceRelayBytes":0,"voiceRelayPackets":0,"voiceReceiveBytes":0,"voiceRejected":0,"bitrate":24000,"mixRate":48000,"seconds":18.673,"upstreamKbps":0,"streams":[]}}
+PHASE round=1 phase=Preview peers=4
+PHASE round=1 phase=Build peers=4
+NET_EVENT {"kind":"voice_metrics","utc":"2026-10-02T22:35:29.8534871Z","monotonicSeconds":25.025,"mode":"join","epoch":2,"detail":{"sentPackets":0,"opusPackets":0,"featurePackets":0,"voiceSentBytes":0,"voiceRelayBytes":0,"voiceRelayPackets":0,"voiceReceiveBytes":0,"voiceRejected":0,"bitrate":24000,"mixRate":48000,"seconds":23.680999999999997,"upstreamKbps":0,"streams":[]}}
+NET_EVENT {"kind":"voice_metrics","utc":"2026-10-02T22:35:34.8569777Z","monotonicSeconds":30.028,"mode":"join","epoch":2,"detail":{"sentPackets":0,"opusPackets":0,"featurePackets":0,"voiceSentBytes":0,"voiceRelayBytes":0,"voiceRelayPackets":0,"voiceReceiveBytes":936,"voiceRejected":0,"bitrate":24000,"mixRate":48000,"seconds":28.683999999999997,"upstreamKbps":0,"streams":[{"actor":1,"speakerSeconds":2.8629999999999995,"mixedSeconds":2.8160267,"generatorSkips":990,"capacity":2047,"playbackDiscarded":4419,"receiveAgeMs":68.38461538461205,"queueMs":46.838541666666664,"received":13,"late":0,"lost":6,"played":8,"catchUp":5,"bufferMs":76.98202342747796,"jitterMs":13.585618741982362,"decoded":14,"opus":8,"features":0,"Concealed":6,"toneMatched":null,"latencySamples":8,"latencyEstimateMs":217.83854166666467,"latencyP95Ms":261.9999999999977,"latencyMaxMs":266.99999999999716}]}}
+NET_EVENT {"kind":"voice_metrics","utc":"2026-10-02T22:35:39.8580286Z","monotonicSeconds":35.03,"mode":"join","epoch":2,"detail":{"sentPackets":0,"opusPackets":0,"featurePackets":0,"voiceSentBytes":0,"voiceRelayBytes":0,"voiceRelayPackets":0,"voiceReceiveBytes":936,"voiceRejected":0,"bitrate":24000,"mixRate":48000,"seconds":33.686,"upstreamKbps":0,"streams":[{"actor":1,"speakerSeconds":7.864000000000001,"mixedSeconds":7.765107,"generatorSkips":2846,"capacity":2047,"playbackDiscarded":4419,"receiveAgeMs":68.38461538461205,"queueMs":46.838541666666664,"received":13,"late":0,"lost":6,"played":8,"catchUp":5,"bufferMs":76.98202342747796,"jitterMs":13.585618741982362,"decoded":14,"opus":8,"features":0,"Concealed":6,"toneMatched":null,"latencySamples":8,"latencyEstimateMs":217.83854166666467,"latencyP95Ms":261.9999999999977,"latencyMaxMs":266.99999999999716}]}}
+NET_EVENT {"kind":"voice_metrics","utc":"2026-10-02T22:35:44.8616258Z","monotonicSeconds":40.033,"mode":"join","epoch":2,"detail":{"sentPackets":0,"opusPackets":0,"featurePackets":0,"voiceSentBytes":0,"voiceRelayBytes":0,"voiceRelayPackets":0,"voiceReceiveBytes":936,"voiceRejected":0,"bitrate":24000,"mixRate":48000,"seconds":38.689,"upstreamKbps":0,"streams":[{"actor":1,"speakerSeconds":12.867,"mixedSeconds":12.650086,"generatorSkips":4678,"capacity":2047,"playbackDiscarded":4419,"receiveAgeMs":68.38461538461205,"queueMs":46.838541666666664,"received":13,"late":0,"lost":6,"played":8,"catchUp":5,"bufferMs":76.98202342747796,"jitterMs":13.585618741982362,"decoded":14,"opus":8,"features":0,"Concealed":6,"toneMatched":null,"latencySamples":8,"latencyEstimateMs":217.83854166666467,"latencyP95Ms":261.9999999999977,"latencyMaxMs":266.99999999999716}]}}
+NET_EVENT {"kind":"voice_metrics","utc":"2026-10-02T22:35:49.8708961Z","monotonicSeconds":45.042,"mode":"join","epoch":2,"detail":{"sentPackets":0,"opusPackets":0,"featurePackets":0,"voiceSentBytes":0,"voiceRelayBytes":0,"voiceRelayPackets":0,"voiceReceiveBytes":936,"voiceRejected":0,"bitrate":24000,"mixRate":48000,"seconds":43.698,"upstreamKbps":0,"streams":[{"actor":1,"speakerSeconds":17.876,"mixedSeconds":17.57773,"generatorSkips":6526,"capacity":2047,"playbackDiscarded":4419,"receiveAgeMs":68.38461538461205,"queueMs":46.838541666666664,"received":13,"late":0,"lost":6,"played":8,"catchUp":5,"bufferMs":76.98202342747796,"jitterMs":13.585618741982362,"decoded":14,"opus":8,"features":0,"Concealed":6,"toneMatched":null,"latencySamples":8,"latencyEstimateMs":217.83854166666467,"latencyP95Ms":261.9999999999977,"latencyMaxMs":266.99999999999716}]}}
+NET_EVENT {"kind":"voice_metrics","utc":"2026-10-02T22:35:54.9041141Z","monotonicSeconds":50.076,"mode":"join","epoch":2,"detail":{"sentPackets":0,"opusPackets":0,"featurePackets":0,"voiceSentBytes":0,"voiceRelayBytes":0,"voiceRelayPackets":0,"voiceReceiveBytes":1584,"voiceRejected":0,"bitrate":24000,"mixRate":48000,"seconds":48.732,"upstreamKbps":0,"streams":[{"actor":1,"speakerSeconds":22.91,"mixedSeconds":22.612032,"generatorSkips":8340,"capacity":2047,"playbackDiscarded":6918,"receiveAgeMs":53.34090909090912,"queueMs":41.608333333333334,"received":22,"late":0,"lost":12,"played":15,"catchUp":7,"bufferMs":79.37829054493311,"jitterMs":15.502632435946483,"decoded":27,"opus":15,"features":0,"Concealed":12,"toneMatched":null,"latencySamples":15,"latencyEstimateMs":193.90833333333407,"latencyP95Ms":261.9999999999977,"latencyMaxMs":266.99999999999716}]}}
+REPLAY_RECEIVED frames=35 bytes=37172 phase=Build
+PHASE round=1 phase=Highlight peers=4
+NET_EVENT {"kind":"voice_metrics","utc":"2026-10-02T22:35:59.9176849Z","monotonicSeconds":55.089,"mode":"join","epoch":2,"detail":{"sentPackets":0,"opusPackets":0,"featurePackets":0,"voiceSentBytes":0,"voiceRelayBytes":0,"voiceRelayPackets":0,"voiceReceiveBytes":1584,"voiceRejected":0,"bitrate":24000,"mixRate":48000,"seconds":53.745,"upstreamKbps":0,"streams":[{"actor":1,"speakerSeconds":27.923,"mixedSeconds":27.561007,"generatorSkips":10196,"capacity":2047,"playbackDiscarded":6918,"receiveAgeMs":53.34090909090912,"queueMs":41.608333333333334,"received":22,"late":0,"lost":12,"played":15,"catchUp":7,"bufferMs":79.37829054493311,"jitterMs":15.502632435946483,"decoded":27,"opus":15,"features":0,"Concealed":12,"toneMatched":null,"latencySamples":15,"latencyEstimateMs":193.90833333333407,"latencyP95Ms":261.9999999999977,"latencyMaxMs":266.99999999999716}]}}
+CLIENT_FINAL round=1 players=4 snapshots=54 hash=E50E2CA2C657DE96
+SMOKE_OK client received authoritative match completion
+PHASE round=1 phase=Complete peers=4
+SMOKE_COMPLETION_ACKNOWLEDGED
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+B_PUPPET_ART accepted volume fur / fabric / cut response
+EXPERIMENT_VARIANT B
+NET_EVENT {"kind":"session_network","utc":"2026-10-02T22:35:06.1228559Z","monotonicSeconds":1.278,"mode":"join","epoch":0,"detail":{"protocol":25,"transport":"ENet","chunkPayload":900,"window":32}}
+NET_EVENT {"kind":"connection_state","utc":"2026-10-02T22:35:06.1504426Z","monotonicSeconds":1.305,"mode":"join","epoch":0,"detail":{"state":"Synchronizing","reason":"initial_join"}}
+SESSION_STARTED mode=join port=18232
+HAIRBALL_BOOT_OK Godot=4.7.2-stable (official)
+NET_EVENT {"kind":"reconnect_attempt","utc":"2026-10-02T22:35:07.1438140Z","monotonicSeconds":2.299,"mode":"join","epoch":0,"detail":{"attempt":2,"backoffStep":1,"error":"Ok"}}
+NET_EVENT {"kind":"reconnect_attempt","utc":"2026-10-02T22:35:08.1643490Z","monotonicSeconds":3.319,"mode":"join","epoch":0,"detail":{"attempt":3,"backoffStep":2,"error":"Ok"}}
+NET_EVENT {"kind":"voice_metrics","utc":"2026-10-02T22:35:09.8490677Z","monotonicSeconds":5.004,"mode":"join","epoch":0,"detail":{"sentPackets":0,"opusPackets":0,"featurePackets":0,"voiceSentBytes":0,"voiceRelayBytes":0,"voiceRelayPackets":0,"voiceReceiveBytes":0,"voiceRejected":0,"bitrate":24000,"mixRate":48000,"seconds":3.6849999999999996,"upstreamKbps":0,"streams":[]}}
+NET_EVENT {"kind":"reconnect_attempt","utc":"2026-10-02T22:35:10.1999328Z","monotonicSeconds":5.355,"mode":"join","epoch":0,"detail":{"attempt":4,"backoffStep":3,"error":"Ok"}}
+NET_EVENT {"kind":"peer_bound","utc":"2026-10-02T22:35:13.8026235Z","monotonicSeconds":8.957,"mode":"join","epoch":1,"detail":{"room":"e4276c150a514e5f837d1f677a63fef0","actor":2,"peer":2124857131,"epoch":1}}
+CLIENT_CONNECTED 2
+NET_EVENT {"kind":"voice_metrics","utc":"2026-10-02T22:35:14.8504069Z","monotonicSeconds":10.005,"mode":"join","epoch":1,"detail":{"sentPackets":0,"opusPackets":0,"featurePackets":0,"voiceSentBytes":0,"voiceRelayBytes":0,"voiceRelayPackets":0,"voiceReceiveBytes":0,"voiceRejected":0,"bitrate":24000,"mixRate":48000,"seconds":8.686,"upstreamKbps":0,"streams":[]}}
+NET_EVENT {"kind":"connection_state","utc":"2026-10-02T22:35:16.4099435Z","monotonicSeconds":11.565,"mode":"join","epoch":1,"detail":{"state":"Normal","reason":"snapshot_applied"}}
+NET_EVENT {"kind":"connection_state","utc":"2026-10-02T22:35:16.4964914Z","monotonicSeconds":11.651,"mode":"join","epoch":1,"detail":{"state":"Unstable","reason":"health_sample"}}
+NET_EVENT {"kind":"connection_state","utc":"2026-10-02T22:35:16.5959949Z","monotonicSeconds":11.751,"mode":"join","epoch":1,"detail":{"state":"Normal","reason":"health_sample"}}
+NET_EVENT {"kind":"connection_state","utc":"2026-10-02T22:35:18.0860986Z","monotonicSeconds":13.241,"mode":"join","epoch":1,"detail":{"state":"Unstable","reason":"health_sample"}}
+NET_EVENT {"kind":"recovery_begin","utc":"2026-10-02T22:35:19.1134068Z","monotonicSeconds":14.268,"mode":"join","epoch":1,"detail":{"reason":"no_progress","deadline":44.268}}
+NET_EVENT {"kind":"connection_state","utc":"2026-10-02T22:35:19.1191097Z","monotonicSeconds":14.274,"mode":"join","epoch":1,"detail":{"state":"Reconnecting","reason":"no_progress"}}
+NET_EVENT {"kind":"reconnect_attempt","utc":"2026-10-02T22:35:19.1269713Z","monotonicSeconds":14.282,"mode":"join","epoch":0,"detail":{"attempt":5,"backoffStep":1,"error":"Ok"}}
+NET_EVENT {"kind":"voice_metrics","utc":"2026-10-02T22:35:19.8513099Z","monotonicSeconds":15.006,"mode":"join","epoch":0,"detail":{"sentPackets":0,"opusPackets":0,"featurePackets":0,"voiceSentBytes":0,"voiceRelayBytes":0,"voiceRelayPackets":0,"voiceReceiveBytes":0,"voiceRejected":0,"bitrate":16000,"mixRate":48000,"seconds":13.687000000000001,"upstreamKbps":0,"streams":[]}}
+NET_EVENT {"kind":"reconnect_attempt","utc":"2026-10-02T22:35:20.2447788Z","monotonicSeconds":15.4,"mode":"join","epoch":0,"detail":{"attempt":6,"backoffStep":2,"error":"Ok"}}
+NET_EVENT {"kind":"peer_bound","utc":"2026-10-02T22:35:20.9969385Z","monotonicSeconds":16.152,"mode":"join","epoch":2,"detail":{"room":"e4276c150a514e5f837d1f677a63fef0","actor":2,"peer":1690922372,"epoch":2}}
+NET_EVENT {"kind":"connection_state","utc":"2026-10-02T22:35:21.0012399Z","monotonicSeconds":16.156,"mode":"join","epoch":2,"detail":{"state":"Synchronizing","reason":"welcome"}}
+CLIENT_CONNECTED 2
+NET_EVENT {"kind":"recovery_ready","utc":"2026-10-02T22:35:21.6475232Z","monotonicSeconds":16.802,"mode":"join","epoch":2,"detail":{"actor":2,"revision":37,"remaining":27.466}}
+NET_EVENT {"kind":"connection_state","utc":"2026-10-02T22:35:21.6562236Z","monotonicSeconds":16.811,"mode":"join","epoch":2,"detail":{"state":"Normal","reason":"snapshot_applied"}}
+NET_EVENT {"kind":"connection_state","utc":"2026-10-02T22:35:21.6983279Z","monotonicSeconds":16.853,"mode":"join","epoch":2,"detail":{"state":"Waiting","reason":"team_wait"}}
+NET_EVENT {"kind":"connection_state","utc":"2026-10-02T22:35:22.4572876Z","monotonicSeconds":17.612,"mode":"join","epoch":2,"detail":{"state":"Normal","reason":"team_continue"}}
+PHASE round=1 phase=Arrival peers=4
+PHASE round=1 phase=Choice peers=4
+NET_EVENT {"kind":"voice_metrics","utc":"2026-10-02T22:35:24.8586752Z","monotonicSeconds":20.013,"mode":"join","epoch":2,"detail":{"sentPackets":0,"opusPackets":0,"featurePackets":0,"voiceSentBytes":0,"voiceRelayBytes":0,"voiceRelayPackets":0,"voiceReceiveBytes":0,"voiceRejected":0,"bitrate":24000,"mixRate":48000,"seconds":18.694000000000003,"upstreamKbps":0,"streams":[]}}
+PHASE round=1 phase=Preview peers=4
+PHASE round=1 phase=Build peers=4
+NET_EVENT {"kind":"voice_metrics","utc":"2026-10-02T22:35:29.8587136Z","monotonicSeconds":25.014,"mode":"join","epoch":2,"detail":{"sentPackets":0,"opusPackets":0,"featurePackets":0,"voiceSentBytes":0,"voiceRelayBytes":0,"voiceRelayPackets":0,"voiceReceiveBytes":0,"voiceRejected":0,"bitrate":24000,"mixRate":48000,"seconds":23.695,"upstreamKbps":0,"streams":[]}}
+NET_EVENT {"kind":"voice_metrics","utc":"2026-10-02T22:35:34.8622420Z","monotonicSeconds":30.017,"mode":"join","epoch":2,"detail":{"sentPackets":0,"opusPackets":0,"featurePackets":0,"voiceSentBytes":0,"voiceRelayBytes":0,"voiceRelayPackets":0,"voiceReceiveBytes":936,"voiceRejected":0,"bitrate":24000,"mixRate":48000,"seconds":28.698,"upstreamKbps":0,"streams":[{"actor":1,"speakerSeconds":2.875,"mixedSeconds":2.8160267,"generatorSkips":990,"capacity":2047,"playbackDiscarded":4419,"receiveAgeMs":70.15384615384473,"queueMs":46.838541666666664,"received":13,"late":0,"lost":6,"played":8,"catchUp":5,"bufferMs":75.84250906003564,"jitterMs":12.674007248028518,"decoded":14,"opus":8,"features":0,"Concealed":6,"toneMatched":null,"latencySamples":8,"latencyEstimateMs":219.9635416666646,"latencyP95Ms":263.99999999999665,"latencyMaxMs":267.9999999999984}]}}
+NET_EVENT {"kind":"voice_metrics","utc":"2026-10-02T22:35:39.8743203Z","monotonicSeconds":35.029,"mode":"join","epoch":2,"detail":{"sentPackets":0,"opusPackets":0,"featurePackets":0,"voiceSentBytes":0,"voiceRelayBytes":0,"voiceRelayPackets":0,"voiceReceiveBytes":936,"voiceRejected":0,"bitrate":24000,"mixRate":48000,"seconds":33.71,"upstreamKbps":0,"streams":[{"actor":1,"speakerSeconds":7.886000000000003,"mixedSeconds":7.765107,"generatorSkips":2846,"capacity":2047,"playbackDiscarded":4419,"receiveAgeMs":70.15384615384473,"queueMs":46.838541666666664,"received":13,"late":0,"lost":6,"played":8,"catchUp":5,"bufferMs":75.84250906003564,"jitterMs":12.674007248028518,"decoded":14,"opus":8,"features":0,"Concealed":6,"toneMatched":null,"latencySamples":8,"latencyEstimateMs":219.9635416666646,"latencyP95Ms":263.99999999999665,"latencyMaxMs":267.9999999999984}]}}
+NET_EVENT {"kind":"voice_metrics","utc":"2026-10-02T22:35:44.8823619Z","monotonicSeconds":40.037,"mode":"join","epoch":2,"detail":{"sentPackets":0,"opusPackets":0,"featurePackets":0,"voiceSentBytes":0,"voiceRelayBytes":0,"voiceRelayPackets":0,"voiceReceiveBytes":936,"voiceRejected":0,"bitrate":24000,"mixRate":48000,"seconds":38.717999999999996,"upstreamKbps":0,"streams":[{"actor":1,"speakerSeconds":12.893999999999998,"mixedSeconds":12.628755,"generatorSkips":4670,"capacity":2047,"playbackDiscarded":4419,"receiveAgeMs":70.15384615384473,"queueMs":46.838541666666664,"received":13,"late":0,"lost":6,"played":8,"catchUp":5,"bufferMs":75.84250906003564,"jitterMs":12.674007248028518,"decoded":14,"opus":8,"features":0,"Concealed":6,"toneMatched":null,"latencySamples":8,"latencyEstimateMs":219.9635416666646,"latencyP95Ms":263.99999999999665,"latencyMaxMs":267.9999999999984}]}}
+NET_EVENT {"kind":"voice_metrics","utc":"2026-10-02T22:35:49.8862557Z","monotonicSeconds":45.041,"mode":"join","epoch":2,"detail":{"sentPackets":0,"opusPackets":0,"featurePackets":0,"voiceSentBytes":0,"voiceRelayBytes":0,"voiceRelayPackets":0,"voiceReceiveBytes":936,"voiceRejected":0,"bitrate":24000,"mixRate":48000,"seconds":43.721999999999994,"upstreamKbps":0,"streams":[{"actor":1,"speakerSeconds":17.897999999999996,"mixedSeconds":17.57773,"generatorSkips":6526,"capacity":2047,"playbackDiscarded":4419,"receiveAgeMs":70.15384615384473,"queueMs":46.838541666666664,"received":13,"late":0,"lost":6,"played":8,"catchUp":5,"bufferMs":75.84250906003564,"jitterMs":12.674007248028518,"decoded":14,"opus":8,"features":0,"Concealed":6,"toneMatched":null,"latencySamples":8,"latencyEstimateMs":219.9635416666646,"latencyP95Ms":263.99999999999665,"latencyMaxMs":267.9999999999984}]}}
+NET_EVENT {"kind":"voice_metrics","utc":"2026-10-02T22:35:54.8906215Z","monotonicSeconds":50.045,"mode":"join","epoch":2,"detail":{"sentPackets":0,"opusPackets":0,"featurePackets":0,"voiceSentBytes":0,"voiceRelayBytes":0,"voiceRelayPackets":0,"voiceReceiveBytes":1584,"voiceRejected":0,"bitrate":24000,"mixRate":48000,"seconds":48.726,"upstreamKbps":0,"streams":[{"actor":1,"speakerSeconds":22.902,"mixedSeconds":22.526705,"generatorSkips":8309,"capacity":2047,"playbackDiscarded":7045,"receiveAgeMs":52.86363636363703,"queueMs":32.980555555555554,"received":22,"late":0,"lost":12,"played":15,"catchUp":7,"bufferMs":75.91695349693097,"jitterMs":12.733562797544787,"decoded":27,"opus":15,"features":0,"Concealed":12,"toneMatched":null,"latencySamples":15,"latencyEstimateMs":182.71388888888993,"latencyP95Ms":263.99999999999665,"latencyMaxMs":267.9999999999984}]}}
+REPLAY_RECEIVED frames=35 bytes=37172 phase=Build
+PHASE round=1 phase=Highlight peers=4
+NET_EVENT {"kind":"voice_metrics","utc":"2026-10-02T22:35:59.8948597Z","monotonicSeconds":55.05,"mode":"join","epoch":2,"detail":{"sentPackets":0,"opusPackets":0,"featurePackets":0,"voiceSentBytes":0,"voiceRelayBytes":0,"voiceRelayPackets":0,"voiceReceiveBytes":1584,"voiceRejected":0,"bitrate":24000,"mixRate":48000,"seconds":53.730999999999995,"upstreamKbps":0,"streams":[{"actor":1,"speakerSeconds":27.906999999999996,"mixedSeconds":27.47568,"generatorSkips":10165,"capacity":2047,"playbackDiscarded":7045,"receiveAgeMs":52.86363636363703,"queueMs":32.980555555555554,"received":22,"late":0,"lost":12,"played":15,"catchUp":7,"bufferMs":75.91695349693097,"jitterMs":12.733562797544787,"decoded":27,"opus":15,"features":0,"Concealed":12,"toneMatched":null,"latencySamples":15,"latencyEstimateMs":182.71388888888993,"latencyP95Ms":263.99999999999665,"latencyMaxMs":267.9999999999984}]}}
+CLIENT_FINAL round=1 players=4 snapshots=64 hash=E50E2CA2C657DE96
+SMOKE_OK client received authoritative match completion
+PHASE round=1 phase=Complete peers=4
+SMOKE_COMPLETION_ACKNOWLEDGED
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+B_PUPPET_ART accepted volume fur / fabric / cut response
+EXPERIMENT_VARIANT B
+NET_EVENT {"kind":"session_network","utc":"2026-10-02T22:35:06.1284883Z","monotonicSeconds":1.298,"mode":"join","epoch":0,"detail":{"protocol":25,"transport":"ENet","chunkPayload":900,"window":32}}
+NET_EVENT {"kind":"connection_state","utc":"2026-10-02T22:35:06.1612942Z","monotonicSeconds":1.331,"mode":"join","epoch":0,"detail":{"state":"Synchronizing","reason":"initial_join"}}
+SESSION_STARTED mode=join port=18232
+HAIRBALL_BOOT_OK Godot=4.7.2-stable (official)
+NET_EVENT {"kind":"reconnect_attempt","utc":"2026-10-02T22:35:07.1435933Z","monotonicSeconds":2.313,"mode":"join","epoch":0,"detail":{"attempt":2,"backoffStep":1,"error":"Ok"}}
+NET_EVENT {"kind":"reconnect_attempt","utc":"2026-10-02T22:35:08.2949314Z","monotonicSeconds":3.464,"mode":"join","epoch":0,"detail":{"attempt":3,"backoffStep":2,"error":"Ok"}}
+NET_EVENT {"kind":"voice_metrics","utc":"2026-10-02T22:35:09.8343042Z","monotonicSeconds":5.004,"mode":"join","epoch":0,"detail":{"sentPackets":0,"opusPackets":0,"featurePackets":0,"voiceSentBytes":0,"voiceRelayBytes":0,"voiceRelayPackets":0,"voiceReceiveBytes":0,"voiceRejected":0,"bitrate":24000,"mixRate":48000,"seconds":3.6629999999999994,"upstreamKbps":0,"streams":[]}}
+NET_EVENT {"kind":"reconnect_attempt","utc":"2026-10-02T22:35:10.4270297Z","monotonicSeconds":5.596,"mode":"join","epoch":0,"detail":{"attempt":4,"backoffStep":3,"error":"Ok"}}
+NET_EVENT {"kind":"reconnect_attempt","utc":"2026-10-02T22:35:14.5808187Z","monotonicSeconds":9.75,"mode":"join","epoch":0,"detail":{"attempt":5,"backoffStep":4,"error":"Ok"}}
+NET_EVENT {"kind":"voice_metrics","utc":"2026-10-02T22:35:14.8360077Z","monotonicSeconds":10.005,"mode":"join","epoch":0,"detail":{"sentPackets":0,"opusPackets":0,"featurePackets":0,"voiceSentBytes":0,"voiceRelayBytes":0,"voiceRelayPackets":0,"voiceReceiveBytes":0,"voiceRejected":0,"bitrate":24000,"mixRate":48000,"seconds":8.664000000000001,"upstreamKbps":0,"streams":[]}}
+NET_EVENT {"kind":"peer_bound","utc":"2026-10-02T22:35:14.8786634Z","monotonicSeconds":10.048,"mode":"join","epoch":1,"detail":{"room":"e4276c150a514e5f837d1f677a63fef0","actor":3,"peer":95162338,"epoch":1}}
+CLIENT_CONNECTED 3
+NET_EVENT {"kind":"connection_state","utc":"2026-10-02T22:35:18.9349353Z","monotonicSeconds":14.104,"mode":"join","epoch":1,"detail":{"state":"Reconnecting","reason":"no_progress"}}
+NET_EVENT {"kind":"reconnect_attempt","utc":"2026-10-02T22:35:18.9485359Z","monotonicSeconds":14.118,"mode":"join","epoch":0,"detail":{"attempt":6,"backoffStep":1,"error":"Ok"}}
+NET_EVENT {"kind":"voice_metrics","utc":"2026-10-02T22:35:19.8384783Z","monotonicSeconds":15.008,"mode":"join","epoch":0,"detail":{"sentPackets":0,"opusPackets":0,"featurePackets":0,"voiceSentBytes":0,"voiceRelayBytes":0,"voiceRelayPackets":0,"voiceReceiveBytes":0,"voiceRejected":0,"bitrate":24000,"mixRate":48000,"seconds":13.667,"upstreamKbps":0,"streams":[]}}
+NET_EVENT {"kind":"reconnect_attempt","utc":"2026-10-02T22:35:20.0663847Z","monotonicSeconds":15.236,"mode":"join","epoch":0,"detail":{"attempt":7,"backoffStep":2,"error":"Ok"}}
+NET_EVENT {"kind":"peer_bound","utc":"2026-10-02T22:35:21.0117334Z","monotonicSeconds":16.181,"mode":"join","epoch":2,"detail":{"room":"e4276c150a514e5f837d1f677a63fef0","actor":3,"peer":1409571362,"epoch":2}}
+NET_EVENT {"kind":"connection_state","utc":"2026-10-02T22:35:21.0151325Z","monotonicSeconds":16.185,"mode":"join","epoch":2,"detail":{"state":"Synchronizing","reason":"welcome"}}
+CLIENT_CONNECTED 3
+NET_EVENT {"kind":"connection_state","utc":"2026-10-02T22:35:22.1845206Z","monotonicSeconds":17.354,"mode":"join","epoch":2,"detail":{"state":"Normal","reason":"snapshot_applied"}}
+NET_EVENT {"kind":"connection_state","utc":"2026-10-02T22:35:22.2604864Z","monotonicSeconds":17.43,"mode":"join","epoch":2,"detail":{"state":"Waiting","reason":"team_wait"}}
+NET_EVENT {"kind":"connection_state","utc":"2026-10-02T22:35:22.4598814Z","monotonicSeconds":17.629,"mode":"join","epoch":2,"detail":{"state":"Normal","reason":"team_continue"}}
+PHASE round=1 phase=Arrival peers=4
+PHASE round=1 phase=Choice peers=4
+NET_EVENT {"kind":"voice_metrics","utc":"2026-10-02T22:35:24.8418811Z","monotonicSeconds":20.011,"mode":"join","epoch":2,"detail":{"sentPackets":0,"opusPackets":0,"featurePackets":0,"voiceSentBytes":0,"voiceRelayBytes":0,"voiceRelayPackets":0,"voiceReceiveBytes":0,"voiceRejected":0,"bitrate":24000,"mixRate":48000,"seconds":18.669999999999998,"upstreamKbps":0,"streams":[]}}
+PHASE round=1 phase=Preview peers=4
+PHASE round=1 phase=Build peers=4
+NET_EVENT {"kind":"voice_metrics","utc":"2026-10-02T22:35:29.8433707Z","monotonicSeconds":25.013,"mode":"join","epoch":2,"detail":{"sentPackets":0,"opusPackets":0,"featurePackets":0,"voiceSentBytes":0,"voiceRelayBytes":0,"voiceRelayPackets":0,"voiceReceiveBytes":0,"voiceRejected":0,"bitrate":24000,"mixRate":48000,"seconds":23.672,"upstreamKbps":0,"streams":[]}}
+NET_EVENT {"kind":"voice_metrics","utc":"2026-10-02T22:35:34.8529633Z","monotonicSeconds":30.022,"mode":"join","epoch":2,"detail":{"sentPackets":0,"opusPackets":0,"featurePackets":0,"voiceSentBytes":0,"voiceRelayBytes":0,"voiceRelayPackets":0,"voiceReceiveBytes":936,"voiceRejected":0,"bitrate":24000,"mixRate":48000,"seconds":28.680999999999997,"upstreamKbps":0,"streams":[{"actor":1,"speakerSeconds":2.8689999999999998,"mixedSeconds":2.8160267,"generatorSkips":982,"capacity":2047,"playbackDiscarded":3459,"receiveAgeMs":72.88461538461469,"queueMs":46.838541666666664,"received":13,"late":0,"lost":6,"played":8,"catchUp":5,"bufferMs":76.30767322672236,"jitterMs":13.046138581377882,"decoded":14,"opus":8,"features":0,"Concealed":6,"toneMatched":null,"latencySamples":8,"latencyEstimateMs":229.7135416666659,"latencyP95Ms":264.49999999999903,"latencyMaxMs":268.5000000000008}]}}
+NET_EVENT {"kind":"voice_metrics","utc":"2026-10-02T22:35:39.8629995Z","monotonicSeconds":35.032,"mode":"join","epoch":2,"detail":{"sentPackets":0,"opusPackets":0,"featurePackets":0,"voiceSentBytes":0,"voiceRelayBytes":0,"voiceRelayPackets":0,"voiceReceiveBytes":936,"voiceRejected":0,"bitrate":24000,"mixRate":48000,"seconds":33.690999999999995,"upstreamKbps":0,"streams":[{"actor":1,"speakerSeconds":7.876999999999995,"mixedSeconds":7.765107,"generatorSkips":2838,"capacity":2047,"playbackDiscarded":3459,"receiveAgeMs":72.88461538461469,"queueMs":46.838541666666664,"received":13,"late":0,"lost":6,"played":8,"catchUp":5,"bufferMs":76.30767322672236,"jitterMs":13.046138581377882,"decoded":14,"opus":8,"features":0,"Concealed":6,"toneMatched":null,"latencySamples":8,"latencyEstimateMs":229.7135416666659,"latencyP95Ms":264.49999999999903,"latencyMaxMs":268.5000000000008}]}}
+NET_EVENT {"kind":"voice_metrics","utc":"2026-10-02T22:35:44.8641998Z","monotonicSeconds":40.034,"mode":"join","epoch":2,"detail":{"sentPackets":0,"opusPackets":0,"featurePackets":0,"voiceSentBytes":0,"voiceRelayBytes":0,"voiceRelayPackets":0,"voiceReceiveBytes":936,"voiceRejected":0,"bitrate":24000,"mixRate":48000,"seconds":38.693,"upstreamKbps":0,"streams":[{"actor":1,"speakerSeconds":12.878999999999998,"mixedSeconds":12.714082,"generatorSkips":4694,"capacity":2047,"playbackDiscarded":3459,"receiveAgeMs":72.88461538461469,"queueMs":46.838541666666664,"received":13,"late":0,"lost":6,"played":8,"catchUp":5,"bufferMs":76.30767322672236,"jitterMs":13.046138581377882,"decoded":14,"opus":8,"features":0,"Concealed":6,"toneMatched":null,"latencySamples":8,"latencyEstimateMs":229.7135416666659,"latencyP95Ms":264.49999999999903,"latencyMaxMs":268.5000000000008}]}}
+NET_EVENT {"kind":"voice_metrics","utc":"2026-10-02T22:35:49.8673295Z","monotonicSeconds":45.037,"mode":"join","epoch":2,"detail":{"sentPackets":0,"opusPackets":0,"featurePackets":0,"voiceSentBytes":0,"voiceRelayBytes":0,"voiceRelayPackets":0,"voiceReceiveBytes":936,"voiceRejected":0,"bitrate":24000,"mixRate":48000,"seconds":43.696,"upstreamKbps":0,"streams":[{"actor":1,"speakerSeconds":17.881999999999998,"mixedSeconds":17.663057,"generatorSkips":6550,"capacity":2047,"playbackDiscarded":3459,"receiveAgeMs":72.88461538461469,"queueMs":46.838541666666664,"received":13,"late":0,"lost":6,"played":8,"catchUp":5,"bufferMs":76.30767322672236,"jitterMs":13.046138581377882,"decoded":14,"opus":8,"features":0,"Concealed":6,"toneMatched":null,"latencySamples":8,"latencyEstimateMs":229.7135416666659,"latencyP95Ms":264.49999999999903,"latencyMaxMs":268.5000000000008}]}}
+NET_EVENT {"kind":"voice_metrics","utc":"2026-10-02T22:35:54.8747993Z","monotonicSeconds":50.044,"mode":"join","epoch":2,"detail":{"sentPackets":0,"opusPackets":0,"featurePackets":0,"voiceSentBytes":0,"voiceRelayBytes":0,"voiceRelayPackets":0,"voiceReceiveBytes":1584,"voiceRejected":0,"bitrate":24000,"mixRate":48000,"seconds":48.702999999999996,"upstreamKbps":0,"streams":[{"actor":1,"speakerSeconds":22.888999999999996,"mixedSeconds":22.69736,"generatorSkips":8371,"capacity":2047,"playbackDiscarded":5958,"receiveAgeMs":55.40909090909097,"queueMs":34.958333333333336,"received":22,"late":0,"lost":12,"played":14,"catchUp":8,"bufferMs":76.23744553144152,"jitterMs":12.989956425153215,"decoded":26,"opus":14,"features":0,"Concealed":12,"toneMatched":null,"latencySamples":14,"latencyEstimateMs":194.38690476190388,"latencyP95Ms":264.49999999999903,"latencyMaxMs":268.5000000000008}]}}
+REPLAY_RECEIVED frames=35 bytes=37172 phase=Build
+PHASE round=1 phase=Highlight peers=4
+NET_EVENT {"kind":"voice_metrics","utc":"2026-10-02T22:35:59.8858465Z","monotonicSeconds":55.055,"mode":"join","epoch":2,"detail":{"sentPackets":0,"opusPackets":0,"featurePackets":0,"voiceSentBytes":0,"voiceRelayBytes":0,"voiceRelayPackets":0,"voiceReceiveBytes":1584,"voiceRejected":0,"bitrate":24000,"mixRate":48000,"seconds":53.714,"upstreamKbps":0,"streams":[{"actor":1,"speakerSeconds":27.9,"mixedSeconds":27.646334,"generatorSkips":10227,"capacity":2047,"playbackDiscarded":5958,"receiveAgeMs":55.40909090909097,"queueMs":34.958333333333336,"received":22,"late":0,"lost":12,"played":14,"catchUp":8,"bufferMs":76.23744553144152,"jitterMs":12.989956425153215,"decoded":26,"opus":14,"features":0,"Concealed":12,"toneMatched":null,"latencySamples":14,"latencyEstimateMs":194.38690476190388,"latencyP95Ms":264.49999999999903,"latencyMaxMs":268.5000000000008}]}}
+CLIENT_FINAL round=1 players=4 snapshots=54 hash=E50E2CA2C657DE96
+SMOKE_OK client received authoritative match completion
+PHASE round=1 phase=Complete peers=4
+SMOKE_COMPLETION_ACKNOWLEDGED
+SMOKE_SUITE_OK players=4 fullDuration=False partyTrials=False
+SMOKE_WALL_SECONDS 60.565 packaged=False
+B_MAINLINE_FINAL_CHECKS_OK

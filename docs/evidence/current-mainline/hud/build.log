@@ -1,0 +1,11 @@
+D:\Project\Game\Godot\project_hairball\src\Presentation\GesturePropsView.cs(11,395): warning CS8602: Dereference of a possibly null reference. [D:\Project\Game\Godot\project_hairball\ProjectHairball.csproj]
+D:\Project\Game\Godot\project_hairball\src\Presentation\PartyMoldView.cs(38,208): warning CS8602: Dereference of a possibly null reference. [D:\Project\Game\Godot\project_hairball\ProjectHairball.csproj]
+
+Build succeeded.
+
+D:\Project\Game\Godot\project_hairball\src\Presentation\GesturePropsView.cs(11,395): warning CS8602: Dereference of a possibly null reference. [D:\Project\Game\Godot\project_hairball\ProjectHairball.csproj]
+D:\Project\Game\Godot\project_hairball\src\Presentation\PartyMoldView.cs(38,208): warning CS8602: Dereference of a possibly null reference. [D:\Project\Game\Godot\project_hairball\ProjectHairball.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:04.69

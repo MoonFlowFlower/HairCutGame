@@ -1,0 +1,14 @@
+Snow Rig (CC) Blender Foundation | https://studio.blender.org/characters/snow/v4/
+CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/
+Modified for Hairball: proportions, poses, simplified materials, texture resolution,
+hair removal and first-person arm extraction. No endorsement implied.
+
+Alpaca and selected Ultimate House Interior props by Quaternius (CC0 1.0).
+https://quaternius.com/packs/ultimateanimatedanimals.html
+https://quaternius.com/packs/ultimatehomeinterior.html
+
+Barber Shop Chair 01 by Fernando Quinn / Poly Haven (CC0 1.0).
+https://polyhaven.com/a/BarberShopChair_01
+Adapted palette and material finish.
+
+Source and original license records: docs/THIRD_PARTY_ASSETS.md and third_party/licenses/.

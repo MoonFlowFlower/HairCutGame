@@ -1,0 +1,14 @@
+.godot/
+bin/
+obj/
+artifacts/
+*.user
+*.tmp
+.vs/
+**/__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db

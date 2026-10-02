@@ -1,0 +1,1034 @@
+[
+  {
+    "path": "scenes\\TestHairLab.tscn",
+    "sha256": "E405A96EB1695F47FF30F629EB4DBA847FF9B7DF6E3970E6FA14455FEBC333D5"
+  },
+  {
+    "path": "scenes\\PuppetLab.tscn",
+    "sha256": "8E3BC5F12DEBA8E5ACB4999383A0BC6AE19AF00FCE6399D1F06C7AE910661ABA"
+  },
+  {
+    "path": "scenes\\MultiplayerSmoke.tscn",
+    "sha256": "E405A96EB1695F47FF30F629EB4DBA847FF9B7DF6E3970E6FA14455FEBC333D5"
+  },
+  {
+    "path": "scenes\\Main.tscn",
+    "sha256": "E405A96EB1695F47FF30F629EB4DBA847FF9B7DF6E3970E6FA14455FEBC333D5"
+  },
+  {
+    "path": "shaders\\puppet_fiber.gdshader",
+    "sha256": "CA26D5E642FEA648861A97CA4B0C984A4E7D408F3571727FAF5BB9F3C9CFC698"
+  },
+  {
+    "path": "shaders\\puppet_clippings.gdshader",
+    "sha256": "66A493FF31B756B644B20BCD85960EA92B2D2D0B2B571B33C936B675EA1B1507"
+  },
+  {
+    "path": "shaders\\hair_lookdev.gdshader",
+    "sha256": "F4512C2004DB06B849FD055CDBF62A7AF8CFA40AD2A21C26E9B773E6D20EFEC7"
+  },
+  {
+    "path": "shaders\\debris_flocked.gdshader",
+    "sha256": "BD2A113BEC06A5228C00475EC96FFD4703DE37053EB716A1F6B3C0A4082BCEEF"
+  },
+  {
+    "path": "shaders\\puppet_hair.gdshader",
+    "sha256": "665F864FC20F717B9AD51D3A0246DA3FFCD251702656CD33BA68C135D5A48E3B"
+  },
+  {
+    "path": "shaders\\puppet_flame.gdshader",
+    "sha256": "3C4B450AFFDD6E04DFA661455AF9A9DD2F6154ACB890AD7992DC338B879539D5"
+  },
+  {
+    "path": "shaders\\puppet_fiber_scatter.gdshader",
+    "sha256": "467CE2C35BFDDC533BE454567324F4DF043E83B57D994E14F0A5B0A4642573DF"
+  },
+  {
+    "path": "shaders\\puppet_hair_shared.gdshaderinc",
+    "sha256": "DFE3C04CA1D87BA95932DAD2F0AA4191C3D98181642C48318D9779D4047622B4"
+  },
+  {
+    "path": "shaders\\puppet_microfleece.gdshader",
+    "sha256": "3F5766363C2AD527C620F13DEFF0A1AC125940E76FF81C68A260163B41926B5F"
+  },
+  {
+    "path": "shaders\\puppet_mask_occluder.gdshader",
+    "sha256": "D645EEBE7ECC571DDE674EF109CA88421683012270F0B2B679F87F37C102E738"
+  },
+  {
+    "path": "shaders\\puppet_set_material.gdshader",
+    "sha256": "B68AF0A48D699A0841209DD38E241F2F5F8C146ACE555C02B256AF0A607DE934"
+  },
+  {
+    "path": "shaders\\puppet_window.gdshader",
+    "sha256": "BB40D46752BFD43AE17857B2FB60F524E763C46254F7B397B3EC22BC5E6EC79C"
+  },
+  {
+    "path": "shaders\\puppet_volume_fur_soft.gdshader",
+    "sha256": "65E8421A9E415CDB81F79A5B229FA29D274D6470BA5E2B9F84F748B8E54CF9E1"
+  },
+  {
+    "path": "shaders\\puppet_volume_fur_shared.gdshaderinc",
+    "sha256": "46DDBDC91DE01D5B77CD59731D905154E0C2076138B2DB5DFCCF13B82BC91FC2"
+  },
+  {
+    "path": "shaders\\puppet_volume_fur.gdshader",
+    "sha256": "0B5326AAC57AE0FDD5C8EA37880524F34E7D804AB961AF614E071D143F82C20A"
+  },
+  {
+    "path": "shaders\\puppet_smoke.gdshader",
+    "sha256": "A19DC4EE005BBF3391500DB8633FCCD78A5DC49FDD5127FDE241FFDA2A7563A6"
+  },
+  {
+    "path": "shaders\\puppet_shell_fur.gdshader",
+    "sha256": "A7A8E2370013479DE71FD79E42FE56DF127A46D140ADEBFF4F68FE5000C49530"
+  },
+  {
+    "path": "assets/b2_puppet_textures\\wool_boucle_nor_gl_1k.jpg",
+    "sha256": "2CC13A2BE4D0BB942A59A86D613665C0D24FF201560DAA4D841CEE597AF0C752"
+  },
+  {
+    "path": "assets/b2_puppet_textures\\wool_boucle_disp_1k.jpg",
+    "sha256": "D3C4A5DC4869CB63A57A38839879C992666531D32D2B3A5676A2B13F292C0239"
+  },
+  {
+    "path": "assets/b2_puppet_textures\\source-metadata.json",
+    "sha256": "5A1EEA3C9FB7FD729887E468603919AAB746E195278ADCAE10FBA810B709C578"
+  },
+  {
+    "path": "assets/b2_puppet_textures\\LICENSE.md",
+    "sha256": "B98540AE3083E1363C96FB7018DE4E88B24D6F1A319D069C907D3D318E2CD283"
+  },
+  {
+    "path": "assets/b2_puppet_textures\\downloads.json",
+    "sha256": "8CDC9E3C235AE2E3BA1783021BEBFB52051417BA51F6F12758D990E12BC259B4"
+  },
+  {
+    "path": "assets/b2_puppet_textures\\caban_nor_gl_1k.jpg",
+    "sha256": "27CD0F98D833648C43D2C85DB2E23A151B1EC2B74FEAF56964A16B6C0C892F84"
+  },
+  {
+    "path": "assets/b2_puppet_textures\\caban_disp_1k.jpg",
+    "sha256": "09B91BC4B62DBDAAC8AF871BF9D272F52314F6A697E7F9D2A72997E96368A681"
+  },
+  {
+    "path": "assets/b_mainline_fur\\v1_roots.res",
+    "sha256": "48B1479711D77B530F9406C4B03F9A00CD125F03748C07FA11198D9301363B2C"
+  },
+  {
+    "path": "assets/b_mainline_fur\\v1_field.res",
+    "sha256": "D57CFF0C2AC4C9EAADE2FA3681A946986DA79ABA562117B202B13594C71AFE27"
+  },
+  {
+    "path": "assets/b_mainline_fur\\v1_14BCD22215DE0AD3AD05D72E8F373A3717C2AACC2CF5874849B64F9AD32E3695.res",
+    "sha256": "FD02181E7B7C16E5BF638FAE18A1879F40410631EC96157613A642E0BCAC7894"
+  },
+  {
+    "path": "assets/b_mainline_fur\\v1_1D5095CE2C8F5D4E27F088B4952EB54F6239B03162720B094706B2458E8B071B.res",
+    "sha256": "E53F66DFC15568B312782C9C7D11BF48675580607246EAEE953B2E587B7A1B2B"
+  },
+  {
+    "path": "scripts\\b_playtest_review.ps1",
+    "sha256": "D3F85C526BFFF6EF79EA22ED3A45C36D7A481660A8C5ADF49B3D01BFCEA958AF"
+  },
+  {
+    "path": "scripts\\build.ps1",
+    "sha256": "EC92C9A5F8BBA08D4A3C21ACFB0A7738D9F31EF458524DAFBA2A4B4F34171F0A"
+  },
+  {
+    "path": "scripts\\access_check.ps1",
+    "sha256": "68FAF32DBDC2433042E3059900E81DE7F8690FEA0E1C96EB21899DAF994FA360"
+  },
+  {
+    "path": "scripts\\compare_puppet.py",
+    "sha256": "C94C53DD815158BC998A87BA6AC51F05F1BFC3143AF6EFAD586482D9C650971A"
+  },
+  {
+    "path": "scripts\\compare_puppet_hair.py",
+    "sha256": "9BAC52AC1492EC017705C13B1C3E523EE9DFEA334AEE814E19231EE2878FFAC5"
+  },
+  {
+    "path": "scripts\\compare_visual_target.py",
+    "sha256": "ADD8869AF9C19B71ACA5B1BF4CFCDE186E91642C09172754275FDE76DB02A64F"
+  },
+  {
+    "path": "scripts\\__pycache__\\party_metrics.cpython-313.pyc",
+    "sha256": "FB171F774D8A5D75F0440AF1DDEEA6A38730D98532852D3009C11BF0B644B754"
+  },
+  {
+    "path": "scripts\\__pycache__\\measure_puppet_shells.cpython-313.pyc",
+    "sha256": "3B53A6B4C9F2199FD1E70FC1CAAB4F45C927311B0B5CBCC6CB4F6C801177D8A4"
+  },
+  {
+    "path": "scripts\\watch_recovery_resources.ps1",
+    "sha256": "382D7F0B00E890E4F4CCB99210EC642EFC3C4949E9262DE1A50861A2E0E4B827"
+  },
+  {
+    "path": "scripts\\walkthrough.ps1",
+    "sha256": "519824D7109043377A6BA3FF0F402EA2B1EBD7CD98855BE64859FC3C17BA5AAB"
+  },
+  {
+    "path": "scripts\\visual_target_lab.ps1",
+    "sha256": "AD41D4AE6B1EDE3E31B0DD1A79F7928F4A19FC50E4A2844437BBC02A886B2137"
+  },
+  {
+    "path": "scripts\\visual_target_check.gd",
+    "sha256": "522985CAE70AE44DFA2C0CC02E1A3B549C5227D5F6EEB6349865FBDCB6FE95FA"
+  },
+  {
+    "path": "scripts\\visual_lookdev.ps1",
+    "sha256": "4DF6DC923671DADB32BDB4BBA88E491DD1DC58645FB0AAFD2F9551DCDE95D8EA"
+  },
+  {
+    "path": "scripts\\verify_v06.ps1",
+    "sha256": "377EC1E11B763CE765E8C5202DC1E0A327C1FBB1AFE14CFDC1E85135E393C337"
+  },
+  {
+    "path": "scripts\\verify_v05.ps1",
+    "sha256": "FDA6B40B7B560A41AC94FB734DF81F928B4CFABEA5BD5D195FC75D593234E981"
+  },
+  {
+    "path": "scripts\\verify_v04.ps1",
+    "sha256": "CD356C0AEC028C86BFBDA05DBC5796CCA86C834F56B687304EE39AFDBBED2A77"
+  },
+  {
+    "path": "scripts\\verify_b_package.ps1",
+    "sha256": "1BDD1434F1C135772D380B513DE5B0E396637F60C66C2185ECF721D7EA4EF7A1"
+  },
+  {
+    "path": "scripts\\verify_b_art.ps1",
+    "sha256": "1D85AAB772903E8D1E324B3C1EEA9E33B62E1DEA4B89BC852FF84E4FC2BA8AA6"
+  },
+  {
+    "path": "scripts\\verify_b.ps1",
+    "sha256": "1D75413553CB821A73970256E1DD294D67FBA52C1055280868439B392CF9C0CF"
+  },
+  {
+    "path": "scripts\\v06_solo_calibration.ps1",
+    "sha256": "22F876BA8073E914C09039AA2EF3CCC037691D884B2462226FF092D1DA1705FF"
+  },
+  {
+    "path": "scripts\\v06_review.ps1",
+    "sha256": "80FB630390092BEA49E3B3B76EBF1552548F42DCF65BA72BB3DD6F7553695030"
+  },
+  {
+    "path": "scripts\\v06_check.ps1",
+    "sha256": "8AF3252CD5A78A4815B63316BE3750BB4A5E5F40A30CB95D0F414C0D370AB56A"
+  },
+  {
+    "path": "scripts\\test.ps1",
+    "sha256": "FEB01E8CC7D2060242B06D03AA30F66831D96DC076E4297955A8A628DF7AC47F"
+  },
+  {
+    "path": "scripts\\summarize_sculpt_stress.ps1",
+    "sha256": "9DB2842F021CA29736A69E62000F36918C71F0A3B9A4C8EE6E38AAD6F42358FC"
+  },
+  {
+    "path": "scripts\\smoke.ps1",
+    "sha256": "852CD953649C8223348512602AC6118DB90A33E7C96D8CD63A3915CB4B532573"
+  },
+  {
+    "path": "scripts\\shared_review.ps1",
+    "sha256": "9BCF772F812F97621DB36F697591EAB32047A6AC3FF9BA771BE041FE30BE86C8"
+  },
+  {
+    "path": "scripts\\shared_check.ps1",
+    "sha256": "E2307B281D15179A6D097C34713AAACACB6CD58F548D6F84F2514624C7CBF0D7"
+  },
+  {
+    "path": "scripts\\sculpt_stress.ps1",
+    "sha256": "B07C4712CE34A773D864162A85080DF93A7A989ED009BBA66408E56854F40E60"
+  },
+  {
+    "path": "scripts\\sculpt_review.ps1",
+    "sha256": "5A29C39A8B37761F08DE57E20DBE3722B053C7BAF3AEAEAEBDA4635B47577C1A"
+  },
+  {
+    "path": "scripts\\sculpt_check.ps1",
+    "sha256": "DD7CA297EC63DE1C4AAF5D98322E90BFBFE037113B704194D39BB2525F0C39C1"
+  },
+  {
+    "path": "scripts\\run_visual_b.ps1",
+    "sha256": "B80132A5EB8C30049244C37AD2BE5F60D03E700E926BDE2A2272F33DD39B3BF8"
+  },
+  {
+    "path": "scripts\\run_solo.ps1",
+    "sha256": "EC954CF823921E69E239D878A7022161CE4D6BF952A7352896369669F8D90605"
+  },
+  {
+    "path": "scripts\\run_host.ps1",
+    "sha256": "8A9C480C89FBDBC5FDB575BB49664CD0B33619B355A807E318785117796A9797"
+  },
+  {
+    "path": "scripts\\run_client.ps1",
+    "sha256": "620FA143EEA3C8F5BD2212E04CF03539C25039736D9F5C9875E59F65FDBD97EF"
+  },
+  {
+    "path": "scripts\\run_b.ps1",
+    "sha256": "82C7D6421309B47E2A53D320C9715AF1478AEBB901E6F2F5A841D9422CE253F8"
+  },
+  {
+    "path": "scripts\\run_ab.ps1",
+    "sha256": "6FC6E5BE490AB7F96FDFF538694507FBC5CCDC6CB4CC6DCD50A7061DFD39CFB7"
+  },
+  {
+    "path": "scripts\\run_4p_local.ps1",
+    "sha256": "C4A3521590EC11DC6CF4F5571390B0718A6D1719676E9D6C7967EF819F9686A4"
+  },
+  {
+    "path": "scripts\\repackage_b_docs.ps1",
+    "sha256": "0514133B9D752D576F52D0FD84B1B95B6E4A250A14C4DB34DF7642444D9EDE25"
+  },
+  {
+    "path": "scripts\\reference_review.ps1",
+    "sha256": "2D42BAE578739CCCEE4D8A9621600744B851A9C23A313DF39FA315511A876D68"
+  },
+  {
+    "path": "scripts\\recovery_scenario.py",
+    "sha256": "7716842C517928C3A76686FF17FF007A17FAA3C21C5B1EC0F904DE6B4431801B"
+  },
+  {
+    "path": "scripts\\recovery_report.py",
+    "sha256": "7AF99116B4ED8F3A14222735AB5D5E3C6393215BF06F8D323EA9A63B1865BE92"
+  },
+  {
+    "path": "scripts\\recovery_matrix.py",
+    "sha256": "27A28895F444E5A085D11523679F89851366E89DF084F7110898BBD461A299F3"
+  },
+  {
+    "path": "scripts\\puppet_volume_fur.ps1",
+    "sha256": "683756F0F3EB769BE64648711C73E3501822D9D244CD4B5209EF6550B908E621"
+  },
+  {
+    "path": "scripts\\puppet_shell_r7.ps1",
+    "sha256": "F176D53EF7C628A528533E62861A1F4AD02F4C8D899D6349C5380B0DF1C4A5D0"
+  },
+  {
+    "path": "scripts\\puppet_lab.ps1",
+    "sha256": "92798AFEFFF6A7ADDB0AF2AD6E22947BCCBE79B16AFC6F3A5EFC20EAB5876AFA"
+  },
+  {
+    "path": "scripts\\puppet_hair_optimization.ps1",
+    "sha256": "42F7F4A82419D37CF5F99B2A7D8A0A71B28DA7C4F6C39D73075EF84DC39A3EAD"
+  },
+  {
+    "path": "scripts\\puppet_hair_benchmark.ps1",
+    "sha256": "9B0AEA51C6C9504A96307E42CAC1B2F26678FB8945FF5C44C890A13CD485D347"
+  },
+  {
+    "path": "scripts\\prepare_target_assets.py",
+    "sha256": "2A69C63B00AAC68C6F6D05A458F3C69A3CE7AF2D5C2B98B6B49809EF271D6F43"
+  },
+  {
+    "path": "scripts\\party_metrics.py",
+    "sha256": "CBDD73179FDB2CE4BC0155CE9951C734B4588D57504C4376D3867FBDC29AEE2D"
+  },
+  {
+    "path": "scripts\\party_capacity.ps1",
+    "sha256": "836F812AB253CCBEE3FC6012C8F9AC09820828501030DAFAF9CB2BB552CFDD05"
+  },
+  {
+    "path": "scripts\\package_b.ps1",
+    "sha256": "AB1F0F8E5A81249A9FFBD0267FACB77435BAC9CC033774247DD152EEC5BEF212"
+  },
+  {
+    "path": "scripts\\net_scenario.ps1",
+    "sha256": "D9629314EABBE2300841930A7CD4354E588420F799767C16576156B3D867D15B"
+  },
+  {
+    "path": "scripts\\net_proxy.py",
+    "sha256": "B1E2803D3B92CC03F39B9E61398E7FE8BD70CA393B67AC6A3025A38FC1197D22"
+  },
+  {
+    "path": "scripts\\measure_puppet_shells.py",
+    "sha256": "2DE9E1B5354954FEE45365CDABCD57007CC112A6A18B719A44A3C21B908D6D5E"
+  },
+  {
+    "path": "scripts\\measure_fur_dynamics.py",
+    "sha256": "F410F2C5DC056DBC43672661758351F27E9F74236B760F0E9352237D753A8377"
+  },
+  {
+    "path": "scripts\\localization.ps1",
+    "sha256": "8AB0E304FCC5A67AC0031D1061CE14703AFE5002BE6D76FA17B3F66C1A466AB0"
+  },
+  {
+    "path": "scripts\\laundry_review.ps1",
+    "sha256": "B99640B097C4F80782F72FDB0F627D7D436E23EDA7D331E633AE9AA7972A3A53"
+  },
+  {
+    "path": "scripts\\laundry_check.ps1",
+    "sha256": "7B7A11EE9C696AC8A98BCF091289214C1F5DE92277A306644D108B4FB0F38CB6"
+  },
+  {
+    "path": "scripts\\landing_feedback_review.ps1",
+    "sha256": "24C9AA3CE3A543407B80DEFB6411CF70BA418CA407FA80E53B45B499246197A2"
+  },
+  {
+    "path": "scripts\\integration.ps1",
+    "sha256": "D18E23F322A1E759DB543C7A28BB409E0806219203790D747AFA3B0022472D92"
+  },
+  {
+    "path": "scripts\\host_loss.ps1",
+    "sha256": "417515DA7324FA8B4596AAEFC28B7A66347324B8B7127E938991DA0028DD2679"
+  },
+  {
+    "path": "scripts\\hair_review.ps1",
+    "sha256": "7F9D7DA9B82C528827FDBE6159D0F90D11FE05CCD13CCE4C00B05C391CA41A71"
+  },
+  {
+    "path": "scripts\\export_v06_timeline.ps1",
+    "sha256": "1AC3FA2FEA8F52626EA1815087BA1CF253431B04A78B01F2318A03058CAD1A7B"
+  },
+  {
+    "path": "scripts\\env.ps1",
+    "sha256": "98EEB9B95B9BF6E41EA6B69CB495EDB7064F024FCD4B456381C1502FE15DC0E7"
+  },
+  {
+    "path": "scripts\\ego_check.ps1",
+    "sha256": "F3BE55F8DAC50622B6BF827E837A6C24419E5496BEB7095DD1C97D80D3B6CB21"
+  },
+  {
+    "path": "scripts\\download_puppet_textiles.py",
+    "sha256": "10C9EC3C7DC3C885C168593C5CF44DF5CC0E1E3903C5EB4AAFB9AB0C850A3F9C"
+  },
+  {
+    "path": "src\\UI\\Hud.cs",
+    "sha256": "8DEC87700C1AA18227A3815EBCE73DBCA3433445EFF96EEB35CCAE1A4F155356"
+  },
+  {
+    "path": "src\\UI\\GoalCards.cs",
+    "sha256": "5C7A053AB4A89760DF96DACE62AEF801DAA3DA7B25CEBED22DB76E580E74F887"
+  },
+  {
+    "path": "src\\UI\\ExperimentHud.cs",
+    "sha256": "97DC6F33E9323016C4A806E417111DD916E0C36B323408B750E7F5DADD924794"
+  },
+  {
+    "path": "src\\UI\\WorldHud.cs",
+    "sha256": "BBBBEF0B8B6CCD2FE8732F87B204D9CC27AFF0A88BF56EF43E63A1C1B456551D"
+  },
+  {
+    "path": "src\\UI\\VoicePanel.cs",
+    "sha256": "B3C7F7C3DA246BD34203B96DAF9540819DD5C2FBBEC8F1F17F7C9B68F7E70875"
+  },
+  {
+    "path": "src\\UI\\TwistHud.cs",
+    "sha256": "F51BB709CBC316438497EF7207D23ED4139C5186A9B4627059FEA4C4924E7FB7"
+  },
+  {
+    "path": "src\\UI\\RecoveryHud.cs",
+    "sha256": "3A13B292563709462CD871345EDF576673EE0CFDD6745EA681C4450E74F15A03"
+  },
+  {
+    "path": "src\\UI\\PresentationSettings.cs",
+    "sha256": "48169E6ADBAD91C06B578CB20DB45566DD80FB00B895307A3F4FE97B9EC8247F"
+  },
+  {
+    "path": "src\\UI\\PartySecretHud.cs",
+    "sha256": "C6C62E9EAA99ACF8B47C1EFE7C2D9DE69690FF6D021A6B8A4C96FEDA85511B6B"
+  },
+  {
+    "path": "src\\UI\\LanguageSettings.cs",
+    "sha256": "5310A438C98142035323CB21F58972F1AB112181369D6FF878F1501831136D61"
+  },
+  {
+    "path": "src\\UI\\HumanCustomerHud.cs",
+    "sha256": "88C3BD13EB5127A8B70FD586C967B7880C1DFFD1A62314C9CD813DC79C5BD3E7"
+  },
+  {
+    "path": "src\\Core\\Experiment.cs",
+    "sha256": "D4478D76C0FBA03D1D6A15814918D6DEF29F101AF7F7A0878B562687FE5B4C8F"
+  },
+  {
+    "path": "src\\Core\\Definitions.cs",
+    "sha256": "73D0A8ABF2E93AB72A8E254C0DE7530AED59C78E69B5728603B48695B75CDBD2"
+  },
+  {
+    "path": "src\\Presentation\\ContactFeedback.cs",
+    "sha256": "90114B93D8813444D8F138FCC4E2795779646970F5D575C0920A3912D1B6AC66"
+  },
+  {
+    "path": "src\\Core\\Debris.cs",
+    "sha256": "EAAE062AA55655348C60EC96840013B74735597F63CF7488B75FB6F06439AC3D"
+  },
+  {
+    "path": "src\\Core\\CustomerRemarks.cs",
+    "sha256": "E8DFBB4A7BB18F6B6B909A7517D97B1582A0859E2E27BA1EFEC2B8AA6FFF87D5"
+  },
+  {
+    "path": "src\\Presentation\\BrushPreview.cs",
+    "sha256": "5FB61DBBC1D27E029D9D5B2B6CAA0B4F5494B716ECC56DE4FC1A5D62530AF551"
+  },
+  {
+    "path": "src\\Core\\CoopProps.cs",
+    "sha256": "5D31A1F0658CC6801D3EC84584F82C6697ACB1E0A0711EF4C24E4E62F608DD0D"
+  },
+  {
+    "path": "src\\Presentation\\PuppetBundleField.cs",
+    "sha256": "8C081C7A9CF2AF4DEB9F531CD94912B7A292F673BDA64E52CD166A8E62927EC6"
+  },
+  {
+    "path": "src\\Presentation\\BodyComedy.cs",
+    "sha256": "DCFF1741D92E5C96761EC229DAB6FC098E0E38F613FF2EE5E8D9C6BFF9CCBF7E"
+  },
+  {
+    "path": "src\\Presentation\\PuppetActor.cs",
+    "sha256": "A552747FD9A75E7ABE168200E12205AABDA38F33192E5E4520BFFCDBD9F4E95A"
+  },
+  {
+    "path": "src\\Presentation\\Art.cs",
+    "sha256": "578C3FA9C12B96CFB1883E25D342A4F2041DFAB9E966231C04E67F6DA3798679"
+  },
+  {
+    "path": "src\\Presentation\\AccessProps.cs",
+    "sha256": "125F9D129E89006153F266501E7F8441A8CFED319C3CAE66C1FF7FDDE6E697BF"
+  },
+  {
+    "path": "src\\Presentation\\HeadLook.cs",
+    "sha256": "C341B12D30DFB4C52E9A84C0963953ACEBB698622A3FF0B8B39C6A2711F99FD6"
+  },
+  {
+    "path": "src\\Presentation\\LocalizedLabel3D.cs",
+    "sha256": "9427C58DA9A5F6C6A09E8521BD570C288E372EFF7F5BB20AB59BC2ACF791B699"
+  },
+  {
+    "path": "src\\Presentation\\GesturePropsView.cs",
+    "sha256": "F380896025E01479810B68916568CC0500CDBA8FFBE617B4F6BD9CA7CFFF78D0"
+  },
+  {
+    "path": "src\\Presentation\\LaundryView.cs",
+    "sha256": "36A876068E3E6AED1AA368A43FA8B3F99ADCEE442CCC5F85FE2C139C4DD63D50"
+  },
+  {
+    "path": "src\\Presentation\\HumanCustomerView.cs",
+    "sha256": "A11006F7373AFD4FE2EDE7C19D8B8FDC0058F7F5B14B7C940F30FFCA2B37B84F"
+  },
+  {
+    "path": "src\\Presentation\\ExperimentView.cs",
+    "sha256": "A68DE7F0F0D2D14DEE04B1885E3B4C7D26244F2508A82BA3C114C455004FB058"
+  },
+  {
+    "path": "src\\Core\\GrowthSpray.cs",
+    "sha256": "266FC3C78538AC653463C9AB582B58CDDC6F26A4F58557525E9FA67AC9EAAE9F"
+  },
+  {
+    "path": "src\\Presentation\\HeadView.cs",
+    "sha256": "E1B9CC5F637FD3F6B1C35CEF048AE4AB3F15BC1770A28752DA1AFC8E5B66BADE"
+  },
+  {
+    "path": "src\\Presentation\\DebrisView.cs",
+    "sha256": "563953B912AB9ED7F91A39C8E4C85B73D5DA778D3BC8FE4B9B233F90A27974CA"
+  },
+  {
+    "path": "src\\Presentation\\HeadSpring.cs",
+    "sha256": "4940A600214673709F44A4C4DD61B2C86F834FA480026BD1BF5CC8186BDB8AD3"
+  },
+  {
+    "path": "src\\Core\\GoalQuality.cs",
+    "sha256": "3634C07D4F48EC1B3D98B600CEA14B901879FCB13F14B7F46E90BF5361F28C63"
+  },
+  {
+    "path": "src\\Presentation\\PracticeModelView.cs",
+    "sha256": "D38ECC8A433F441E4C6555CEDF32246C4722BF99888B0D379CB6955BAFC13191"
+  },
+  {
+    "path": "src\\Core\\GalleryStore.cs",
+    "sha256": "C219473169DE3134455F7EFCB4C733711CBF431EAAC3D5CE4D887743693DBEF1"
+  },
+  {
+    "path": "src\\Presentation\\PlacementMoment.cs",
+    "sha256": "80945E16E2EDFB368FBB42AD811C83FE1BB74BF537BA24B83C97DC114ABD67DE"
+  },
+  {
+    "path": "src\\Core\\Alertness.cs",
+    "sha256": "057293F2B9B1CE2FA4E1957D59900D1A5DA9F0092437928B3002942650D24C6A"
+  },
+  {
+    "path": "src\\Presentation\\PartyMoldView.cs",
+    "sha256": "B0578E3FCEDFCC946FE23166304D6A0D0B3C7EB9A42145F42ABFEA07639FF05D"
+  },
+  {
+    "path": "src\\Presentation\\OrderStation.cs",
+    "sha256": "BCD903D2A13CAD973E0150CDC3B30A8C415D5A4A17D1954B07DEC12791A44669"
+  },
+  {
+    "path": "src\\Core\\Helipad.cs",
+    "sha256": "523A3469596A4B4AD704FD7DD9350336A32731B0F2B8204175F64D69E9FDAE07"
+  },
+  {
+    "path": "src\\Presentation\\PartyGallery.cs",
+    "sha256": "034E68F90D7157A11997CF684E2C4C52818BE50B24C0F4F02C60C337C9D11F17"
+  },
+  {
+    "path": "src\\Presentation\\MainlineFur.cs",
+    "sha256": "088328DCC92ABAF4A6084336EFB3FA1C93D6D0518D2F1731DB21B7A297892A6C"
+  },
+  {
+    "path": "src\\Presentation\\PuppetLabEffects.cs",
+    "sha256": "D3DF74C15AF7D5701DE43595B5EF1BB7C5F93BE41268932889745DD323EFB7DB"
+  },
+  {
+    "path": "src\\Presentation\\MotionView.cs",
+    "sha256": "5FE033A320C937A5424A69BE05723418322BCA505E9C722D8B7F732B2053FC27"
+  },
+  {
+    "path": "src\\Core\\HairVolume.cs",
+    "sha256": "46779139F9A0596FB0E35B5ECCEBEE528DD41EF2F5C107C5B95146837C6F6C76"
+  },
+  {
+    "path": "src\\Presentation\\PuppetFurMotion.cs",
+    "sha256": "B819D52DBB4FD33312C23B0EBEA59164F9D599C280763C1F841CF117D57F3032"
+  },
+  {
+    "path": "src\\Core\\Hair.cs",
+    "sha256": "3D76F528AF5C5EAB5F258BE53972366470CE2EDC50ABD6D6092DA6C2F237D2CF"
+  },
+  {
+    "path": "src\\Presentation\\PuppetHairWarning.cs",
+    "sha256": "B4DFF7BEC1F3342F80FDC04B479F7AA5467E4F0EC8D2C6E6E47381052920C6D1"
+  },
+  {
+    "path": "src\\Presentation\\PuppetFurSpace.cs",
+    "sha256": "70A08134C12CB74493CFB606300506FD658496B221B3FF493FE180E81C090BFC"
+  },
+  {
+    "path": "src\\Presentation\\PuppetHairFragments.cs",
+    "sha256": "1CF369251084B7919493B5F1CB40B220091A16F94F63515769B95E83607926D9"
+  },
+  {
+    "path": "src\\Presentation\\PuppetHairSettings.cs",
+    "sha256": "223F39D3E1138B516CCC94CCABE087BEE77A99C2AAEB44DF05D5A6A6D9436558"
+  },
+  {
+    "path": "src\\Core\\HumanCustomer.cs",
+    "sha256": "6E2C73D084ACD14153BBBF78AC12B59E82E6F7907BF46163F2D13252F7CDAA96"
+  },
+  {
+    "path": "src\\Presentation\\PuppetLabRoom.cs",
+    "sha256": "1849E17CC6735B064DD6B51A506000969B002E07B285D3D8D1B005E81AE84898"
+  },
+  {
+    "path": "src\\Core\\ImpactLedger.cs",
+    "sha256": "8656CA4D72131ED0A4BB99ABFC01743543038FFC047CA9A9837314EC7F0CD6A8"
+  },
+  {
+    "path": "src\\Presentation\\PuppetLabModels.cs",
+    "sha256": "B8AA297F458643C0232F91773D981942761C6F935588B5F5447565BFF736771F"
+  },
+  {
+    "path": "src\\Core\\ImpactRecording.cs",
+    "sha256": "CEE6FA28F8B4A0DFBAFC2ECF27732FEA5C6751536A28245BA32F06A7F7CA7709"
+  },
+  {
+    "path": "src\\Presentation\\PuppetLabHair.cs",
+    "sha256": "1B5E74BB67510EAB78038A837D02BC9736B7A6B02501DF5DF5622B41667FA127"
+  },
+  {
+    "path": "src\\Presentation\\PuppetShellFur.cs",
+    "sha256": "442AE3DAAA8151674F57DAF53F5A5419E2A07753DDEB9E61C723551927578627"
+  },
+  {
+    "path": "src\\Presentation\\PuppetLabSurface.cs",
+    "sha256": "0C3AA5FBBBF14D828699B0D36F5E4AFCAEFFBEC39A56ECD8EFE56B7DF4623626"
+  },
+  {
+    "path": "src\\Presentation\\PuppetTuftVolume.cs",
+    "sha256": "13570B0D9E095F5965FA816F1671A3BBA1315CD7809114CBBE4800A046CE411D"
+  },
+  {
+    "path": "src\\Presentation\\PuppetVolumeFur.cs",
+    "sha256": "4B849114E3808629629FC3A62BE2D60DAD5AA6322C9E0C40D11925441BA0C67A"
+  },
+  {
+    "path": "src\\Presentation\\SalonView.cs",
+    "sha256": "69958FAC1C968CA865D707E331050B84413EEF9BECE9EF537A45DBCC1FFC5267"
+  },
+  {
+    "path": "src\\Presentation\\WorldView.cs",
+    "sha256": "A6D78E00FCC03947E302388437A05D5B8A8A8874DBAA78D2B94C0900A4D4335F"
+  },
+  {
+    "path": "src\\Presentation\\VisualQuality.cs",
+    "sha256": "1D7B9396D2EFE2B3593CBF1AD8CD2F51A9F737A6A82BE3D7D42974AEB9FF2819"
+  },
+  {
+    "path": "src\\Presentation\\TwistView.cs",
+    "sha256": "C800D5FBE29AF04598149F7FACB58ACA581A4CEEE2E905BEBF98BCB280195789"
+  },
+  {
+    "path": "src\\Presentation\\ToolFeedback.cs",
+    "sha256": "F8E20199B7EE5486AD557DA6D7CF4C172F577361C136EEAF4C5EF62C2FDC4FB1"
+  },
+  {
+    "path": "src\\Presentation\\TargetReference.cs",
+    "sha256": "C319892271E5A3395A5B175516301A9FB7248A6F59F1CA937ACE18F2E8D1A78C"
+  },
+  {
+    "path": "src\\Presentation\\TargetLabGeometry.cs",
+    "sha256": "0B75DC7616AD9ACE4046174FD2C551A6AE61C3887D37E78F6751658C9322096C"
+  },
+  {
+    "path": "src\\Presentation\\TargetLabAssets.cs",
+    "sha256": "AEF011D4C51270E7BA320BAFBF0B2E0B4AAA3BE5F390EA525857124FB962B2D2"
+  },
+  {
+    "path": "src\\Presentation\\TargetLabActors.cs",
+    "sha256": "795A0A48676414108EB737F9DE33CF838215D11EF7C4419FAF96C3D6A23F24C3"
+  },
+  {
+    "path": "src\\Presentation\\SharedPresentation.cs",
+    "sha256": "B533E526D30AEA56DC57C104B51C57130F4F495D090FC377AD85E2F11C3204BB"
+  },
+  {
+    "path": "src\\Presentation\\SceneLook.cs",
+    "sha256": "DE648FEE41A566E6EB50867F52A1C0FB98FD8DB6C62E81548A24BDA4A4AE1911"
+  },
+  {
+    "path": "src\\Core\\PartyAccidents.cs",
+    "sha256": "415DF7C4CF7D4876FDC954D618A0BB1F1D784FD713639A42041726A74BFD255A"
+  },
+  {
+    "path": "src\\Core\\Orders.cs",
+    "sha256": "400DEA8AA039BCF8F2CBD7A9155E8E9DBDC88D9D4973DE640E4B685B9E3B96CD"
+  },
+  {
+    "path": "src\\Core\\MotionNet.cs",
+    "sha256": "ABC4F9CF55B009F5B8D822F73A5B5694EDC40D3A0E081606B43285F930AD8B35"
+  },
+  {
+    "path": "src\\Core\\MiniatureModel.cs",
+    "sha256": "DDA70F8903218FEC3A5A1F53BC4B9B516921ADE73CDBF3DB2BB7369B5E8563F2"
+  },
+  {
+    "path": "src\\Core\\Materials.cs",
+    "sha256": "9DD05A148A9C35B52CB5294EEAE09B0143EAD14E1D5A8BBF0174F16106D237B9"
+  },
+  {
+    "path": "src\\Core\\MaterialFeel.cs",
+    "sha256": "D9B47FBEF31F80872D6CE3395DA6523E3F403F6049EA569B2D67654E6B2638E1"
+  },
+  {
+    "path": "src\\Core\\LaundryRig.cs",
+    "sha256": "D033EC99B594184A66C47D7E7BE73A516084EA43C228CBDB4FD3D16EBA1377A0"
+  },
+  {
+    "path": "src\\Core\\LandingFeedback.cs",
+    "sha256": "79E3D85BAA7C118432CBAEE1883F15019EEE4616EFF900AFAE7027D40115FD77"
+  },
+  {
+    "path": "src\\Core\\L.cs",
+    "sha256": "5637ADC0E6C14E0C35A68FDA1EAA62B081C92489A7C1EDB138C390A121D0F278"
+  },
+  {
+    "path": "src\\Core\\PartyResults.cs",
+    "sha256": "B0F47F2071D3C64D519E3F4F407043A753F999BC9BF69FCD403020032933269C"
+  },
+  {
+    "path": "src\\Core\\PartyMolds.cs",
+    "sha256": "494A14B6C9EED8D8BAE5BCEE47E70B8D0ED00F1D92CB82BD5DAD6B62333CBF73"
+  },
+  {
+    "path": "src\\Core\\PartyLoop.cs",
+    "sha256": "E5AEC777FCE6F4A6CD45061D4795386CD0C8437A088FD2BDB309184413FC1A6C"
+  },
+  {
+    "path": "src\\Core\\PartyBodies.cs",
+    "sha256": "873E5D74A8129446975A1B3011A72EEAFADF02BC141B8CFE32C27CB561A05E56"
+  },
+  {
+    "path": "src\\Core\\PartyBalance.cs",
+    "sha256": "8DB89F7486027885CFA1AD4006EFEA218FA62B18E742C8C973C9787CF3C89E7F"
+  },
+  {
+    "path": "src\\Core\\Replay.cs",
+    "sha256": "130BEE625367C5A9AE21E17A5BE87511628A484E2D0EF0190E7EC6A6058DB5DC"
+  },
+  {
+    "path": "src\\Core\\RecoveryNet.cs",
+    "sha256": "BFD33C0ECDECD53F38E57E8BE43082B2F2DBC501EFED6F74C5FFA4FA907793B1"
+  },
+  {
+    "path": "src\\Core\\PhysicalProps.cs",
+    "sha256": "A8461B746DF8F6D760477AD497BB68FDCB8C3DEAE3A86C7FD0A51E02F3B69C92"
+  },
+  {
+    "path": "src\\Core\\RevealParty.cs",
+    "sha256": "D0C20564AB9B194FF389C0C6F48B06ACFE7557B972D7D73E4D5E6DF4CEB3D02D"
+  },
+  {
+    "path": "src\\Core\\ReturningCustomer.cs",
+    "sha256": "F723B1AD2CA0C496374CBDF246CE1A000A5FC07DA0A75292A026C3B6B1E18F96"
+  },
+  {
+    "path": "src\\Core\\Sculpting.cs",
+    "sha256": "91B80A746BC8EBFD6E389DCB04994F4D49D165F016373D487A20A175630FE11A"
+  },
+  {
+    "path": "src\\Core\\SecretTasks.cs",
+    "sha256": "E5A61D32DD71281F9024B1BB8903D4F550C57E117BC4912A00BB666E8640A76A"
+  },
+  {
+    "path": "src\\Player\\Body.cs",
+    "sha256": "7432B9C9BF1B7C54C8A999EA0D38DCC9654CD32B4426F30E99701D6E745B604A"
+  },
+  {
+    "path": "src\\Core\\Session.cs",
+    "sha256": "76E00EF580DA04686AFB3D8CCB2D1746CA0F34561E0E16E23E03F0CE7C7E9220"
+  },
+  {
+    "path": "src\\Core\\SharedRound.cs",
+    "sha256": "A4416A17E7F5EAEEAE0D8AC1E85A0A0ED7B3209A5CE50C2ECBB2877B04E7B092"
+  },
+  {
+    "path": "src\\Core\\ShopCat.cs",
+    "sha256": "A6741FF1170A0C641A5CE7FBDD11AD750585291B9C1A1D63FA6BB7F8B63BE749"
+  },
+  {
+    "path": "src\\Core\\Wire.cs",
+    "sha256": "3FC1DE1400CA1D5D610D6BF8E2B55895AF8E230B3654CEC5B0FEB0A38CA713A7"
+  },
+  {
+    "path": "src\\Core\\VolumeEditing.cs",
+    "sha256": "7D59903B18FCB8C84A1624AD3DBBF18ECA772327DB39AC8A234981536610962A"
+  },
+  {
+    "path": "src\\Core\\Voice.cs",
+    "sha256": "5612BFAF66FCFD9C8A0853963C191F750BEB779565DC5BE6310C74162F6BDED3"
+  },
+  {
+    "path": "src\\Core\\Validation.cs",
+    "sha256": "E9D7C4DDB85E7AE0AD81566F9BEC86713815A096BA0EACF51256095094F3C4F1"
+  },
+  {
+    "path": "src\\Core\\TwistCards.cs",
+    "sha256": "2B8D577C0FB4D670C1B6E9B5AD512ED0EE3A7EC245249CCD325AB2A105019A6F"
+  },
+  {
+    "path": "src\\Core\\TargetProjection.cs",
+    "sha256": "FD1255FA8F2230C677916204FD445C831028BDE2A825CE1C66A1AA8DC0699188"
+  },
+  {
+    "path": "src\\Core\\TargetCards.cs",
+    "sha256": "D89A1892F2BC1E55E4B3F466CAF6E5FB271D8585CDF0E27A25CF4BBE2EDD1D8A"
+  },
+  {
+    "path": "src\\Core\\StyleAttributes.cs",
+    "sha256": "56032C579143DBE0FB197224A750EDFDE9489BEF91C2F3D3AB52277E1E0F160A"
+  },
+  {
+    "path": "src\\Bootstrap\\WorldChecks.cs",
+    "sha256": "348E99AB3B7455DD380F6918D4BAE80751AEAA5CD7806C9E00F821E3EE1BDE2B"
+  },
+  {
+    "path": "src\\Bootstrap\\VoiceRuntime.cs",
+    "sha256": "98BFD9D1AC96A33F1EDA3B42C84D955E62FE1ADCFBD4757EA1DAB05E0A66F0EF"
+  },
+  {
+    "path": "src\\Bootstrap\\VoiceChecks.cs",
+    "sha256": "065CCDE220F2EEDEB411C7B92EA0CB637D8C10A89CAA6AD5C8ADD0788C0A114A"
+  },
+  {
+    "path": "src\\Bootstrap\\VisualTargetLab.cs",
+    "sha256": "E52E811919AA8A69DC4F67E9C6FB5B6A9EE0D2B3DBA9DC24CC77143F0A2DF1AA"
+  },
+  {
+    "path": "src\\Bootstrap\\VisualLookDev.cs",
+    "sha256": "4A106B33BA0B09D3D30C8327574CEB9A80A79BA04B8625F9ACF5A605D54D8192"
+  },
+  {
+    "path": "src\\Bootstrap\\TwistRuntime.cs",
+    "sha256": "7001786F77D247BCC1F5EF42D3F50833B5643A41501E84752D8EFD327F6F481E"
+  },
+  {
+    "path": "src\\Bootstrap\\TwistChecks.cs",
+    "sha256": "2E75EE12AFAC5FCBDA3509D4921DC695324C338E3362FE081C189FF419BE4106"
+  },
+  {
+    "path": "src\\Bootstrap\\TargetCardChecks.cs",
+    "sha256": "C215A0E54CB751D843CB40B6939FB142BE970E8448BC637224402F62955BB174"
+  },
+  {
+    "path": "src\\Bootstrap\\SharedChecks.cs",
+    "sha256": "B3D51E6D2B83935411C83ACE75DE772BD5FF33841713FE1376CF3F52E6CBDF54"
+  },
+  {
+    "path": "src\\Bootstrap\\SculptStress.cs",
+    "sha256": "D268AC54F0B27C83B8E3309250CB95E038FA0DA9B1E80CDF4501D938672E3E02"
+  },
+  {
+    "path": "src\\Bootstrap\\SculptChecks.cs",
+    "sha256": "950738C8F3A44DF892D1AF6A6F5950D39D3453AD5D9ACCDE3F595F171FA38B5D"
+  },
+  {
+    "path": "src\\Bootstrap\\RecoveryChecks.cs",
+    "sha256": "29961EB6639EBA7C4B46880AFD291D4CB1D91A8A4F89B0BD37C4E98B08A5FC6B"
+  },
+  {
+    "path": "src\\Bootstrap\\PuppetLabVolumeChecks.cs",
+    "sha256": "E6A281461DE561A0B635288100489A23A1602E151B02711710277D5DD222DCF9"
+  },
+  {
+    "path": "src\\Bootstrap\\PuppetLabShellReview.cs",
+    "sha256": "3C72AF1DE1C163633AA470B3C601110DFB5D123D0A5E2ACB3A05846C25E1AE63"
+  },
+  {
+    "path": "src\\Bootstrap\\PuppetLabShellChecks.cs",
+    "sha256": "CF0F07CC145F127985005C9911FF8DF088493831BFA2052BBD1E2D77EB1DD3B4"
+  },
+  {
+    "path": "src\\Bootstrap\\PuppetLabSampling.cs",
+    "sha256": "9A9C61DE087C0790F0C58662E7A811F9D0CE895BD19AD9CA1EB563E9AC1B1C51"
+  },
+  {
+    "path": "src\\Bootstrap\\PuppetLabRendering.cs",
+    "sha256": "DA6A09BBE97C2CA95EC53B570CB153823CAD9391A95ED09F277C2355AAA07EE6"
+  },
+  {
+    "path": "src\\Bootstrap\\PuppetLabPerformance.cs",
+    "sha256": "D166B1A219212AF8120CF8F9A36F93AACC4CBAD47EDE33F7AF054B6000094ECB"
+  },
+  {
+    "path": "src\\Bootstrap\\PuppetLabOptimization.cs",
+    "sha256": "03C618049909021CC5704213ED7BBFCF5EEA873DAD29172143A45213D9B11E31"
+  },
+  {
+    "path": "src\\Bootstrap\\PuppetLabFurMotion.cs",
+    "sha256": "92F4B081CC468338BB70CC62A6E80A0F684AEA5C4F102D283077BD1C04986D08"
+  },
+  {
+    "path": "src\\Bootstrap\\PuppetLabFurFragments.cs",
+    "sha256": "DCDE7CD7AD94FDE76CDC91965DDA67C003AF6E7D69DC1A43018C2FF860FD0185"
+  },
+  {
+    "path": "src\\Bootstrap\\PuppetLabFurCut.cs",
+    "sha256": "CBE8F115A7D922D930FD8A46BCC20D4D7AF9924090F5176A781D512125BE54EF"
+  },
+  {
+    "path": "src\\Bootstrap\\PuppetLabFurContact.cs",
+    "sha256": "F6F4C34314CF20045BC9FC5F20F56844073527651EE3C87CD81988943E5CE097"
+  },
+  {
+    "path": "src\\Bootstrap\\PuppetLabFurAppearance.cs",
+    "sha256": "C22023922C0F95DB633FDCE727DEBD204899260DC8438C7754348175BF110C43"
+  },
+  {
+    "path": "src\\Bootstrap\\PuppetLabEmptyChecks.cs",
+    "sha256": "8F37D64BC3A9303671BCE18915D90B6854C4781930C585EAD9FA04A567153A29"
+  },
+  {
+    "path": "src\\Bootstrap\\PuppetLab.cs",
+    "sha256": "73474216F68EF0A649E2F84C92A390E25DA453293160DA61987217C3297BBB29"
+  },
+  {
+    "path": "src\\Bootstrap\\PartySecrets.cs",
+    "sha256": "54724D995ABF0D69E9DE962644475AC7FAE016442A586654D078C78973788FD0"
+  },
+  {
+    "path": "src\\Bootstrap\\PartySafetyChecks.cs",
+    "sha256": "463504EF3E528BCC4C8C282B53937CACE94B0DBCA4D0126CE1F1F20D7CC4252A"
+  },
+  {
+    "path": "src\\Bootstrap\\PartyMoldLab.cs",
+    "sha256": "BB240AA1F7F5A1EE2E3927EEE385E07856CA04196563365761C3D5AE65C91599"
+  },
+  {
+    "path": "src\\Bootstrap\\PartyBodyPreferences.cs",
+    "sha256": "78B10CA54905E34E2E842441C287F12AE7A40F2986A52CDE23BC896D73B170DC"
+  },
+  {
+    "path": "src\\Bootstrap\\PartyBodyNetworkChecks.cs",
+    "sha256": "2AFA373B502FB266F59A7D0EC68FC1B1B824A42FB8CAEB89E15F9A310303524A"
+  },
+  {
+    "path": "src\\Bootstrap\\PartyAccidentNetwork.cs",
+    "sha256": "3F323C10E937F18EDC6F0967DDACF92DB6E1BE9950655FA1E19F5BDA95DC38D9"
+  },
+  {
+    "path": "src\\Bootstrap\\NetworkRecovery.cs",
+    "sha256": "3317DCAB2571C63AC16D8D5D7B6CE716A4C98277509D004B8C1B0C902FCF48AA"
+  },
+  {
+    "path": "src\\Bootstrap\\NetworkMotion.cs",
+    "sha256": "0C925C0549760187DCFE6B5ED578703FC48AF205CC1BDB088C1CF2C76258CF38"
+  },
+  {
+    "path": "src\\Bootstrap\\MaterialLab.cs",
+    "sha256": "DCF9AAC700FCBD1F7F64EE75F2F4D6418BA38FB367C5C999765B537707D2C8FF"
+  },
+  {
+    "path": "src\\Bootstrap\\MainlineArtChecks.cs",
+    "sha256": "7C5DB7700488C8FE6F37FEDFC0BF5148D22C68830C3AE02C1798727377C2F039"
+  },
+  {
+    "path": "src\\Bootstrap\\Main.cs",
+    "sha256": "6135B1AFDA079811E55315923905736F801DEC98A4B5079071EDF21037E897DC"
+  },
+  {
+    "path": "src\\Bootstrap\\LaundryChecks.cs",
+    "sha256": "B21867E455BA0CF562E2468739EFE45427868B6C10D33F3E0C5515BFBA4CC152"
+  },
+  {
+    "path": "src\\Bootstrap\\HumanCustomerRuntime.cs",
+    "sha256": "E14C634DA25D64FA13AF8DE79BDF76E0DACE8A3A8E72B3C0C03D8C836E636A8F"
+  },
+  {
+    "path": "src\\Bootstrap\\HumanCustomerChecks.cs",
+    "sha256": "13DFBD070A3F698DA53DA06BA39D94310A41C513FD825D8B17065EBED7582E92"
+  },
+  {
+    "path": "src\\Bootstrap\\HairShellChecks.cs",
+    "sha256": "C78509EEF22B9BCE40B6723C12399F178F53A24A951B1EE319D1B33C3DC8EACE"
+  },
+  {
+    "path": "src\\Bootstrap\\ExperimentChecks.cs",
+    "sha256": "6015DBDB94081851027FDC0709350DF641F47A6588DD55C7DE44D29CE9CE6BDE"
+  },
+  {
+    "path": "src\\Bootstrap\\ExperimentBootstrap.cs",
+    "sha256": "D355C31A98104433693F2617C4746E3396A4589F4F99B8D9D6BC1E2BE69FF168"
+  },
+  {
+    "path": "src\\Bootstrap\\ExpansionFeelChecks.cs",
+    "sha256": "60D2F03E891C9CD6318C3F10DE04E19C4AB78B8EFB0EA356564C2BA2703382A9"
+  },
+  {
+    "path": "src\\Bootstrap\\ExpansionBodyChecks.cs",
+    "sha256": "75D14AAF2108423430175E16FCA2254F6BE12FB848126C9C0364D3BC44D42B83"
+  },
+  {
+    "path": "src\\Bootstrap\\EngineChecks.cs",
+    "sha256": "AE634D637D8658F6B70B139B37D7585C9A3501609E4E54F0EBB751371AA046DE"
+  },
+  {
+    "path": "src\\Bootstrap\\EgoNetwork.cs",
+    "sha256": "406747045CAC29AE6EECDBDD8987462F246344A9763B193551C55F547DBF08DB"
+  },
+  {
+    "path": "src\\Bootstrap\\EgoChecks.cs",
+    "sha256": "D8F53D92B4FE5BE90A52582296A3674D4D4E27AF39AF3ADCF22ABD6F3FE1480B"
+  },
+  {
+    "path": "src\\Bootstrap\\BPartyNetworkChecks.cs",
+    "sha256": "9BF755964BB2318A1DF0CE7A23127C6EC340463D92A694F1EDC9AF3B7884C076"
+  },
+  {
+    "path": "src\\Bootstrap\\AlertnessAudio.cs",
+    "sha256": "E363479CEC4266F36676070D9DE09B1644C28941234AC914AEC1449490173CF3"
+  },
+  {
+    "path": "src\\Bootstrap\\AccessChecks.cs",
+    "sha256": "B5EE6E1D8F5DB0D354CBB6F7E1408C0530026275EEBBFFE123221C54A192CF4E"
+  },
+  {
+    "path": "project.godot",
+    "sha256": "4EBAF1779841237A5769C9DCB6E8A0A121657A60703FD1C95B5C154CBD5B48CF"
+  },
+  {
+    "path": "ProjectHairball.csproj",
+    "sha256": "CF68E9D82007D9E89B509771EBA66A943E7AFF8057655DF4C6D2B6C1CB1F4CB1"
+  },
+  {
+    "path": ".godot/mono/temp/bin/Debug/ProjectHairball.dll",
+    "sha256": "07D254C0D4DE72616F80BCE8FDC46B94E434929D84B7FC2A6C87B58FE43D9E9E"
+  }
+]

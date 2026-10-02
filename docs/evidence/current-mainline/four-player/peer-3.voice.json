@@ -1,0 +1,42 @@
+{
+  "sentPackets": 0,
+  "opusPackets": 0,
+  "featurePackets": 0,
+  "voiceSentBytes": 0,
+  "voiceRelayBytes": 0,
+  "voiceRelayPackets": 0,
+  "voiceReceiveBytes": 1728,
+  "voiceRejected": 0,
+  "bitrate": 24000,
+  "mixRate": 48000,
+  "seconds": 55.289,
+  "upstreamKbps": 0,
+  "streams": [
+    {
+      "actor": 1,
+      "speakerSeconds": 29.476999999999997,
+      "mixedSeconds": 29.182222,
+      "generatorSkips": 10803,
+      "capacity": 2047,
+      "playbackDiscarded": 5958,
+      "receiveAgeMs": 51.70833333333362,
+      "queueMs": 34.958333333333336,
+      "received": 24,
+      "late": 0,
+      "lost": 12,
+      "played": 14,
+      "catchUp": 8,
+      "bufferMs": 75.23310642411785,
+      "jitterMs": 12.186485139294275,
+      "decoded": 26,
+      "opus": 14,
+      "features": 0,
+      "Concealed": 12,
+      "toneMatched": null,
+      "latencySamples": 14,
+      "latencyEstimateMs": 194.38690476190388,
+      "latencyP95Ms": 264.49999999999903,
+      "latencyMaxMs": 268.5000000000008
+    }
+  ]
+}

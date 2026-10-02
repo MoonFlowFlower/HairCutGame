@@ -1,0 +1,10 @@
+[
+  {
+    "sha256": "AD4D1F76819C9161B68A9BB8EE41020B791125F14BA373D4C8059F874BE06980",
+    "path": "src\\Bootstrap\\MainlineArtChecks.cs"
+  },
+  {
+    "sha256": "DFE35CDBA2D15073B57EA437AD2988BBF0A390F9139DF9083A7CC00CEAE1742B",
+    "path": ".godot/mono/temp/bin/Debug/ProjectHairball.dll"
+  }
+]

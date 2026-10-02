@@ -1,0 +1,70 @@
+{
+  "profile": "cross-border",
+  "passed": true,
+  "renderedClient": true,
+  "legacy": false,
+  "players": 2,
+  "hash": "5AE3331E3671E449",
+  "proxy": {
+    "profile": "cross-border",
+    "settings": {
+      "delay_ms": 120,
+      "jitter_ms": 35,
+      "loss_percent": 2,
+      "mbps": 4,
+      "burst_ms": 0
+    },
+    "seed": 729,
+    "received": [
+      16444,
+      15985
+    ],
+    "forwarded": [
+      16125,
+      15686
+    ],
+    "dropped": [
+      319,
+      299
+    ],
+    "bytes": [
+      1708381,
+      12201740
+    ],
+    "max_queue": 68,
+    "fault": "none",
+    "fault_at": 35,
+    "fault_seconds": 5,
+    "fault_dropped": 0,
+    "started_unix": 1790980155.8239017,
+    "fault_period": 0,
+    "fault_count": 0,
+    "elapsed_seconds": 219.40801620000275
+  },
+  "client": {
+    "mode": "join",
+    "legacy": false,
+    "headTravel": 6.279233,
+    "headMaxStep": 0.1440537,
+    "headMaxSpeed": 1.0367293,
+    "headMotionSamples": 3620,
+    "physicsP50Ms": 1.8067,
+    "physicsP95Ms": 4.2969,
+    "physicsP99Ms": 17.9057,
+    "renderP95Ms": 11.111111111111109,
+    "renderP99Ms": 17.808999999999997,
+    "correctionP95": 0,
+    "correctionMax": 0.006197884678840637,
+    "hardCorrections": 0,
+    "reverseTicks": 0,
+    "walkTicks": 6806,
+    "motionGapP95Ms": 100.0213623046875,
+    "motionGapMaxMs": 1349.9986572265625,
+    "stateBytes": 8518498,
+    "motionBytes": 2206579,
+    "inputBytes": 1289652,
+    "seconds": 194.18004,
+    "interpolationMs": 217.45685,
+    "underruns": 0
+  }
+}

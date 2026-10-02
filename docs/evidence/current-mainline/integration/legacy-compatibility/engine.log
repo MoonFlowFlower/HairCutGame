@@ -1,0 +1,10 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 616.56 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5070 Ti Laptop GPU
+
+EXPERIMENT_VARIANT B
+EXPERIMENT_LOG D:\Project\Game\Godot\project_hairball\artifacts\v06-B-20261002-223459-603.jsonl
+NET_EVENT {"kind":"session_network","utc":"2026-10-02T22:34:59.9799975Z","monotonicSeconds":1.829,"mode":"solo","epoch":0,"detail":{"protocol":25,"transport":"ENet","chunkPayload":900,"window":32}}
+SESSION_STARTED mode=solo port=7777
+HAIRBALL_BOOT_OK Godot=4.7.2-stable (official)
+PHASE round=1 phase=Arrival peers=1
+V06_LIVE_FACT leave:Seated

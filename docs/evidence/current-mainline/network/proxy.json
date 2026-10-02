@@ -1,0 +1,36 @@
+{
+  "profile": "cross-border",
+  "settings": {
+    "delay_ms": 120,
+    "jitter_ms": 35,
+    "loss_percent": 2,
+    "mbps": 4,
+    "burst_ms": 0
+  },
+  "seed": 729,
+  "received": [
+    16444,
+    15985
+  ],
+  "forwarded": [
+    16125,
+    15686
+  ],
+  "dropped": [
+    319,
+    299
+  ],
+  "bytes": [
+    1708381,
+    12201740
+  ],
+  "max_queue": 68,
+  "fault": "none",
+  "fault_at": 35,
+  "fault_seconds": 5,
+  "fault_dropped": 0,
+  "started_unix": 1790980155.8239017,
+  "fault_period": 0,
+  "fault_count": 0,
+  "elapsed_seconds": 219.40801620000275
+}
