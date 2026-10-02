@@ -1,0 +1,41 @@
+{
+  "files": 783,
+  "bytes": 160139361,
+  "largest": [
+    {
+      "path": "assets/b_mainline_fur/v1_1D5095CE2C8F5D4E27F088B4952EB54F6239B03162720B094706B2458E8B071B.res",
+      "bytes": 39411787
+    },
+    {
+      "path": "assets/b_mainline_fur/v1_14BCD22215DE0AD3AD05D72E8F373A3717C2AACC2CF5874849B64F9AD32E3695.res",
+      "bytes": 25097338
+    },
+    {
+      "path": "assets/third_party/visual_target/snow_teammate.glb",
+      "bytes": 5621144
+    },
+    {
+      "path": "assets/third_party/visual_target/snow_customer.glb",
+      "bytes": 5621016
+    },
+    {
+      "path": "assets/b_mainline_fur/v1_field.res",
+      "bytes": 2624361
+    },
+    {
+      "path": "docs/reference/03_shared_head_salon_layout.png",
+      "bytes": 2599196
+    },
+    {
+      "path": "docs/evidence/current-mainline/visual/review/three-states.png",
+      "bytes": 2344210
+    },
+    {
+      "path": "docs/reference_v06/01_live_helipad_landing_ad_reference.png",
+      "bytes": 2284634
+    }
+  ],
+  "forbidden": [],
+  "secret_pattern_matches": [],
+  "over_100MiB": []
+}

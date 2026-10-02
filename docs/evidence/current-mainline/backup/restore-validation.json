@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "commit": "5ad03a6b52798d9f00b5ddca30887e597ba09a87",
+  "checkedUtc": "2026-10-02T23:42:47.5780886Z",
+  "byteIdenticalFiles": 784,
+  "evidenceHashes": 101,
+  "coreTests": "248/248",
+  "buildErrors": 0,
+  "existingBuildWarnings": 2,
+  "renderedStartup": true,
+  "screenshotVisuallyInspected": true,
+  "startupExitCode": 0,
+  "startupStderrBytes": 0,
+  "originalDll": "45D354D569870D6DEFE05D2C0D95B966A50539FDDFAC4FA8D9E722869A46BF80",
+  "restoredDll": "647C3D7B70B4D9F3ABDCCB2A145F6E332AFC08169B473E5EF436FB0F060038C9"
+}

@@ -1,0 +1,16 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+Vulkan 1.4.351 - Forward+ - Using Device #0: NVIDIA - NVIDIA GeForce RTX 5070 Ti Laptop GPU
+
+B_PUPPET_ART accepted volume fur / fabric / cut response
+EXPERIMENT_VARIANT B
+EXPERIMENT_LOG D:\Project\Game\Godot\project_hairball\artifacts\repo-backup-cleanup\restore-check\artifacts\v06-B-20261002-234036-450.jsonl
+NET_EVENT {"kind":"session_network","utc":"2026-10-02T23:40:37.3840004Z","monotonicSeconds":3.496,"mode":"solo","epoch":0,"detail":{"protocol":25,"transport":"ENet","chunkPayload":900,"window":32}}
+SESSION_STARTED mode=solo port=7777
+HAIRBALL_BOOT_OK Godot=4.7.2-stable (official)
+PHASE round=1 phase=Arrival peers=1
+V06_LIVE_FACT leave:Seated
+NET_EVENT {"kind":"voice_metrics","utc":"2026-10-02T23:40:45.1856621Z","monotonicSeconds":11.297,"mode":"solo","epoch":0,"detail":{"sentPackets":0,"opusPackets":0,"featurePackets":0,"voiceSentBytes":0,"voiceRelayBytes":0,"voiceRelayPackets":0,"voiceReceiveBytes":0,"voiceRejected":0,"bitrate":24000,"mixRate":48000,"seconds":7.788,"upstreamKbps":0,"streams":[]}}
+NET_EVENT {"kind":"voice_metrics","utc":"2026-10-02T23:40:50.1873192Z","monotonicSeconds":16.299,"mode":"solo","epoch":0,"detail":{"sentPackets":0,"opusPackets":0,"featurePackets":0,"voiceSentBytes":0,"voiceRelayBytes":0,"voiceRelayPackets":0,"voiceReceiveBytes":0,"voiceRejected":0,"bitrate":24000,"mixRate":48000,"seconds":12.79,"upstreamKbps":0,"streams":[]}}
+CAPTURE_SAVED D:\Project\Game\Godot\project_hairball\artifacts\repo-backup-cleanup\restored-mainline.png
+PHASE round=1 phase=Choice peers=1
+NET_EVENT {"kind":"voice_metrics","utc":"2026-10-02T23:40:55.1907230Z","monotonicSeconds":21.303,"mode":"solo","epoch":0,"detail":{"sentPackets":0,"opusPackets":0,"featurePackets":0,"voiceSentBytes":0,"voiceRelayBytes":0,"voiceRelayPackets":0,"voiceReceiveBytes":0,"voiceRejected":0,"bitrate":24000,"mixRate":48000,"seconds":17.794,"upstreamKbps":0,"streams":[]}}

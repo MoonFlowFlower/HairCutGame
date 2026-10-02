@@ -1,0 +1,120 @@
+ACCEPTANCE_REPORT.md:65: new blank line at EOF.
+PROJECT_STATE.md:1042: new blank line at EOF.
+docs/03_PROTOTYPE_SCOPE_AND_ACCEPTANCE.md:106: new blank line at EOF.
+docs/05_HAIR_SYSTEM_SPEC.md:229: new blank line at EOF.
+docs/12_PROJECT_STATE_TEMPLATE.md:14: trailing whitespace.
++- 
+docs/12_PROJECT_STATE_TEMPLATE.md:17: trailing whitespace.
++- 
+docs/12_PROJECT_STATE_TEMPLATE.md:20: trailing whitespace.
++- 
+docs/12_PROJECT_STATE_TEMPLATE.md:23: trailing whitespace.
++- 
+docs/12_PROJECT_STATE_TEMPLATE.md:26: trailing whitespace.
++- 
+docs/12_PROJECT_STATE_TEMPLATE.md:29: trailing whitespace.
++- 
+docs/12_PROJECT_STATE_TEMPLATE.md:32: trailing whitespace.
++- 
+docs/12_PROJECT_STATE_TEMPLATE.md:35: trailing whitespace.
++- 
+docs/12_PROJECT_STATE_TEMPLATE.md:38: trailing whitespace.
++- 
+docs/41_NETWORK_RECOVERY_AND_TESTS.md:76: new blank line at EOF.
+docs/PUPPET_HAIR_SHELL_R7.md:140: new blank line at EOF.
+docs/packaging/CONCENTUS_LICENSE.txt:1: trailing whitespace.
++Copyright (c) by various holding parties, including (but not limited to): 
+scripts/package_b.ps1:40: new blank line at EOF.
+scripts/smoke.ps1:130: new blank line at EOF.
+src/Bootstrap/BPartyNetworkChecks.cs:82: new blank line at EOF.
+src/Bootstrap/ExpansionBodyChecks.cs:43: new blank line at EOF.
+src/Bootstrap/ExperimentChecks.cs:90: new blank line at EOF.
+src/Bootstrap/Main.cs:588: new blank line at EOF.
+src/Bootstrap/NetworkRecovery.cs:436: new blank line at EOF.
+src/Bootstrap/PartySecrets.cs:44: new blank line at EOF.
+src/Bootstrap/SharedChecks.cs:44: new blank line at EOF.
+src/Bootstrap/VisualLookDev.cs:105: new blank line at EOF.
+src/Core/Definitions.cs:108: new blank line at EOF.
+src/Core/Experiment.cs:323: new blank line at EOF.
+src/Core/GalleryStore.cs:38: new blank line at EOF.
+src/Core/Hair.cs:190: new blank line at EOF.
+src/Core/LaundryRig.cs:68: new blank line at EOF.
+src/Core/MiniatureModel.cs:101: new blank line at EOF.
+src/Core/PartyLoop.cs:111: new blank line at EOF.
+src/Core/PartyMolds.cs:67: new blank line at EOF.
+src/Core/PartyResults.cs:51: new blank line at EOF.
+src/Core/Replay.cs:69: new blank line at EOF.
+src/Core/SharedRound.cs:165: new blank line at EOF.
+src/Core/StyleAttributes.cs:57: new blank line at EOF.
+src/Core/Validation.cs:103: new blank line at EOF.
+src/Presentation/Art.cs:134: new blank line at EOF.
+src/Presentation/GesturePropsView.cs:35: new blank line at EOF.
+src/UI/ExperimentHud.cs:64: new blank line at EOF.
+src/UI/Hud.cs:222: new blank line at EOF.
+tests/Core/ExperimentTests.cs:212: new blank line at EOF.
+tests/Core/PartyPlacementTests.cs:56: new blank line at EOF.
+tests/Core/Program.cs:224: new blank line at EOF.
+tests/Core/TargetCardTests.cs:43: new blank line at EOF.
+third_party/licenses/Blender-Snow-ReadMe.txt:3: trailing whitespace.
++	This character rig is provided under the CC-BY license by 
+third_party/licenses/Kenney-Furniture-Kit-License.txt:1: trailing whitespace.
++	
+third_party/licenses/Kenney-Furniture-Kit-License.txt:2: trailing whitespace.
++
+third_party/licenses/Kenney-Furniture-Kit-License.txt:3: trailing whitespace.
++	Furniture Kit (2.0)
+third_party/licenses/Kenney-Furniture-Kit-License.txt:4: trailing whitespace.
++
+third_party/licenses/Kenney-Furniture-Kit-License.txt:5: trailing whitespace.
++	Created/distributed by Kenney (www.kenney.nl)
+third_party/licenses/Kenney-Furniture-Kit-License.txt:6: trailing whitespace.
++	Creation date: 20-10-2018 16:21
+third_party/licenses/Kenney-Furniture-Kit-License.txt:7: trailing whitespace.
++
+third_party/licenses/Kenney-Furniture-Kit-License.txt:8: trailing whitespace.
++			------------------------------
+third_party/licenses/Kenney-Furniture-Kit-License.txt:9: trailing whitespace.
++
+third_party/licenses/Kenney-Furniture-Kit-License.txt:10: trailing whitespace.
++	License: (Creative Commons Zero, CC0)
+third_party/licenses/Kenney-Furniture-Kit-License.txt:11: trailing whitespace.
++	http://creativecommons.org/publicdomain/zero/1.0/
+third_party/licenses/Kenney-Furniture-Kit-License.txt:12: trailing whitespace.
++
+third_party/licenses/Kenney-Furniture-Kit-License.txt:13: trailing whitespace.
++	This content is free to use in personal, educational and commercial projects.
+
+third_party/licenses/Kenney-Furniture-Kit-License.txt:14: trailing whitespace.
++	Support us by crediting Kenney or www.kenney.nl (this is not mandatory)
+third_party/licenses/Kenney-Furniture-Kit-License.txt:15: trailing whitespace.
++
+third_party/licenses/Kenney-Furniture-Kit-License.txt:16: trailing whitespace.
++			------------------------------
+third_party/licenses/Kenney-Furniture-Kit-License.txt:17: trailing whitespace.
++
+third_party/licenses/Kenney-Furniture-Kit-License.txt:18: trailing whitespace.
++	Donate:   http://support.kenney.nl
+third_party/licenses/Kenney-Furniture-Kit-License.txt:19: trailing whitespace.
++	Request:  http://request.kenney.nl
+third_party/licenses/Kenney-Furniture-Kit-License.txt:20: trailing whitespace.
++	Patreon:  http://patreon.com/kenney/
+third_party/licenses/Kenney-Furniture-Kit-License.txt:21: trailing whitespace.
++
+third_party/licenses/Kenney-Furniture-Kit-License.txt:22: trailing whitespace.
++	Follow on Twitter for updates:
+third_party/licenses/PolyHaven-License.html:4: space before tab in indent.
++  	.tb7cb1837-336b-4102-84d3-d4206e94dd56 {
+third_party/licenses/PolyHaven-License.html:8: space before tab in indent.
++  	}
+third_party/licenses/PolyHaven-License.html:10: space before tab in indent.
++  	.tb7cb1837-336b-4102-84d3-d4206e94dd56.place-top {
+third_party/licenses/Quaternius-Ultimate-Animated-Animals-License.txt:9: trailing whitespace.
++CC0 1.0 Universal (CC0 1.0) 
+third_party/licenses/Quaternius-Ultimate-Animated-Animals-License.txt:12: new blank line at EOF.
+third_party/licenses/Quaternius-Ultimate-Home-Interior-License.txt:9: trailing whitespace.
++CC0 1.0 Universal (CC0 1.0) 
+third_party/licenses/Quaternius-Ultimate-Home-Interior-License.txt:12: new blank line at EOF.
+third_party/licenses/Quaternius-Universal-Base-Characters-License.txt:1: trailing whitespace.
++This is the standard FREE version of the Universal Base Characters Kit, which only contains 
+third_party/licenses/Quaternius-Universal-Base-Characters-License.txt:10: trailing whitespace.
++CC0 1.0 Universal (CC0 1.0) 

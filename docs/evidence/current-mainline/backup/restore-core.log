@@ -1,0 +1,256 @@
+PASS 32 scalp patches
+PASS growth/removal clamp finite
+PASS freeze/glue compose and resist wind
+PASS frozen impact fractures; heat thaws
+PASS burn removes hair and spreads; cold extinguishes
+PASS helpful trim does not steal arson attribution
+PASS anchor follows world point and releases strain
+PASS locked head rejects state and burn
+PASS plane cut gives level surface
+PASS detachment releases anchors
+PASS goal choices unique deterministic same band
+PASS perfect, empty, tiny, excess scoring
+PASS final clamp and separate penalty
+PASS incident charged to shared shop with source attribution, recovery automatic
+PASS physical pickup distance and one-tool swap
+PASS authority tool query growth, reservoir conservation
+PASS all tool definitions route effects without nonfinite values
+PASS eight validation proxy types run and reveal
+PASS all eight validations have achievable successes and empty-head failures
+PASS validation deforms only a working copy
+PASS attached wig timeout protection includes simulation tick
+PASS active attacker tool query cannot alter locked shared customer or barber
+PASS unlocked barbers are material sources, wigs carry heat and glue
+PASS disconnect clears authority and does not stall
+PASS snapshot roundtrip all facts
+PASS highlight ranks catastrophe over tiny trim
+PASS bilingual content covers every tool and goal, retains English source
+PASS localized remote events preserve custom names and authoritative state
+PASS merged shell is connected and watertight with no exposed cell faces
+PASS volume cut creates a level surface instead of shortening columns
+PASS puncture opens an actual ray tunnel without deleting the surrounding mass
+PASS side shaving is local and growth bulges the visible hit surface
+PASS frozen shell geometry unchanged, burn erodes the real material
+PASS density facts survive snapshots and replay copies without aliasing
+PASS authoritative sniper tunnel persists in remote decoded geometry
+PASS moving an anchored head stretches real density and submission blocks brushes
+PASS chair controls clamp and move all customer hair, enforce aim and submission
+PASS ladder is exclusive physical possession and blocked placement keeps it carried
+PASS eyebrows and beard receive real aimed clipping, growth and freezing
+PASS facial material follows rotation and persists only on barbers between rounds
+PASS target projection respects front side and top of three-dimensional laundry frame
+PASS target hollow cylinders reveal bore and nest has a real supporting floor
+PASS target ray queries match dense independent membership sampling for all goals
+PASS laundry preset is opt-in and three pegs follow real density without modifying it
+PASS damaged laundry has no imaginary beam support and stronger bounded load reaction
+PASS actual glue contact is snapshotted and replay does not read later tool state
+PASS miniature E pickup/drop is exclusive, drops tool, cannot use held tool
+PASS miniature actual tools cut grow freeze burn and push without scoring the customer
+PASS miniature swept collision settles on supports and held doll cannot pass walls
+PASS miniature is snapshotted and replayed independently from immutable board targets
+PASS miniature detached pieces are ordinary debris, never duplicate dolls
+PASS v06 landing reasons separate flat soft hair from geometry and absent support
+PASS v06 landing reports simultaneous contact and customer blockers in both languages
+PASS v06 A keeps original material, tools, reference and locked validation
+PASS v06 mirror route respects bodies, cover and unrelated objects
+PASS v06 mirror warning cancels when evidence hidden before commit
+PASS v06 directional attention notice commit reaction with habituation
+PASS v06 scoped sniper is silent; sustained motor does not retrigger attention
+PASS v06 brace suppresses tool and movement, releases on input loss and disconnect
+PASS v06 B hides exact model, caps shared growth including alternate tools
+PASS v06 snapshots and replay retain attention brace flight and budget without aliasing
+PASS party damage cannot block otherwise valid B support
+PASS party fire ramp cap provides eight seconds and water recovery
+PASS party danger interrupts chatter but repeated lines respect cooldown
+PASS party real fire is rescuable and exhaustion has explicit outcome
+B_GROWTH earlyMass=0.3042 lateMass=0.5831 earlyAdvance=0.0641 lateAdvance=0.1247 exhaustedAt=1.950 remaining=0.001137
+PASS B growth ramps real held input and consumes actual bottle material
+PASS B initial spray is visibly faster than archived constant-rate growth
+PASS B release fine mode tool swap brace and input loss reset pressure
+PASS B air spraying cannot store a burst for a fresh target
+PASS B away peers cannot grow from cached input and resume with fresh pressure
+PASS B fine spray stays slow and fast-slow frames conserve growth budget
+PASS B accelerated collateral targets share and never exceed remaining budget
+PASS B retained growth balance reports current contact without inventing added volume
+PASS B ended growth gestures report air obstruction and reacquired contact without unlocking effects
+PASS B retained small balance is still available to smaller material targets
+PASS party actual offset and rotated gear queries accept alternate placements
+PASS party trials never end construction and one second of bad support slips
+PASS party door validates supported object; empty and slipped heads fail
+PASS party brace postpones rising at most two times
+PASS party bell requires placed object and records actor and early time
+PASS party moving root is common to support tool queries and bracing
+PASS party four independent bottles survive handoff and empty bottle switching
+PARTY_CAPACITY waste=False extraBottlesUsed=0 supplyLeft=4.000
+PARTY_CAPACITY waste=True extraBottlesUsed=0 supplyLeft=3.003
+PASS party real flat wig recipe completes after a whole bottle wasted; zero extra growth
+PASS party recycling yields sixty percent and charred half without creating mass
+PASS party base pay survives all ordinary penalties and tip rules are nonnegative
+PASS party explicit action facts are ordered bounded and absent from build snapshots
+PASS party gallery persists authoritative metadata caps entries and tolerates corruption
+PASS party one mold cannot build a whole platform; two joined patches can
+PASS party combo discovery follows actual effects and occurs once across rounds
+PASS party held mold is filled by teammate input and actual nail frees holder
+PASS party mold fills cavity first and hole opens real outward growth
+PASS party unsupported mold falls after placement grace; pins follow head and holes clone
+PASS party center of mass stays level when symmetric and leans at bounded rate
+PASS party head lean changes real commission support measurements
+PASS party freeze lasts two seconds, view stays free, tap rescues and immunity prevents chaining
+PASS party sticky hands keep the tool, slow movement and release by heat or timeout
+PASS party own hair fire ends by water or four seconds without changing customer result
+PASS party secret draws stay outside shared snapshots, complete from facts and reveal without pay
+PASS party door tasks require the actor's logged target and actual surviving material
+PASS party solo tasks remain possible and all B spending stays excluded
+PASS party attention secret waits for an actual reaction; canceled warning cannot complete it
+PASS party actual clip completes only the cutter's secret from removed teammate material
+PASS voice Opus real encode decode and PLC
+PASS voice injected identity cannot pass another speaker's tone
+PASS voice filtered role never calls Opus
+PASS voice mute PTT gate prevent transmission
+PASS voice features quantize and deterministic unworded synthesis
+PASS voice synthesis uses onset and voiced features
+PASS voice wire bounds and filtered relay rejects Opus
+PASS voice jitter reorders, bounded adaptive delay, late drop and PLC gap
+PASS voice jitter sheds stale startup instead of retaining a permanent backlog
+PASS p8 paired gallery preserves hashes, portraits, traces and rejects a corrupted pair
+PASS p8 loss uses baseline/current mass, clamps growth and empty heads
+PASS p8 material motion monotonically follows resistance, freeze anchors stop it
+PASS p8 local sink and facing never mutate authoritative wire
+PASS p9 down is opt-in, drops hand, look stays free, slap and immunity
+PASS p9 held G throws on release and swept auto-catch records both actors
+PASS p9 coop shelf absent at 1/2P and appears at 3/4P
+PASS p9 scissors require two presses and 350 ms, no repeat while held
+PASS p9 hose effect uses pump at 2.5 flow; too-long hose drops without forces
+PASS p9 chair is bounded at 45 degrees/sec and probes share rotated head
+PASS p9 ladder stabilizer removes only tool wobble
+PASS p9 hose disconnect cannot auto-catch its own dropped part
+PASS p9 extended input time/rotation and down motion roundtrip
+PASS p10 fixed geometry distinguishes two horns from a broad triangle
+PASS p10 height left-right front-back and volume use actual density
+PASS p10 material shares, wig and commission location are measured
+PASS p10 equal left-right mass is not sufficient evidence of symmetry
+PASS p10 every 30-card deal has coverage and distractors for 50 seeds
+PASS p10 evaluator is read only and target never enters build snapshot
+PASS p10 tips use matches, never make physical failure a success
+PASS p11 actual role count, join-order rotation, no secret for customer
+PASS p11 debug AI and disconnect takeover never reassign private card midround
+PASS p11 target absent from broadcast and replay before actual reveal
+PASS p11 shared head and attachments reject every customer query
+PASS p11 eyes stay clamped while expressions move authority, brace scales .22
+PASS p11 rising requires edges, host caps 12 presses/sec, 5 sec retry
+PASS p11 pressure stacks participating hands, never idle nearby barbers
+PASS p11 authority ignores a thirteenth rising edge within one second
+PASS p11 human departure is body driven and judges locally at 20 seconds
+PASS p11 actual return cut changes barber material while settled target and pay stay frozen
+PASS p11 return cut and pie/poop/like do not alter settled money or success
+PASS p12 all sixteen cards declare conditions and enforce the mode matrix
+PASS p12 comfort cards excluded by default; adjacent draw changes category
+PASS p12 reverse and family targets remain private in snapshots and replay
+PASS p12 family and helper cannot edit hair through any tool query
+PASS p12 nod/shake restrictions and presentation never mutate head authority
+PASS p12 question counter debounces one held prop and caps six
+PASS p12 ten-second miniature edits actual material and then locks on table
+PASS p12 fog stores bounded host line segments and expires in twenty seconds
+PASS p12 object gravity scales without altering player movement
+PASS p12 family settles two cards with one penalty and one nonnegative floor
+PASS p12 reverse correct guess gives ten tips after functional decision
+PASS p13 cat seeded frequency, host off, telegraph delay and two-action cap
+PASS p13 sleeping cat adds actual balance weight and swats recoverable commission
+PASS p13 cat stealing clippings conserves material through E rescue
+PASS p13 cat releases stolen light props when blown or carried
+PASS p13 blower and thrown light props rescue and lure the cat
+PASS p13 actual hot blower releases a glued hand bond without body force
+PASS p13 AI dozes after twenty quiet seconds and novel sound wakes; humans excluded
+PASS AI repeated sound stays alert without repeated startle
+PASS AI continuous motor and actual customer contact stay alert; misses and own hair do not
+PASS AI empty hand primary slap wakes via authoritative input, preserves material and gives twenty seconds
+PASS AI slap rejects unsafe poses and occupied or disabled hands
+PASS AI E still braces; SleepingAI can be slapped awake temporarily
+PASS p13 glue drag requires opt-in actual head contact and caps speed without yaw
+PASS p13 returning round preserves volume material and wigs then grows .025
+PASS p13 history reveals only completed cards and new match clears history
+PASS p13 four-player fast motion with 24 props and glue metadata stays below MTU
+PASS motion compact packets preserve motor state below datagram budget
+PASS motion input bundles reject invalid and bound repeated input histories
+PASS motion redundant inputs never move authority twice and resume after outage
+PASS motion jitter buffer discards old frames and never rewinds playback
+PASS motion authority catchup cannot exceed elapsed movement budget
+PASS motion catchup preserves short interact press and release
+PASS large world wire reads both formats and reduces repeated hair payload
+PASS recovery pause deadline cannot be extended by a second disconnect
+PASS recovery chunk flow bounded and loss of chunk ack repaired by cumulative receipt
+PASS recovery large transfer window stays at 32 under reordering
+PASS recovery invalid transfer metadata and corrupt body never apply
+PASS resume attempt cannot replace a newer binding
+PASS recovery identity requires exact random credential
+PASS recovery rejects occupied identity wrong room and expired reservation
+PASS recovery missing chunks and lost acks recover independently without reliable ordering
+PASS network away presence preserves serialized stable identity
+PASS v05 six materials have distinct appearance/mobility and Young matures
+PASS v05 wet resists ignition and fresh glue; heat dries and melts
+PASS v05 transport changes geometry without creating material
+PASS v05 board blocks host tool use without consuming held slot
+PASS v05 targets and reference use the same signed geometry
+PASS v05 live prop readiness cache follows real head movement
+PASS v05 missing props cannot be fabricated by validation
+PASS v05 staged nest eggs must actually be placed
+PASS v05 state and functional gates prevent a shape-only near-perfect result
+PASS v05 props and materials survive late snapshot and replay immutably
+V05_ROUTE clipper quality=70.0->89.8 variance=0.119
+V05_ROUTE vacuum quality=70.0->88.4 variance=0.135
+V05_ROUTE blower quality=70.0->89.9 variance=0.118
+V05_ROUTE trimmer quality=70.0->99.2 variance=0.009
+PASS v05 uneven helipad has four viable tool correction routes
+PASS v05 uninserted rocket cannot launch from above the silo
+PASS v05 props lose support and fall after their hair is removed
+PASS v05 glued contact preserves loose-piece placement and mass
+PASS v05 prop pickup authority prevents distant and occupied pickup
+PASS shared lifecycle creates one customer for four peers and preserves edits on late join/disconnect
+PASS shared vote validates choices, counts active votes, resolves ties deterministically
+PASS entrance vote preview lead to 75 seconds and E cannot individually cash out
+PASS shared wallet settles once, persists across jobs, and no per-player score participates
+PASS three shared jobs preserve barber material and complete with one wallet
+PASS panic has anticipation, real displacement, deterministic pose, recovery and cooldown
+PASS noise heat and wind tool actions actually stimulate customer panic
+PASS blower and suction move another player's body and preserve host ownership rules
+PASS held trimmer spatial extent shoves and drops a nearby teammate's tool
+PASS two players reshape the same authoritative head without protection ownership
+PASS helipad detects area and flatness and landing requires a real stable dwell
+PASS rotor approach disturbs real flexible material before timer expires
+PASS customer reaction snapshot and replay copy do not alias live parameters
+PASS llama reuses solid material pipeline and telegraphs bounded directional spit
+PASS ledger coalesces continuous samples and records net delta, not action count
+PASS ledger interleaving never credits a teammate's quality change
+PASS ledger epsilon ignores tiny windows and target/tool changes close windows
+PASS crisis accumulates a short drop and permits unattributed environmental cause
+PASS recovery splits measured gains between helpers and caps at old baseline
+PASS self-created crisis and repeated destroy/restore never farm rescue or contributor
+PASS mixed-cause rescue excludes actor's own caused portion
+PASS positive impact is provisional and destructive replacement reduces surviving credit
+PASS late urgency changes ledger highlight rank only
+PASS three spotlights and deterministic ties never change team payout
+PASS ledger ranks and selects the expected historical replay window
+PASS live helipad health agrees with actual viable and empty landing checks
+PASS live other-goal shape reuses final evaluator without mutating world
+PASS host order pending, teammate cancel and atomic commit deliver one physical tool
+PASS order rejects remote proximity spoof, insufficient money, timeout and disconnect
+PASS core copies stay free and specials produce one real generic-effect burst
+PASS spatial live-score index matches brute-force coverage for all goals
+PASS late loss of viability can open a small-drop crisis and ledger history stays bounded
+PASS order rechecks funds on commit without debt or phantom delivery
+PASS severe body incident retains its known cause even without hair-quality loss
+PASS locked shave stops deepening; release starts a new layer
+PASS fine shave removes less than normal; wheel radius changes affected area
+PASS fast dragging fills a continuous locked cutting plane
+PASS growth cannot silently switch targets during a held gesture
+PASS time-driven growth remains close across simulation frame rates
+PASS rendered thin tetrahedral surface is hittable
+PASS disconnected neck falls while all supported posts and tetra diagonals survive
+PASS cut and fragment bookkeeping conserve original material
+PASS authoritative vacuum accounts absorption once and respects remaining capacity
+PASS large severed volume keeps its shape, falls, then merges without material loss
+PASS moving a support releases its resting clippings instead of leaving them floating
+PASS falling clippings settle on supports and vacuum/blower do not duplicate mass
+PASS debris survives rounds and replay copies; new match clears it
+PASS airborne and resting budgets preserve accumulated material
+CORE_TESTS_OK 248/248

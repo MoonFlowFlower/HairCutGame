@@ -1,0 +1,20 @@
+{
+  "pid": 45756,
+  "exitCode": 0,
+  "wallSeconds": 25.2451708,
+  "commandArguments": [
+    "--path",
+    "D:\\Project\\Game\\Godot\\project_hairball\\artifacts\\repo-backup-cleanup\\restore-check",
+    "--audio-driver",
+    "Dummy",
+    "--",
+    "--v06-variant-b",
+    "--solo",
+    "--language",
+    "zh",
+    "--capture",
+    "D:\\Project\\Game\\Godot\\project_hairball\\artifacts\\repo-backup-cleanup\\restored-mainline.png",
+    "--quit-after-seconds",
+    "8"
+  ]
+}
